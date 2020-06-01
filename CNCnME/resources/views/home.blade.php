@@ -12,11 +12,9 @@
 
             {{-- This is for the timeline of posts --}}
             <div class="border border-gray-300 rounded-lg">
-                @include('post_panel')
-                @include('post_panel')
-                @include('post_panel')
-                @include('post_panel')
-               
+                @foreach ($posts as $post)
+                    @include('post_panel')
+                @endforeach
             </div>
         </div>
         
