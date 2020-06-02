@@ -30,7 +30,7 @@ class User extends Authenticatable
 
     public function getAvatarAttribute()
     {
-        return "https://i.pravatar.cc/50?u=" . $this->email;
+        return "https://i.pravatar.cc/200?u=" . $this->email;
     }
     /**
      * The attributes that should be cast to native types.
@@ -67,5 +67,11 @@ class User extends Authenticatable
     public function posts()
     {
         return $this->hasMany(Post::class);
+    }
+
+    //Function used to get data from the database
+    public function getRouteKeyName()
+    {
+        return 'name';  //Matches with the name given from the route to the database
     }
 }

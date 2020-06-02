@@ -9,7 +9,7 @@ class PostsController extends Controller
 {
     public function index()
     {
-        return view('home', [
+        return view('posts.index', [
             'posts' => auth()->user()->timeline()
         ]);
     }

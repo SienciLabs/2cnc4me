@@ -24,5 +24,9 @@ Route::middleware('auth')->group(function(){
     Route::post('/posts', 'PostsController@store');
 });
 
+
+//Routing for a profile 
+Route::get('/profiles/{user}', 'ProfilesController@show')->name('profile');
+
 Auth::routes();
 
