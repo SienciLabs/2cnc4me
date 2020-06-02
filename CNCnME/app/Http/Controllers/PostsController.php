@@ -7,6 +7,13 @@ use Illuminate\Http\Request;
 
 class PostsController extends Controller
 {
+    public function index()
+    {
+        return view('home', [
+            'posts' => auth()->user()->timeline()
+        ]);
+    }
+    
     public function store()
     {
         $attributes = request()->validate(['body' => 'required|max:250']);

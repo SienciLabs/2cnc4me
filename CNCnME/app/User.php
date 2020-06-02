@@ -41,8 +41,31 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
     ];
 
+    //Functions i have created
     public function timeline()
     {
-        return Post::where('user_id', $this->id)->latest()->get();
+        //Include all the user's tweets
+        //Tweets of everyone they follow in desc order by date
+
+        $friends = $this->follows()->pluck('id');
+        return Post::whereIn('user_id', $friends)
+            ->orWhere('user_id', $this->id)
+            ->latest()->get();
+
+    }
+
+    public function follows()
+    {
+        return $this->belongsToMany(User::class, 'follows', 'user_id', 'following_user_id');
+    }
+
+    public function follow(User $user)
+    {
+        return $this->follows()->save($user);
+    }
+
+    public function posts()
+    {
+        return $this->hasMany(Post::class);
     }
 }

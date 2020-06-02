@@ -17,8 +17,12 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::post('/posts', 'PostsController@store');
+Route::middleware('auth')->group(function(){
+    
+    Route::get('/posts', 'PostsController@index')->name('home');
+    
+    Route::post('/posts', 'PostsController@store');
+});
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
