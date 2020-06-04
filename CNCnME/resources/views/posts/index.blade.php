@@ -1,8 +1,9 @@
-@extends('layouts.app')
+<x-app>
+    <div>
+        {{-- This is a file used to create the 'publishing of a tweet' functionality --}}            
+        @include('publish_post_panel')
 
-@section('content')
-    {{-- This is a file used to create the 'publishing of a tweet' functionality --}}            
-    @include('publish_post_panel')
+        @include('timeline')
 
-    @include('timeline')
-@endsection
+    </div>
+</x-app>
