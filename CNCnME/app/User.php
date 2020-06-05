@@ -60,8 +60,10 @@ class User extends Authenticatable
         return $this->hasMany(Post::class)->latest();
     }
     //Provides a general path to the user
-    public function path()
+    public function path($append ='')
     {
-        return route('profile', $this->name);
+        $path = route('profile', $this->name);
+
+        return $append ? "{$path}/{$append}" : $path; 
     }
 }   

@@ -24,13 +24,16 @@
                 <h2 class="font-bold text-2xl mb-0"> {{ $user->name }}</h2>
                 <p class="text-sm">Joined {{ $user->created_at->diffForHumans() }}</p>
             </div>
-
+            
             <?php /* {{-- edit profile and follow me buttons -- }} */?>
             <div class="flex">
-                <a href=""class="rounded-full border border-gray-300 py-2 px-4 text-black text-xs mr-2">
-                    Edit Profile
-                </a>
-
+                <?php /* {{-- The current user should only be allowed to edit its own profile -- }} */?>
+                @can ('canEdit', $user)
+                    <a href="{{ $user->path('edit')}}"
+                        class="rounded-full border border-gray-300 py-2 px-4 text-black text-xs mr-2">
+                        Edit Profile
+                    </a>
+                @endcan
                 <?php /* {{-- Anonymous blade component -- }} */?>
                 <x-follow-button :user="$user"></x-follow-button>
             </div>

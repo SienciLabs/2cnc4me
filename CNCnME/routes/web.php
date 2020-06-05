@@ -26,6 +26,12 @@ Route::middleware('auth')->group(function(){
     //Routing for when a user wants to follow another user
     Route::post('/profiles/{user:name}/follow', 'FollowsController@store')->name('profile');
 
+    //Routing for editing a profile with autorization
+    // Route::get('/profiles/{user:name}/edit', 'ProfilesController@edit');
+    Route::get(
+        '/profiles/{user:name}/edit', 'ProfilesController@edit'
+        )->middleware('can:canEdit,user');
+
 });
 
 
