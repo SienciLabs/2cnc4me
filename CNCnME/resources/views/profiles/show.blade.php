@@ -10,7 +10,7 @@
     
             <?php /* {{-- Profile pic in the middle of banner -- }} */?>
             <img
-                src="{{ $user->avatar}}"
+                src="{{ $user->avatar }}"
                 alt="your avatar"
                 class="rounded-full mr-2 absolute bottom-0 transform -translate-x-1/2 translate-y-1/2"
                 style="left: 50%"

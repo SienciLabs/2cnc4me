@@ -1,6 +1,6 @@
 <h3 class="font-bold text-xl mb-4">Following</h3>
 <ul>
-        @foreach (auth()->user()->follows as $user)
+        @forelse (current_user()->follows as $user)
                 <li class="mb-4">
                         <div>
                                 {{-- Routing to the specific profile once clicked on--}}
@@ -19,5 +19,9 @@
                                 </a>
                         </div>
                 </li>
-        @endforeach
+        @empty
+                <li>
+                        No friends yet. Try following someone?
+                </li>
+        @endforelse
 </ul>

@@ -3,7 +3,9 @@
 namespace App\Http\Controllers;
 
 use App\User;
+use Illuminate\Contracts\Validation\Rule;
 use Illuminate\Http\Request;
+use Illuminate\Validation\Rule as ValidationRule;
 
 class ProfilesController extends Controller
 {
@@ -16,4 +18,23 @@ class ProfilesController extends Controller
     {
         return view('profiles.edit', compact('user'));
     }
+
+    public function update(User $user)
+    {
+        $attributes = request()->validate([
+            //Ignore is used to ignore the current user's username in case it was not changed
+            'username' => ['string', 'required', ' max:255', 'alpha_dash', ValidationRule::unique('users')->ignore($user)], 
+            'name' => ['string', 'required', 'max:255'],
+            'avatar' => ['required','file'],
+            'email' => ['string', 'required', 'email', 'max:255', ValidationRule::unique('users')->ignore($user)],
+            'password' => ['string', 'required', 'min:8', 'max:255', 'confirmed']
+            
+        ]);
+        
+        $attributes['avatar']= request('avatar')->store('avatars');
+        $user->update($attributes); //Updating the user's attributes
+
+        return redirect($user->path());
+    }
+
 }

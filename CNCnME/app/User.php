@@ -16,7 +16,7 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password',
+        'username', 'avatar','name', 'email', 'password',
     ];
 
     /**
@@ -28,10 +28,11 @@ class User extends Authenticatable
         'password', 'remember_token',
     ];
 
-    public function getAvatarAttribute()
+    public function getAvatarAttribute($value)
     {
-        return "https://i.pravatar.cc/200?u=" . $this->email;
+        return asset('storage/' . $value);
     }
+
     /**
      * The attributes that should be cast to native types.
      *
@@ -62,7 +63,7 @@ class User extends Authenticatable
     //Provides a general path to the user
     public function path($append ='')
     {
-        $path = route('profile', $this->name);
+        $path = route('profile', $this->username);
 
         return $append ? "{$path}/{$append}" : $path; 
     }

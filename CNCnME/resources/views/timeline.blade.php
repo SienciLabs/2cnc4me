@@ -1,6 +1,10 @@
 {{-- This is for the timeline of posts --}}
 <div class="border border-gray-300 rounded-lg">
-    @foreach ($posts as $post)
+    @forelse ($posts as $post)
         @include('post_panel')
-    @endforeach
+    @empty
+        <p class="p-4">
+            No posts yet.
+        </p>
+    @endforelse
 </div>
