@@ -1,6 +1,4 @@
-@extends('layouts.app')
-
-@section('content')
+<x-app>
     <div class="lg:flex lg:justify-between">
         <div class="lg:w-32">
             @include('sidebar_layout')
@@ -22,4 +20,5 @@
             @include('friends_list')
         </div>
     </div>
-@endsection
+
+</x-app>

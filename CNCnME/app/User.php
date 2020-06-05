@@ -8,7 +8,7 @@ use Illuminate\Notifications\Notifiable;
 
 class User extends Authenticatable
 {
-    use Notifiable;
+    use Notifiable, Followable;
 
     /**
      * The attributes that are mass assignable.
@@ -41,7 +41,7 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
     ];
 
-    //Functions i have created
+    //Functions i have created from the tutorial
     public function timeline()
     {
         //Include all the user's tweets
@@ -54,24 +54,14 @@ class User extends Authenticatable
 
     }
 
-    public function follows()
-    {
-        return $this->belongsToMany(User::class, 'follows', 'user_id', 'following_user_id');
-    }
-
-    public function follow(User $user)
-    {
-        return $this->follows()->save($user);
-    }
 
     public function posts()
     {
-        return $this->hasMany(Post::class);
+        return $this->hasMany(Post::class)->latest();
     }
-
-    //Function used to get data from the database
-    public function getRouteKeyName()
+    //Provides a general path to the user
+    public function path()
     {
-        return 'name';  //Matches with the name given from the route to the database
+        return route('profile', $this->name);
     }
-}
+}   

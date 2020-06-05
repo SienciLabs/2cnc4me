@@ -22,11 +22,15 @@ Route::middleware('auth')->group(function(){
     Route::get('/posts', 'PostsController@index')->name('home');
     
     Route::post('/posts', 'PostsController@store');
+
+    //Routing for when a user wants to follow another user
+    Route::post('/profiles/{user:name}/follow', 'FollowsController@store')->name('profile');
+
 });
 
 
 //Routing for a profile 
-Route::get('/profiles/{user}', 'ProfilesController@show')->name('profile');
+Route::get('/profiles/{user:name}', 'ProfilesController@show')->name('profile');
 
 Auth::routes();
 

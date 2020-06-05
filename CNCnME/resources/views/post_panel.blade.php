@@ -1,8 +1,8 @@
 {{-- This is div for the avatar --}}
-<div class="flex p-4 border-b border-b-gray-400">
+<div class="flex p-4 {{ $loop->last ? '' : 'border-b border-b-gray-400'}}">
     <div class="mr-2 flex-shrink-0">
         {{-- Routing to the specific profile once clicked on--}}
-        <a href="{{ route('profile', $post->user) }}">
+        <a href="{{ $post->user->path() }}">
             <img
                 src=" {{ $post->user->avatar}}"
                 alt=""
@@ -18,7 +18,7 @@
     <div>
         <h4 class="font-bold mb-4">
         {{-- Routing to the specific profile once clicked on--}}
-            <a href="{{ route('profile', $post->user) }}">
+            <a href="{{ $post->user->path() }}">
                 {{ $post->user->name }}
             </a>
         </h4>
