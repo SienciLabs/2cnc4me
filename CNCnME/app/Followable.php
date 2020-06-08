@@ -26,17 +26,21 @@ trait Followable
         return $this->follows()->where('following_user_id', $user->id)->exists();
     }
 
+    //Basically says $user->toggleFollow($otherUser)
     public function toggleFollow(User $user)
-    {
-        if($this->following($user)){
-            //Have the authenticated user unfollow a given user
-            return $this->unfollow($user);
-        }
+    {   
+        //Cleaner way to do this is at the bottom
+        // if($this->following($user)){
+        //     //Have the authenticated user unfollow a given user
+        //     return $this->unfollow($user);
+        // }
 
-        else
-        {
-            //Have the authenticated user follow a given user
-            return $this->follow($user);
-        }
+        // else
+        // {
+        //     //Have the authenticated user follow a given user
+        //     return $this->follow($user);
+        // }
+
+        $this->follows()->toggle($user);
     }
 }

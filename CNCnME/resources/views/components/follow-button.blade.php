@@ -1,6 +1,6 @@
 <?php /* {{-- Only display this button for other users, not the signed in user -- }} */?>
 @unless(current_user()->is($user))
-    <form method="POST" action="/profiles/{{ $user->name}}/follow">
+    <form method="POST" action="{{ route('follow', $user->username) }}">
         @csrf
         <button  
             type="submit" 

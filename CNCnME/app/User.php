@@ -30,7 +30,9 @@ class User extends Authenticatable
 
     public function getAvatarAttribute($value)
     {
-        return asset('storage/' . $value);
+        $defaultAvatar = '/images/default-avatar.jpeg';
+        //Return a default avatar if one does not currently exist for the user
+        return asset( $value ?: $defaultAvatar);
     }
 
     /**
@@ -66,5 +68,11 @@ class User extends Authenticatable
         $path = route('profile', $this->username);
 
         return $append ? "{$path}/{$append}" : $path; 
+    }
+
+    //Decrypts the password set by a user
+    public function setPasswordAttribute($value)
+    {
+        $this->attributes['password'] = bcrypt($value);
     }
 }   

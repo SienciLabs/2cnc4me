@@ -25,13 +25,17 @@ class ProfilesController extends Controller
             //Ignore is used to ignore the current user's username in case it was not changed
             'username' => ['string', 'required', ' max:255', 'alpha_dash', ValidationRule::unique('users')->ignore($user)], 
             'name' => ['string', 'required', 'max:255'],
-            'avatar' => ['required','file'],
+            'avatar' => ['file'],
             'email' => ['string', 'required', 'email', 'max:255', ValidationRule::unique('users')->ignore($user)],
             'password' => ['string', 'required', 'min:8', 'max:255', 'confirmed']
             
         ]);
         
-        $attributes['avatar']= request('avatar')->store('avatars');
+        //If a new avatar has been requested, only then do you set it
+        if(request('avatar'))
+        {
+            $attributes['avatar']= request('avatar')->store('avatars');           
+        }
         $user->update($attributes); //Updating the user's attributes
 
         return redirect($user->path());

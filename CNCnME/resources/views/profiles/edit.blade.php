@@ -63,7 +63,7 @@
                         type="file"
                         name="avatar"
                         id="avatar"
-                        required
+                        
                 >
                 
 
