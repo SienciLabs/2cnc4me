@@ -7,4 +7,6 @@
             No posts yet.
         </p>
     @endforelse
+
+    {{ $posts->links() }}
 </div>

@@ -6,7 +6,8 @@
             class="w-full"
             placeholder="Ready to carve?"
             style="height: 50px; resize: none;"
-            
+            required
+            autofocus
         >
         </textarea>
 
@@ -20,12 +21,9 @@
                 width="50"
                 height="50"
             >
+            {{-- Button is now a component --}}
+           <x-button></x-button>
 
-            <button type="submit" 
-                class="bg-blue-500 rounded-lg shadow py-2 px-2 text-white"
-            >
-                Cut!
-            </button>
         </footer>
     </form>
 

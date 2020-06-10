@@ -23,6 +23,10 @@ Route::middleware('auth')->group(function(){
     
     Route::post('/posts', 'PostsController@store');
 
+    //Routing for liking and disliking a post
+    Route::post('/post/{post}/like', 'PostLikesController@store');
+    Route::delete('/post/{post}/like', 'PostLikesController@destroy');
+
     //Routing for when a user wants to follow another user
     Route::post('/profiles/{user:username}/follow', 'FollowsController@store')->name('follow');
 
@@ -42,7 +46,7 @@ Route::middleware('auth')->group(function(){
 
     //Routing to the explore page
     //It is in this group to reroute user's who are not logged in
-    Route::get('/explore', 'ExploreController@index');
+    Route::get('/explore', 'ExploreController');
 });
 
 

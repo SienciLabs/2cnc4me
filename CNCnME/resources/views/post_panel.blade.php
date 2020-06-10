@@ -22,8 +22,11 @@
                 {{ $post->user->name }}
             </a>
         </h4>
-        <p class="text-sm">
+        <p class="text-sm mb-4">
             {{ $post->body }}
         </p>
+
+        <x-like-buttons :post="$post" />
+        
     </div>
 </div>
