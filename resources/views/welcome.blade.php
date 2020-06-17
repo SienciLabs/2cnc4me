@@ -13,34 +13,23 @@
     <section class="px-8 py-4 mb-6">
         <header>
             <!-- Header Start -->
-            <div class="header" id="stickyHeader">
-                <! -- Logo-->
-                <div>
-                    <h4>
-                        <img
-                            src="/images/24logo.svg"
-                            alt="2cnc4me"
-                        />
-                    </h4>
-                </div>
-                <div>
-                    <form>
-                        <input type="text" name="search" placeholder="Search..">
-                    </form>
-                </div>
-            </div>
-            <div class="content">
-                <h3>On Scroll Sticky Header</h3>
-                <p>The header will stick to the top when you reach its scroll position.</p>
-                <p>Scroll back up to remove the sticky effect.</p>
-                <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-                <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-                <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-
+            <div class="topnav">
+                <a class="active" href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+                <input type="text" placeholder="Search..">
             </div>
             <!-- Header End -->
         </header>
+        <div class="content">
+            <h3>On Scroll Sticky Header</h3>
+            <p>The header will stick to the top when you reach its scroll position.</p>
+            <p>Scroll back up to remove the sticky effect.</p>
+            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
 
+        </div>
     </section>
 
 </div>
