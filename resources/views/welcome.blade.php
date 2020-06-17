@@ -13,19 +13,11 @@
     <section class="px-8 py-4 mb-6">
         <header class="container mx-auto">
             <!-- Header Start -->
-<<<<<<< HEAD
-<<<<<<< HEAD
-=============
->>>>>>> 74f7e94f23ba3263b00b6127c550b5ba8d309ec2
             <div class="topnav">
                 <a class="active" href="#home">Home</a>
                 <a href="#about">About</a>
                 <a href="#contact">Contact</a>
                 <input type="text" placeholder="Search..">
-<<<<<<< HEAD
->>>>>>> refs/remotes/development/development_master_layout_feature
-=======
->>>>>>> 74f7e94f23ba3263b00b6127c550b5ba8d309ec2
             </div>
             <!-- Header End -->
         </header>
