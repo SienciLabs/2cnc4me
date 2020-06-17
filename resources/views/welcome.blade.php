@@ -11,13 +11,14 @@
 <body>
 <div id="app">
     <section class="px-8 py-4 mb-6">
-        <header>
+        <header class="container mx-auto">
             <!-- Header Start -->
             <div class="header" id="stickyHeader">
                 <! -- Logo-->
                 <div>
                     <h4>
                         <img
+			    width="40px"
                             src="/images/24logo.svg"
                             alt="2cnc4me"
                         />
