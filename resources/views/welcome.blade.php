@@ -13,7 +13,7 @@
     <section class="px-8 py-4 mb-6">
         <header class="container mx-auto">
             <!-- Header Start -->
-            <div class="topnav">
+            <div class="topnav" id="stickyHeader">
                 <a class="active" href="#home">Home</a>
                 <a href="#about">About</a>
                 <a href="#contact">Contact</a>
