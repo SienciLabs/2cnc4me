@@ -15,7 +15,7 @@
             <!-- Header Start -->
             <div class="header" id="stickyHeader">
                 <! -- Logo-->
-                <div>
+                <div class="lg:flex lg:justify-center">
                     <h4>
                         <img
 			    width="40px"
@@ -23,13 +23,12 @@
                             alt="2cnc4me"
                         />
                     </h4>
-                </div>
-                <div>
                     <form>
                         <input type="text" name="search" placeholder="Search..">
                     </form>
+ 
                 </div>
-            </div>
+           </div>
             <div class="content">
                 <h3>On Scroll Sticky Header</h3>
                 <p>The header will stick to the top when you reach its scroll position.</p>
