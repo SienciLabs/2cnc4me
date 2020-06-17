@@ -14,7 +14,18 @@
         <header>
             <!-- Header Start -->
             <div class="header" id="stickyHeader">
-                <h4>CNC Header</h4>
+                <! -- Logo-->
+                <div>
+                    <h4>
+                        <img
+                            src="/images/24logo.svg"
+                            alt="2cnc4me"
+                        />
+                    </h4>
+                </div>
+                <div>
+
+                </div>
             </div>
             <div class="content">
                 <h3>On Scroll Sticky Header</h3>
