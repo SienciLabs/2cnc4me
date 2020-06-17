@@ -24,7 +24,9 @@
                     </h4>
                 </div>
                 <div>
-
+                    <form>
+                        <input type="text" name="search" placeholder="Search..">
+                    </form>
                 </div>
             </div>
             <div class="content">
