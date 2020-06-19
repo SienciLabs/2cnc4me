@@ -51,21 +51,19 @@ https://templatemo.com/tm-551-stand-blog
           <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home
+                <a class="nav-link" href="index.html">Projects
                   <span class="sr-only">(current)</span>
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about.html">About Us</a>
+                <a class="nav-link" href="about.html">Categories</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="blog.html">Blog Entries</a>
+                <a class="nav-link" href="blog.html">Collections</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="post-details.html">Post Details</a>
+                <a class="nav-link" href="post-details.html">Login/Signup</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact Us</a>
               </li>
             </ul>
           </div>
@@ -79,101 +77,113 @@ https://templatemo.com/tm-551-stand-blog
       <div class="container-fluid">
         <div class="owl-banner owl-carousel">
           <div class="item">
-            <img src="/images/banner-item-01.jpg" alt="">
+            <img src="/images/CNSheep.jpg" alt="">
             <div class="item-content">
               <div class="main-content">
                 <div class="meta-category">
-                  <span>Fashion</span>
+                  <span>Office</span>
                 </div>
-                <a href="post-details.html"><h4>Morbi dapibus condimentum</h4></a>
+                <a href="post-details.html"><h4>Simple Desk Organizer</h4></a>
                 <ul class="post-info">
-                  <li><a href="#">Admin</a></li>
-                  <li><a href="#">May 12, 2020</a></li>
-                  <li><a href="#">12 Comments</a></li>
+                  <li><a href="#">cncguy94</a></li>
+                  <li><a href="#">Office</a></li>
+                  <li><a href="#">Add to Collection</a></li>
+                    <li><a href="#">38 Likes</a></li>
+                    <li><a href="#">144 Downloads</a></li>
                 </ul>
               </div>
             </div>
           </div>
           <div class="item">
-            <img src="/images/banner-item-02.jpg" alt="">
-            <div class="item-content">
-              <div class="main-content">
-                <div class="meta-category">
-                  <span>Nature</span>
+                <img src="/images/CNSheep.jpg" alt="">
+                <div class="item-content">
+                    <div class="main-content">
+                        <div class="meta-category">
+                            <span>Furniture</span>
+                        </div>
+                        <a href="post-details.html"><h4>Modular Cabinets with Plastic keys</h4></a>
+                        <ul class="post-info">
+                            <li><a href="#">cncguy94</a></li>
+                            <li><a href="#">Office</a></li>
+                            <li><a href="#">Add to Collection</a></li>
+                            <li><a href="#">38 Likes</a></li>
+                            <li><a href="#">144 Downloads</a></li>
+                        </ul>
+                    </div>
                 </div>
-                <a href="post-details.html"><h4>Donec porttitor augue at velit</h4></a>
-                <ul class="post-info">
-                  <li><a href="#">Admin</a></li>
-                  <li><a href="#">May 14, 2020</a></li>
-                  <li><a href="#">24 Comments</a></li>
-                </ul>
-              </div>
             </div>
-          </div>
           <div class="item">
-            <img src="/images/banner-item-03.jpg" alt="">
-            <div class="item-content">
-              <div class="main-content">
-                <div class="meta-category">
-                  <span>Lifestyle</span>
+                <img src="/images/CNSheep.jpg" alt="">
+                <div class="item-content">
+                    <div class="main-content">
+                        <div class="meta-category">
+                            <span>Office</span>
+                        </div>
+                        <a href="post-details.html"><h4>Simple Desk Organizer</h4></a>
+                        <ul class="post-info">
+                            <li><a href="#">cncguy94</a></li>
+                            <li><a href="#">Office</a></li>
+                            <li><a href="#">Add to Collection</a></li>
+                            <li><a href="#">38 Likes</a></li>
+                            <li><a href="#">144 Downloads</a></li>
+                        </ul>
+                    </div>
                 </div>
-                <a href="post-details.html"><h4>Best HTML Templates on TemplateMo</h4></a>
-                <ul class="post-info">
-                  <li><a href="#">Admin</a></li>
-                  <li><a href="#">May 16, 2020</a></li>
-                  <li><a href="#">36 Comments</a></li>
-                </ul>
-              </div>
             </div>
-          </div>
           <div class="item">
-            <img src="/images/banner-item-04.jpg" alt="">
-            <div class="item-content">
-              <div class="main-content">
-                <div class="meta-category">
-                  <span>Fashion</span>
+                <img src="/images/CNSheep.jpg" alt="">
+                <div class="item-content">
+                    <div class="main-content">
+                        <div class="meta-category">
+                            <span>Furniture</span>
+                        </div>
+                        <a href="post-details.html"><h4>Modular Cabinets with Plastic keys</h4></a>
+                        <ul class="post-info">
+                            <li><a href="#">cncguy94</a></li>
+                            <li><a href="#">Office</a></li>
+                            <li><a href="#">Add to Collection</a></li>
+                            <li><a href="#">38 Likes</a></li>
+                            <li><a href="#">144 Downloads</a></li>
+                        </ul>
+                    </div>
                 </div>
-                <a href="post-details.html"><h4>Responsive and Mobile Ready Layouts</h4></a>
-                <ul class="post-info">
-                  <li><a href="#">Admin</a></li>
-                  <li><a href="#">May 18, 2020</a></li>
-                  <li><a href="#">48 Comments</a></li>
-                </ul>
-              </div>
             </div>
-          </div>
           <div class="item">
-            <img src="/images/banner-item-05.jpg" alt="">
-            <div class="item-content">
-              <div class="main-content">
-                <div class="meta-category">
-                  <span>Nature</span>
+                <img src="/images/CNSheep.jpg" alt="">
+                <div class="item-content">
+                    <div class="main-content">
+                        <div class="meta-category">
+                            <span>Office</span>
+                        </div>
+                        <a href="post-details.html"><h4>Simple Desk Organizer</h4></a>
+                        <ul class="post-info">
+                            <li><a href="#">cncguy94</a></li>
+                            <li><a href="#">Office</a></li>
+                            <li><a href="#">Add to Collection</a></li>
+                            <li><a href="#">38 Likes</a></li>
+                            <li><a href="#">144 Downloads</a></li>
+                        </ul>
+                    </div>
                 </div>
-                <a href="post-details.html"><h4>Cras congue sed augue id ullamcorper</h4></a>
-                <ul class="post-info">
-                  <li><a href="#">Admin</a></li>
-                  <li><a href="#">May 24, 2020</a></li>
-                  <li><a href="#">64 Comments</a></li>
-                </ul>
-              </div>
             </div>
-          </div>
           <div class="item">
-            <img src="/images/banner-item-06.jpg" alt="">
-            <div class="item-content">
-              <div class="main-content">
-                <div class="meta-category">
-                  <span>Lifestyle</span>
+                <img src="/images/CNSheep.jpg" alt="">
+                <div class="item-content">
+                    <div class="main-content">
+                        <div class="meta-category">
+                            <span>Furniture</span>
+                        </div>
+                        <a href="post-details.html"><h4>Modular Cabinets with Plastic keys</h4></a>
+                        <ul class="post-info">
+                            <li><a href="#">cncguy94</a></li>
+                            <li><a href="#">Office</a></li>
+                            <li><a href="#">Add to Collection</a></li>
+                            <li><a href="#">38 Likes</a></li>
+                            <li><a href="#">144 Downloads</a></li>
+                        </ul>
+                    </div>
                 </div>
-                <a href="post-details.html"><h4>Suspendisse nec aliquet ligula</h4></a>
-                <ul class="post-info">
-                  <li><a href="#">Admin</a></li>
-                  <li><a href="#">May 26, 2020</a></li>
-                  <li><a href="#">72 Comments</a></li>
-                </ul>
-              </div>
             </div>
-          </div>
         </div>
       </div>
     </div>
