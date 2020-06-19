@@ -115,6 +115,7 @@
             </div>
         </div>
     </div>
+    {{ $slot }}
     <!-- Banner Ends Here -->
     {{--
         <section class="call-to-action">
