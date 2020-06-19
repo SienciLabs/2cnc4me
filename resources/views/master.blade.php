@@ -1,35 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
- 
+
   <head>
- 
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="TemplateMo">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
- 
+
     <title>Stand CSS Blog by TemplateMo</title>
- 
+
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
- 
- 
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+
+
     <!-- Additional CSS Files -->
     <link rel="stylesheet" href="/css/fontawesome.css">
     <link rel="stylesheet" href="/css/templatemo-stand-blog.css">
     <link rel="stylesheet" href="/css/owl.css">
 <!--
- 
+
 TemplateMo 551 Stand Blog
- 
+
 https://templatemo.com/tm-551-stand-blog
- 
+
 -->
   </head>
- 
+
   <body>
- 
+
     <!-- ***** Preloader Start ***** -->
     <div id="preloader">
         <div class="jumper">
@@ -37,9 +37,9 @@ https://templatemo.com/tm-551-stand-blog
             <div></div>
             <div></div>
         </div>
-    </div>  
+    </div>
     <!-- ***** Preloader End ***** -->
- 
+
     <!-- Header -->
     <header class="">
       <nav class="navbar navbar-expand-lg">
@@ -54,7 +54,7 @@ https://templatemo.com/tm-551-stand-blog
                 <a class="nav-link" href="index.html">Home
                   <span class="sr-only">(current)</span>
                 </a>
-              </li> 
+              </li>
               <li class="nav-item">
                 <a class="nav-link" href="about.html">About Us</a>
               </li>
@@ -72,7 +72,7 @@ https://templatemo.com/tm-551-stand-blog
         </div>
       </nav>
     </header>
- 
+
     <!-- Page Content -->
     <!-- Banner Starts Here -->
     <div class="main-banner header-text">
@@ -178,7 +178,7 @@ https://templatemo.com/tm-551-stand-blog
       </div>
     </div>
     <!-- Banner Ends Here -->
- 
+
     <section class="call-to-action">
       <div class="container">
         <div class="row">
@@ -200,8 +200,8 @@ https://templatemo.com/tm-551-stand-blog
         </div>
       </div>
     </section>
- 
- 
+
+
     <section class="blog-posts">
       <div class="container">
         <div class="row">
@@ -307,7 +307,7 @@ https://templatemo.com/tm-551-stand-blog
                               <li><a href="#">Facebook</a>,</li>
                               <li><a href="#">Twitter</a></li>
                             </ul>
-                          </div>
+                          </div>f
                         </div>
                       </div>
                     </div>
@@ -395,8 +395,8 @@ https://templatemo.com/tm-551-stand-blog
         </div>
       </div>
     </section>
- 
-    
+
+
     <footer>
       <div class="container">
         <div class="row">
@@ -412,26 +412,26 @@ https://templatemo.com/tm-551-stand-blog
           <div class="col-lg-12">
             <div class="copyright-text">
               <p>Copyright 2020 Stand Blog Co.
-                    
+
                  | Design: <a rel="nofollow" href="https://templatemo.com" target="_parent">TemplateMo</a></p>
             </div>
           </div>
         </div>
       </div>
     </footer>
- 
+
     <!-- Bootstrap core JavaScript -->
-    <script src="jquery/jquery.min.js"></script>
+    <script src="/jquery/jquery.min.js"></script>
     <script src="/js/bootstrap.bundle.min.js"></script>
- 
+
     <!-- Additional Scripts -->
     <script src="/js/custom.js"></script>
     <script src="/js/owl.js"></script>
     <script src="/js/slick.js"></script>
     <script src="/js/isotope.js"></script>
     <script src="/js/accordions.js"></script>
- 
-    <script language = "text/Javascript"> 
+
+    <script language = "text/Javascript">
       cleared[0] = cleared[1] = cleared[2] = 0; //set a cleared flag for each field
       function clearField(t){                   //declaring the array outside of the
       if(! cleared[t.id]){                      // function makes it static and global
@@ -441,6 +441,6 @@ https://templatemo.com/tm-551-stand-blog
           }
       }
     </script>
- 
+
   </body>
 </html>

@@ -1,4 +1,4 @@
-/* 
+/*
 
 TemplateMo 551 Stand Blog
 
@@ -59,7 +59,7 @@ h1,h2,h3,h4,h5,h6 {
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-image: url(../images/heading-bg.jpg);
+	background-image: url(../../resources/views/assets/images/heading-bg.jpg);
 }
 
 .page-heading .text-content h4 {
@@ -246,7 +246,7 @@ header .navbar {
 }
 .navbar .navbar-toggler {
 	border-color: #fff;
-	background-color: #f48840;	
+	background-color: #f48840;
 	height: 46px;
 	outline: none;
 	border-radius: 0px;
@@ -366,7 +366,7 @@ header .navbar {
 
 .call-to-action .main-content {
 	padding: 40px;
-	background-image: url(../images/cta-bg.jpg);
+	background-image: url(../../resources/views/assets/images/cta-bg.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
