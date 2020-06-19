@@ -30,6 +30,7 @@
         </nav>
     </header>
     <!-- Page Content -->
+    {{ $slot }}
 
 
 </x-master>
