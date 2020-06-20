@@ -3,29 +3,7 @@
 
   <head>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="TemplateMo">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
-
-    <title>2cnc4me</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="/css/bootstrap.min.css" rel="stylesheet">
-
-
-    <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="/css/fontawesome.css">
-    <link rel="stylesheet" href="/css/templatemo-stand-blog.css">
-    <link rel="stylesheet" href="/css/owl.css">
-<!--
-
-TemplateMo 551 Stand Blog
-
-https://templatemo.com/tm-551-stand-blog
-
--->
+        @include('components.head')
   </head>
 
   <body>
@@ -40,32 +18,16 @@ https://templatemo.com/tm-551-stand-blog
     </div>
     <!-- ***** Preloader End ***** -->
 
-
+    {{--    If the user is logged in, present the loggedInHeader--}}
+    @if(auth()->check())
+       @include('components.headers.loggedIn')
+    @else
+        @include('components.headers.neutral')
+    @endif
     {{ $slot }}
 
 
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <ul class="social-icons">
-              <li><a href="#">Facebook</a></li>
-              <li><a href="#">Twitter</a></li>
-              <li><a href="#">Behance</a></li>
-              <li><a href="#">Linkedin</a></li>
-              <li><a href="#">Dribbble</a></li>
-            </ul>
-          </div>
-          <div class="col-lg-12">
-            <div class="copyright-text">
-              <p>Copyright 2020 Stand Blog Co.
 
-                 | Design: <a rel="nofollow" href="https://templatemo.com" target="_parent">TemplateMo</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
 
     <!-- Bootstrap core JavaScript -->
     <script src="/jquery/jquery.min.js"></script>
