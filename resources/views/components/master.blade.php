@@ -28,7 +28,7 @@
     {{ $slot }}
 
     {{-- Footers --}}
-    @include('components.partials.footers.footer')
+    @include('components.partials.footer.footer')
     @include('components.partials.footer.footer-scripts')
 
   </body>
