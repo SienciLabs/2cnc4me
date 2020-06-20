@@ -1,3 +1,7 @@
+<?php /*
+{{ HTML::form("foo") }};
+{{ HTML::form("bar") }};
+*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 
