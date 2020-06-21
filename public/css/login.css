@@ -134,10 +134,10 @@ a{color:#FFFFFF;text-decoration:none}
     transform:scale(1) rotate(-45deg);
 }
 .login-html .sign-in:checked + .tab + .sign-up + .tab + .login-form .sign-in-htm{
-    opacity: 1;
+    transform:rotate(0);
 }
 .login-html .sign-up:checked + .tab + .login-form .sign-up-htm{
-    opacity: 0;
+    transform:rotate(0);
 }
 
 .hr{
