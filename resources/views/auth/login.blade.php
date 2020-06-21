@@ -71,6 +71,7 @@
         </div>
     </div>--}}
     {{--From: https://codepen.io/khadkamhn/pen/ZGvPLo --}}
+{{--
     <div class="login-wrap">
         <div class="login-html">
             <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Sign In</label>
@@ -125,6 +126,8 @@
             </div>
         </div>
     </div>
+--}}
+
     {{-- Login Javascript footers --}}
     @include('components.partials.footers.login-foot-scripts')
 </x-master>
