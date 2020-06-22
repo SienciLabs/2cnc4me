@@ -25,6 +25,7 @@
                 <h3>Sign Up</h3>
                 <form>
                     <div class="form-group">
+                        <label>Username</label>
                         <input type="text" class="form-control" placeholder="Your Username" value="" />
                     </div>
                     <div class="form-group">
@@ -37,11 +38,11 @@
                         <input type="password" class="form-control" placeholder="Your Confirmed Password *" value="" />
                     </div>
                     <div class="form-group">
-                        <input type="submit" class="btnSubmit" value="Login" />
+                        <input type="submit" class="btnSubmit" value="Sign Up" />
                     </div>
                     <div class="form-group">
 
-                        <a href="#" class="ForgetPwd" value="Login">Forget Password?</a>
+                        <a href="#" class="ForgetPwd" value="Login">Terms and Conditions</a>
                     </div>
                 </form>
             </div>
