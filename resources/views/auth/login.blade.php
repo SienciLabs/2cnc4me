@@ -44,3 +44,4 @@
     {{-- Login Javascript footers --}}
     @include('components.partials.footers.login-foot-scripts')
 </x-master>
+
