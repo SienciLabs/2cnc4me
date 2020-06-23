@@ -1,35 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-
+ 
   <head>
-
+ 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="TemplateMo">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
-
+ 
     <title>Stand CSS Blog by TemplateMo</title>
-
+ 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-
+ 
+ 
     <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="assets/css/fontawesome.css">
-    <link rel="stylesheet" href="assets/css/templatemo-stand-blog.css">
-    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="/css/fontawesome.css">
+    <link rel="stylesheet" href="/css/templatemo-stand-blog.css">
+    <link rel="stylesheet" href="/css/owl.css">
 <!--
-
+ 
 TemplateMo 551 Stand Blog
-
+ 
 https://templatemo.com/tm-551-stand-blog
-
+ 
 -->
   </head>
-
+ 
   <body>
-
+ 
     <!-- ***** Preloader Start ***** -->
     <div id="preloader">
         <div class="jumper">
@@ -39,7 +39,7 @@ https://templatemo.com/tm-551-stand-blog
         </div>
     </div>  
     <!-- ***** Preloader End ***** -->
-
+ 
     <!-- Header -->
     <header class="">
       <nav class="navbar navbar-expand-lg">
@@ -72,14 +72,14 @@ https://templatemo.com/tm-551-stand-blog
         </div>
       </nav>
     </header>
-
+ 
     <!-- Page Content -->
     <!-- Banner Starts Here -->
     <div class="main-banner header-text">
       <div class="container-fluid">
         <div class="owl-banner owl-carousel">
           <div class="item">
-            <img src="assets/images/banner-item-01.jpg" alt="">
+            <img src="/images/banner-item-01.jpg" alt="">
             <div class="item-content">
               <div class="main-content">
                 <div class="meta-category">
@@ -95,7 +95,7 @@ https://templatemo.com/tm-551-stand-blog
             </div>
           </div>
           <div class="item">
-            <img src="assets/images/banner-item-02.jpg" alt="">
+            <img src="/images/banner-item-02.jpg" alt="">
             <div class="item-content">
               <div class="main-content">
                 <div class="meta-category">
@@ -111,7 +111,7 @@ https://templatemo.com/tm-551-stand-blog
             </div>
           </div>
           <div class="item">
-            <img src="assets/images/banner-item-03.jpg" alt="">
+            <img src="/images/banner-item-03.jpg" alt="">
             <div class="item-content">
               <div class="main-content">
                 <div class="meta-category">
@@ -127,7 +127,7 @@ https://templatemo.com/tm-551-stand-blog
             </div>
           </div>
           <div class="item">
-            <img src="assets/images/banner-item-04.jpg" alt="">
+            <img src="/images/banner-item-04.jpg" alt="">
             <div class="item-content">
               <div class="main-content">
                 <div class="meta-category">
@@ -143,7 +143,7 @@ https://templatemo.com/tm-551-stand-blog
             </div>
           </div>
           <div class="item">
-            <img src="assets/images/banner-item-05.jpg" alt="">
+            <img src="/images/banner-item-05.jpg" alt="">
             <div class="item-content">
               <div class="main-content">
                 <div class="meta-category">
@@ -159,7 +159,7 @@ https://templatemo.com/tm-551-stand-blog
             </div>
           </div>
           <div class="item">
-            <img src="assets/images/banner-item-06.jpg" alt="">
+            <img src="/images/banner-item-06.jpg" alt="">
             <div class="item-content">
               <div class="main-content">
                 <div class="meta-category">
@@ -178,7 +178,7 @@ https://templatemo.com/tm-551-stand-blog
       </div>
     </div>
     <!-- Banner Ends Here -->
-
+ 
     <section class="call-to-action">
       <div class="container">
         <div class="row">
@@ -200,8 +200,8 @@ https://templatemo.com/tm-551-stand-blog
         </div>
       </div>
     </section>
-
-
+ 
+ 
     <section class="blog-posts">
       <div class="container">
         <div class="row">
@@ -211,7 +211,7 @@ https://templatemo.com/tm-551-stand-blog
                 <div class="col-lg-12">
                   <div class="blog-post">
                     <div class="blog-thumb">
-                      <img src="assets/images/blog-post-01.jpg" alt="">
+                      <img src="/images/blog-post-01.jpg" alt="">
                     </div>
                     <div class="down-content">
                       <span>Lifestyle</span>
@@ -246,7 +246,7 @@ https://templatemo.com/tm-551-stand-blog
                 <div class="col-lg-12">
                   <div class="blog-post">
                     <div class="blog-thumb">
-                      <img src="assets/images/blog-post-02.jpg" alt="">
+                      <img src="/images/blog-post-02.jpg" alt="">
                     </div>
                     <div class="down-content">
                       <span>Healthy</span>
@@ -281,7 +281,7 @@ https://templatemo.com/tm-551-stand-blog
                 <div class="col-lg-12">
                   <div class="blog-post">
                     <div class="blog-thumb">
-                      <img src="assets/images/blog-post-03.jpg" alt="">
+                      <img src="/images/blog-post-03.jpg" alt="">
                     </div>
                     <div class="down-content">
                       <span>Fashion</span>
@@ -395,7 +395,7 @@ https://templatemo.com/tm-551-stand-blog
         </div>
       </div>
     </section>
-
+ 
     
     <footer>
       <div class="container">
@@ -419,18 +419,18 @@ https://templatemo.com/tm-551-stand-blog
         </div>
       </div>
     </footer>
-
+ 
     <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
+    <script src="jquery/jquery.min.js"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+ 
     <!-- Additional Scripts -->
-    <script src="assets/js/custom.js"></script>
-    <script src="assets/js/owl.js"></script>
-    <script src="assets/js/slick.js"></script>
-    <script src="assets/js/isotope.js"></script>
-    <script src="assets/js/accordions.js"></script>
-
+    <script src="/js/custom.js"></script>
+    <script src="/js/owl.js"></script>
+    <script src="/js/slick.js"></script>
+    <script src="/js/isotope.js"></script>
+    <script src="/js/accordions.js"></script>
+ 
     <script language = "text/Javascript"> 
       cleared[0] = cleared[1] = cleared[2] = 0; //set a cleared flag for each field
       function clearField(t){                   //declaring the array outside of the
@@ -441,6 +441,6 @@ https://templatemo.com/tm-551-stand-blog
           }
       }
     </script>
-
+ 
   </body>
 </html>
