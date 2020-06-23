@@ -19,17 +19,23 @@
                     <a href="{{ url('https://www.merriam-webster.com/dictionary/category') }}"><b>Art</b></a>
                 </div>
             </div>
-            <div class="categories-card">
-                <img src="{{ asset('/images/categories/Art.svg')}}" alt="Avatar" style="width:100%">
-                <div class="container" style="text-align: center">
-                    <a href="{{ url('https://www.merriam-webster.com/dictionary/category') }}"><b>Art</b></a>
+            <div class="card">
+                <img alt="Card image cap" class="card-img-top" src="{{ asset('/images/categories/Art.svg')}}" >
+                <div class="card-body">
+                    <a class="card-title" href="{{ url('https://www.merriam-webster.com/dictionary/category') }}"
+                       style="text-align: center">Card title</a>
                 </div>
+
             </div>
-            <div class="categories-card">
-                <img src="{{ asset('/images/categories/Art.svg')}}" alt="Avatar" style="width:100%">
-                <div class="container" style="text-align: center">
-                    <a href="{{ url('https://www.merriam-webster.com/dictionary/category') }}"><b>Art</b></a>
+
+            <div class="card">
+                <img alt="Card image cap" class="card-img-top" src="https://api.adorable.io/avatars/285/abott@adorable.pngCopy to Clipboard
+                ">
+                <div class="card-body">
+                    <a class="card-title" href="{{ url('https://www.merriam-webster.com/dictionary/category') }}"
+                       style="text-align: center">Card title</a>
                 </div>
+
             </div>
         </div>
     </div>
