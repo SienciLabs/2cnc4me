@@ -11,6 +11,7 @@
     <br><br>
 
     <div class="container">
+        <h2 style="margin-top: 10%"><span class="label label-default">Categories</span></h2>
         <div class="card-deck" style="padding: 30px">
             <div class="card">
                 <img alt="Card image cap" class="card-img-top" src="{{ asset('/images/categories/Art.svg')}}">
