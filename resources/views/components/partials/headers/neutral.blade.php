@@ -20,9 +20,9 @@
                         <a class="nav-link" href="../blog.html">Collections</a>
                     </li>
                     <li class="nav-item">
-                        <button class="btn btn-block login_signupBtn " type="submit" href="{{ route('login') }}">
+                        <a class="btn btn-block login_signupBtn " type="submit" href="{{ route('login') }}">
                             Login / Sign Up
-                        </button>
+                        </a>
                     </li>
                 </ul>
             </div>
