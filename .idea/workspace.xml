@@ -30,10 +30,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5122862-db7e-4d61-80b5-246b7b9815ea" name="Default Changelist" comment="label rework basic attempt 6">
+    <list default="true" id="f5122862-db7e-4d61-80b5-246b7b9815ea" name="Default Changelist" comment="label rework basic attempt 7">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/categories.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/categories.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +176,7 @@
       <updated>1592906789997</updated>
       <workItem from="1592906799096" duration="37000" />
       <workItem from="1592906878124" duration="14000" />
-      <workItem from="1592914563350" duration="3572000" />
+      <workItem from="1592914563350" duration="3653000" />
     </task>
     <task id="LOCAL-00001" summary="Work on categories page">
       <created>1592915608369</created>
@@ -284,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592918020446</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="label rework basic attempt 7">
+      <created>1592918155609</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1592918155609</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -314,17 +320,18 @@
     <MESSAGE value="label rework basic attempt 4" />
     <MESSAGE value="label rework basic attempt 5" />
     <MESSAGE value="label rework basic attempt 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="label rework basic attempt 6" />
+    <MESSAGE value="label rework basic attempt 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="label rework basic attempt 7" />
   </component>
   <component name="WindowStateProjectService">
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1592906832880">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1592906832880" />
-    <state x="361" y="132" key="Vcs.Push.Dialog.v2" timestamp="1592918022890">
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2" timestamp="1592918157007">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="132" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1592918022890" />
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1592918157007" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1592917980244">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
