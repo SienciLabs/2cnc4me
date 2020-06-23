@@ -15,15 +15,15 @@
         <div class="card-deck" style="padding: 30px">
             <div class="categories-card">
                 <img src="{{ asset('/images/categories/Art.svg')}}" alt="Avatar" style="width:100%">
-                <div class="container">
-                    <h4><b>Art</b></h4>
+                <div class="container" style="text-align: center">
+                    <h4 href="{{ url('https://www.merriam-webster.com/dictionary/category') }}"><b>Art</b></h4>
                 </div>
             </div>
 
             <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
+                <img src="{{ asset('/images/categories/Art.svg')}}" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p class="card-title"href="{{ url('https://www.merriam-webster.com/dictionary/category') }}"><b>Art</b></p>
                 </div>
             </div>
 
