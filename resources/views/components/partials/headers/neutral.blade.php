@@ -20,9 +20,11 @@
                         <a class="nav-link" href="../blog.html">Collections</a>
                     </li>
                     <li class="nav-item">
-                        <button type="submit">
+                        <a type="nav-link"
+                                class="bg-blue-500 hover:bg-blue-600 rounded-lg shadow px-10 text-sm text-white"
+                        >
                             LogIn!
-                        </button>
+                        </a>
 {{--                        <a class="nav-link" href="{{route('login')}}">Login/Signup</a>--}}
                     </li>
                 </ul>
