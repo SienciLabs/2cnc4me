@@ -13,11 +13,11 @@
         <h2><span class="label label-default">Categories</span></h2>
         <div class="card-deck" style="padding: 30px">
 
-            <div class="card">
+            <div class="card" style="width: 18rem;">
                 <img alt="Card image cap" class="card-img-top" src="{{ asset('/images/categories/Art.svg')}}" >
                 <div class="card-body">
                     <a class="card-title" href="{{ url('https://www.merriam-webster.com/dictionary/category') }}"
-                       style="text-align: center">Categories</a>
+                       style="text-align: -webkit-center">Categories</a>
                 </div>
 
             </div>
@@ -27,7 +27,7 @@
                 ">
                 <div class="card-body">
                     <a class="card-title" href="{{ url('https://www.merriam-webster.com/dictionary/category') }}"
-                       style="text-align: center">Card title</a>
+                       style="text-align: -webkit-center">Card title</a>
                 </div>
 
             </div>
