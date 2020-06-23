@@ -20,8 +20,12 @@
                         <a class="nav-link" href="../blog.html">Collections</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{route('login')}}">Login/Signup</a>
-                    </li>
+                        <button type="submit"
+                                class="bg-blue-500 hover:bg-blue-600 rounded-lg shadow px-10 text-sm text-white"
+                        >
+                            Cut!
+                        </button>
+{{--                        <a class="nav-link" href="{{route('login')}}">Login/Signup</a>--}}
                     </li>
                 </ul>
             </div>
