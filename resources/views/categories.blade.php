@@ -9,14 +9,14 @@
         <option value="difficulty">Easiest</option>
     </select>--}}
     <br>
-    <h2><span class="label label-default">Categories</span></h2>
+    <h2><span class="mt-5 label label-default">Categories</span></h2>
 
     <div class="card-deck">
         <div class="card text-center">
             <img alt="Card image cap" class="card-img-top" src="https://api.adorable.io/avatars/285/abott@adorable.pngCopy to Clipboard
                 ">
             <div class="card-body">
-                <h3><a class="card-title" href="{{ url('https://www.merriam-webster.com/dictionary/category') }}">
+                <h3><a class="h-25 card-title" href="{{ url('https://www.merriam-webster.com/dictionary/category') }}">
                         Art</a></h3>
             </div>
         </div>
@@ -24,7 +24,7 @@
             <img alt="Card image cap" class="card-img-top" src="https://api.adorable.io/avatars/285/abott@adorable.pngCopy to Clipboard
                 ">
             <div class="card-body">
-                <h3><a class="card-title" href="{{ url('https://www.merriam-webster.com/dictionary/category') }}">
+                <h3><a class="h-25 card-title" href="{{ url('https://www.merriam-webster.com/dictionary/category') }}">
                         French</a></h3>
             </div>
         </div>
@@ -33,7 +33,7 @@
             <img alt="Card image cap" class="card-img-top" src="https://api.adorable.io/avatars/285/abott@adorable.pngCopy to Clipboard
                 ">
             <div class="card-body">
-                <h3><a class="card-title" href="{{ url('https://www.merriam-webster.com/dictionary/category') }}">
+                <h3><a class="h-25 card-title" href="{{ url('https://www.merriam-webster.com/dictionary/category') }}">
                         Science</a></h3>
             </div>
         </div>
