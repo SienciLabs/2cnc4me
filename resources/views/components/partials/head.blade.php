@@ -7,12 +7,13 @@
 <title>2cnc4me</title>
 
 <!-- Bootstrap core CSS -->
-<link href="{{ asset('/css/bootstrap.min.css') }}" rel="stylesheet">
+<link href="/css/bootstrap.min.css" rel="stylesheet">
+
 
 <!-- Additional CSS Files -->
-<link href="{{ asset('/css/fontawesome.css') }}" rel="stylesheet">
-<link href="{{ asset('/css/templatemo-stand-blog.css') }}" rel="stylesheet">
-<link href="{{ asset('/css/owl.css') }}" rel="stylesheet">
+<link rel="stylesheet" href="/css/fontawesome.css">
+<link rel="stylesheet" href="/css/templatemo-stand-blog.css">
+<link rel="stylesheet" href="/css/owl.css">
 <!--
 
 TemplateMo 551 Stand Blog
