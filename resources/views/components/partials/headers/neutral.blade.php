@@ -2,7 +2,7 @@
 <header class="">
     <nav class="navbar navbar-expand-lg">
         <div class="container">
-            <a class="navbar-brand" href="href="{{ url('index.html') }}"><h2><img src="/images/24logo.svg" alt="2cnc4me" width="30px"></h2></a>
+            <a class="navbar-brand" href="{{ url('index.html') }}"><h2><img src="/images/24logo.svg" alt="2cnc4me" width="30px"></h2></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -20,7 +20,7 @@
                         <a class="nav-link" href="../blog.html">Collections</a>
                     </li>
                     <li class="nav-item">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Login</button>
+                        <button class="btn btn-block login " type="submit">Login</button>
                     </li>
                 </ul>
             </div>
