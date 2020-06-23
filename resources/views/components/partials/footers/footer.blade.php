@@ -12,9 +12,9 @@
             </div>
             <div class="col-lg-12">
                 <div class="copyright-text">
-                    <p>Copyright 2020 Stand Blog Co.
+                    <p>Copyright 2020 Co.
 
-                        | Design: <a rel="nofollow" href="https://templatemo.com" target="_parent">TemplateMo</a></p>
+                        | Design: <a rel="nofollow" href="https://sienci.com/" target="_parent">Scienci Labs</a></p>
                 </div>
             </div>
         </div>

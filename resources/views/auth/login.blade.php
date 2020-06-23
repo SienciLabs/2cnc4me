@@ -8,10 +8,12 @@
                 <h3>Login</h3>
                 <form>
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Your Email *" value="" />
+                        <label>Username</label>
+                        <input type="text" class="form-control" placeholder="Username or Email" value="" />
                     </div>
                     <div class="form-group">
-                        <input type="password" class="form-control" placeholder="Your Password *" value="" />
+                        <label>Password</label>
+                        <input type="password" class="form-control" placeholder="Password *" value="" />
                     </div>
                     <div class="form-group">
                         <input type="submit" class="btnSubmit" value="Login" />
@@ -26,22 +28,24 @@
                 <form>
                     <div class="form-group">
                         <label>Username</label>
-                        <input type="text" class="form-control" placeholder="Your Username" value="" />
+                        <input type="text" class="form-control" placeholder="Minimum 8 characters" value="" />
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Your Email" value="" />
+                        <label>Email</label>
+                        <input type="text" class="form-control" placeholder="email@example.com" value="" />
                     </div>
                     <div class="form-group">
-                        <input type="password" class="form-control" placeholder="Your Password *" value="" />
+                        <label>Password</label>
+                        <input type="password" class="form-control" placeholder="Minimum 8 characters" value="" />
                     </div>
                     <div class="form-group">
-                        <input type="password" class="form-control" placeholder="Your Confirmed Password *" value="" />
+                        <label>Repeat Password</label>
+                        <input type="password" class="form-control" placeholder="Minimum 8 characters" value="" />
                     </div>
                     <div class="form-group">
                         <input type="submit" class="btnSubmit" value="Sign Up" />
                     </div>
                     <div class="form-group">
-
                         <a href="#" class="ForgetPwd" value="Login">Terms and Conditions</a>
                     </div>
                 </form>
