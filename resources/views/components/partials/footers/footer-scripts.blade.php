@@ -1,13 +1,13 @@
 <!-- Bootstrap core JavaScript -->
-<script src=" {{ asset('/jquery/jquery.min.js.css') }}"></script>
-<script src="{{ asset('/js/bootstrap.bundle.min.js') }}"></script>
+<script src="/jquery/jquery.min.js"></script>
+<script src="/js/bootstrap.bundle.min.js"></script>
 
 <!-- Additional Scripts -->
-<script src=" {{ asset('/js/custom.js') }} "></script>
-<script src=" {{ asset('/js/owl.js') }} "></script>
-<script src=" {{ asset('/js/slick.js') }} "></script>
-<script src=" {{ asset('/js/isotope.js') }} "></script>
-<script src=" {{ asset('/js/accordions.js') }} "></script>
+<script src="/js/custom.js"></script>
+<script src="/js/owl.js"></script>
+<script src="/js/slick.js"></script>
+<script src="/js/isotope.js"></script>
+<script src="/js/accordions.js"></script>
 <script language = "text/Javascript">
     cleared[0] = cleared[1] = cleared[2] = 0; //set a cleared flag for each field
     function clearField(t){                   //declaring the array outside of the
