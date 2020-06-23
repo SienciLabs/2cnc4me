@@ -1,5 +1,4 @@
 <x-app>
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
     {{--    <h2><span for="categoires" class="label label-default">Categories</span></h2>
         --}}{{--        <label for="categoires">Categories</label>--}}{{--
@@ -13,8 +12,8 @@
     <br>
     <h2><span class="label label-default pt-lg-5">Categories</span></h2>
 
-    <div class="card-deck" style="width: 300px">
-        <div class="card text-center">
+    <div class="card-deck">
+        <div class="card text-center" style="width: 300px">
             <img alt="Card image cap" class="card-img-top" src="https://api.adorable.io/avatars/285/abott@adorable.pngCopy to Clipboard
                 ">
             <div class="card-body">
