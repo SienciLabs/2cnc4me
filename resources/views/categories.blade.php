@@ -16,31 +16,19 @@
             <div class="categories-card">
                 <img src="{{ asset('/images/categories/Art.svg')}}" alt="Avatar" style="width:100%">
                 <div class="container" style="text-align: center">
-                    <h4 href="{{ url('https://www.merriam-webster.com/dictionary/category') }}"><b>Art</b></h4>
+                    <a href="{{ url('https://www.merriam-webster.com/dictionary/category') }}"><b>Art</b></a>
                 </div>
             </div>
-
-            <div class="card" style="width: 18rem;">
-                <img src="{{ asset('/images/categories/Art.svg')}}" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <p class="card-title"href="{{ url('https://www.merriam-webster.com/dictionary/category') }}"><b>Art</b></p>
+            <div class="categories-card">
+                <img src="{{ asset('/images/categories/Art.svg')}}" alt="Avatar" style="width:100%">
+                <div class="container" style="text-align: center">
+                    <a href="{{ url('https://www.merriam-webster.com/dictionary/category') }}"><b>Art</b></a>
                 </div>
             </div>
-
-            <div class="card">
-                <img alt="Card image cap" class="card-img-top" src="{{ asset('/images/categories/Art.svg')}}">
-                <h2 class="card-title" style="text-align: center">Categories</h2>
-            </div>
-
-            <div class="card">
-                <img alt="Card image cap" class="card-img-top" src="https://api.adorable.io/avatars/285/abott@adorable.pngCopy to Clipboard
-                ">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                </div>
-                <div class="card-footer">
-                    <small class="text-muted">Last updated 3 mins ago</small>
+            <div class="categories-card">
+                <img src="{{ asset('/images/categories/Art.svg')}}" alt="Avatar" style="width:100%">
+                <div class="container" style="text-align: center">
+                    <a href="{{ url('https://www.merriam-webster.com/dictionary/category') }}"><b>Art</b></a>
                 </div>
             </div>
         </div>
