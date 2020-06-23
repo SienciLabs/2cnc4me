@@ -792,14 +792,24 @@ body {
 	  color: #fff;
   }
 
-  .login{
-    background-color: #DFDFDF;
-    color: white;
-      border-radius: 10px;
-    }
-  .login:hover{
+  .login_signupBtn{
       background-color: #FF8E3D;
+      color: white;
+      border-radius: 10px;
+      box-shadow: 0 2px #999;
+      border: none;
+
   }
+  .login_signupBtn:hover {
+      background-color: #f06400;
+  }
+  .login_signupBtn:active {
+    background-color: #f06400;
+    box-shadow: 0 2px #666;
+    transform: translateY(1px);
+    }
+
+
   /* Footer */
 
   footer {
