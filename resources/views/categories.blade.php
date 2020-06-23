@@ -1,5 +1,14 @@
 <x-app>
     <div class="container">
+        <label for="categoires">Categories</label>
+        <select name="categoires" id="categoires">
+            <option value="popular">Popular</option>
+            <option value="newest">Newest</option>
+            <option value="downloads">Most Downloads</option>
+            <option value="ratings">Highest Rated</option>
+            <option value="difficulty">Easiest</option>
+        </select>
+        <br><br>
         <div class="card-deck" style="padding: 30px">
             <div class="card">
                 <img alt="Card image cap" class="card-img-top" src="{{ asset('/images/categories/Art.svg')}}">
