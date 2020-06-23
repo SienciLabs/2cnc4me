@@ -793,13 +793,12 @@ body {
   }
 
   .login_signupBtn{
-      background-color: #DFDFDF;
       color: white;
       border-radius: 10px;
       box-shadow: 0 2px #999;
       border: none;
       outline: none;
-
+      background-color: #DFDFDF;
   }
   .login_signupBtn:hover {
       background-color: #b9b9b9;
