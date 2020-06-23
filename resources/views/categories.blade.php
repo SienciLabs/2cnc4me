@@ -1,17 +1,19 @@
 <x-app>
-{{--    <h2><span for="categoires" class="label label-default">Categories</span></h2>
-    --}}{{--        <label for="categoires">Categories</label>--}}{{--
-    <select name="categoires" id="categoires">
-        <option value="popular">Popular</option>
-        <option value="newest">Newest</option>
-        <option value="downloads">Most Downloads</option>
-        <option value="ratings">Highest Rated</option>
-        <option value="difficulty">Easiest</option>
-    </select>--}}
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    {{--    <h2><span for="categoires" class="label label-default">Categories</span></h2>
+        --}}{{--        <label for="categoires">Categories</label>--}}{{--
+        <select name="categoires" id="categoires">
+            <option value="popular">Popular</option>
+            <option value="newest">Newest</option>
+            <option value="downloads">Most Downloads</option>
+            <option value="ratings">Highest Rated</option>
+            <option value="difficulty">Easiest</option>
+        </select>--}}
     <br>
     <h2><span class="label label-default pt-lg-5">Categories</span></h2>
 
-    <div class="card-deck">
+    <div class="card-deck" style="width: 300px">
         <div class="card text-center">
             <img alt="Card image cap" class="card-img-top" src="https://api.adorable.io/avatars/285/abott@adorable.pngCopy to Clipboard
                 ">
