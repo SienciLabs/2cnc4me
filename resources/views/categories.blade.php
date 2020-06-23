@@ -9,18 +9,19 @@
         <option value="difficulty">Easiest</option>
     </select>--}}
 
-    <div style="margin-top: 2.5%">
+    <div class="row">
         <h2><span class="label label-default">Categories</span></h2>
-        <div class="card-deck" style="padding: 30px">
-
+        <div class="col-sm-6">
             <div class="card text-center">
                 <img alt="Card image cap" class="card-img-top" src="{{ asset('/images/categories/Art.svg')}}" >
                 <div class="card-body">
                     <h2><a class="card-title" href="{{ url('https://www.merriam-webster.com/dictionary/category') }}">
-                            Categories</a></h2>
+                            Science</a></h2>
                 </div>
 
             </div>
+        </div>
+        <div class="col-sm-6">
 
             <div class="card text-center">
                 <img alt="Card image cap" class="card-img-top" src="https://api.adorable.io/avatars/285/abott@adorable.pngCopy to Clipboard
@@ -32,5 +33,6 @@
             </div>
         </div>
     </div>
+
 
 </x-app>
