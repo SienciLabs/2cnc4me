@@ -793,18 +793,19 @@ body {
   }
 
   .login_signupBtn{
-      background-color: #FF8E3D;
+      background-color: #DFDFDF;
       color: white;
       border-radius: 10px;
       box-shadow: 0 2px #999;
       border: none;
+      outline: none;
 
   }
   .login_signupBtn:hover {
-      background-color: #f06400;
+      background-color: #b9b9b9;
   }
   .login_signupBtn:active {
-    background-color: #f06400;
+    background-color: #b9b9b9;
     box-shadow: 0 2px #666;
     transform: translateY(1px);
     }
