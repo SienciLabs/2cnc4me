@@ -9,7 +9,7 @@
         <option value="difficulty">Easiest</option>
     </select>--}}
 
-    <div class="container" style="margin-top: 2.5%">
+    <div class="container">
         <h2><span class="label label-default">Categories</span></h2>
         <div class="card-deck" style="padding: 30px">
 
