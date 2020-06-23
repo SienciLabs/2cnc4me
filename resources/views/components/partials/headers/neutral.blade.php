@@ -23,6 +23,7 @@
                         <a class="btn btn-block login_signupBtn " type="submit" href="{{ route('login') }}">
                             Login / Sign Up
                         </a>
+                   
                     </li>
                 </ul>
             </div>
