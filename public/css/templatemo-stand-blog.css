@@ -802,6 +802,7 @@ body {
   }
   .login_signupBtn:hover {
       background-color: #b9b9b9;
+      color: white;
   }
   .login_signupBtn:active {
     background-color: #b9b9b9;
