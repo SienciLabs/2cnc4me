@@ -12,7 +12,7 @@ use Illuminate\Support\Facades\DB;
 
 
 
-use App\Http\FileUploader;
+use App\Http\Classes\FileUploader;
 //include 'App\Http\Classes\FileUploader';
 
 class PostController extends Controller

@@ -1,5 +1,5 @@
 <?php
-namespace App\Http;
+namespace App\Http\Classes;
 
 use Illuminate\Support\Facades\Facade;
 use Illuminate\Http\Request;
