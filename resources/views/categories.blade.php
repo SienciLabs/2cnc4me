@@ -10,13 +10,13 @@
     </select>--}}
     <br><br>
 
-    <div class="container" style="margin-top: 5%">
+    <div class="container" style="margin-top: 2.5%">
         <h2><span class="label label-default">Categories</span></h2>
         <div class="card-deck" style="padding: 30px">
             <div class="card">
                 <img alt="Card image cap" class="card-img-top" src="{{ asset('/images/categories/Art.svg')}}">
                 <div class="card-body">
-                    <h5 class="card-title">Art</h5>
+                    <h5 class="card-title" style="text-align: center">Art</h5>
                 </div>
 
             </div>
