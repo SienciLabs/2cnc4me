@@ -1,6 +1,7 @@
 <x-app>
     <div class="container">
-        <label for="categoires">Categories</label>
+        <h2><span for="categoires" class="label label-default">Categories</span></h2>
+{{--        <label for="categoires">Categories</label>--}}
         <select name="categoires" id="categoires">
             <option value="popular">Popular</option>
             <option value="newest">Newest</option>
