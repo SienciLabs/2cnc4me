@@ -39,14 +39,7 @@ footer p {
 .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
 
 
-.page-label h2{
-    font-size: 18px;
-    text-transform: uppercase;
-    font-weight: 900;
-    letter-spacing: 0.5px;
-    color: #20232e;
-    border-bottom: 1px solid #eee;
-    padding-bottom: 15px;
-    margin-bottom: 25px;
+.page-label {
+    margin-top: 20%;
 }
 
