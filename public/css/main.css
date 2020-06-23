@@ -39,9 +39,8 @@ footer p {
 .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
 
 
-.h2.span {
+.span.h2 {
     margin-top: 30%;
-    font-size: 1.5em;
     font-weight: bolder;
 }
 
