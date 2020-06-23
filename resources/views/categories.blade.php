@@ -12,13 +12,8 @@
 
     <div class="container" style="margin-top: 2.5%">
         <h2><span class="label label-default">Categories</span></h2>
+{{--
         <div class="card-deck" style="padding: 30px">
-            <div class="categories-card">
-                <img src="{{ asset('/images/categories/Art.svg')}}" alt="Avatar" style="width:100%">
-                <div class="container">
-                    <h4><b>Categories</b></h4>
-                </div>
-            </div>
 
             <div class="card">
                 <img alt="Card image cap" class="card-img-top" src="{{ asset('/images/categories/Art.svg')}}">
@@ -48,6 +43,14 @@
                 </div>
             </div>
         </div>
+--}}
+        <div class="categories-card">
+            <img src="{{ asset('/images/categories/Art.svg')}}" alt="Avatar" style="width:100%">
+            <div class="container">
+                <h4><b>Art</b></h4>
+            </div>
+        </div>
+
     </div>
 
 </x-app>
