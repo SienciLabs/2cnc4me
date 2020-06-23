@@ -20,7 +20,7 @@
                         <a class="nav-link" href="../blog.html">Collections</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../post-details.html">Login/Signup</a>
+                        <a class="nav-link" href="{{route('login')}}">Login/Signup</a>
                     </li>
                     </li>
                 </ul>
