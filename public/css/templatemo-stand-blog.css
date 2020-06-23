@@ -792,10 +792,14 @@ body {
 	  color: #fff;
   }
 
-  .login  {
-    background-color: #0057fc;
+  .login{
+    background-color: #DFDFDF;
     color: white;
+      border-radius: 10px;
     }
+  .login:hover{
+      background-color: #FF8E3D;
+  }
   /* Footer */
 
   footer {
