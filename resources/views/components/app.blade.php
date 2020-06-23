@@ -5,7 +5,7 @@
         <div class="container-fluid">
             <div class="owl-banner owl-carousel">
                 <div class="item">
-                    <img src="/images/CNSheep.jpg" alt="">
+                    <img src="{{asset('/images/CNSheep.jpg')}}" alt="">
                     <div class="item-content">
                         <div class="main-content">
                             <div class="meta-category">

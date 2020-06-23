@@ -14,7 +14,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../about.html">Categories</a>
+                        <a class="nav-link"href="{{ route('categories') }}">Categories</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="../blog.html">Collections</a>
@@ -23,7 +23,7 @@
                         <a class="btn btn-block login_signupBtn " type="submit" href="{{ route('login') }}">
                             Login / Sign Up
                         </a>
-                   
+
                     </li>
                 </ul>
             </div>
