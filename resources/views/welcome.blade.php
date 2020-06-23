@@ -217,36 +217,30 @@
                 </div>
             </div>
         </section>--}}
-    <div class="row">
-        <div class="col-6 col-lg-4">
-            <h2>Heading</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
-        </div><!--/span-->
-        <div class="col-6 col-lg-4">
-            <h2>Heading</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
-        </div><!--/span-->
-        <div class="col-6 col-lg-4">
-            <h2>Heading</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
-        </div><!--/span-->
-        <div class="col-6 col-lg-4">
-            <h2>Heading</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
-        </div><!--/span-->
-        <div class="col-6 col-lg-4">
-            <h2>Heading</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
-        </div><!--/span-->
-        <div class="col-6 col-lg-4">
-            <h2>Heading</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
-        </div><!--/span-->
+    <div class="card-deck">
+        <div class="card">
+            <img class="card-img-top" src="..." alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="..." alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="..." alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+        </div>
     </div>
 </x-app>
