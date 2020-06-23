@@ -13,7 +13,7 @@
         <h2><span class="label label-default">Categories</span></h2>
         <div class="card-deck" style="padding: 30px">
 
-            <div class="card text-center" style="width: 18rem;">
+            <div class="card text-center w-50">
                 <img alt="Card image cap" class="card-img-top" src="{{ asset('/images/categories/Art.svg')}}" >
                 <div class="card-body">
                     <a class="card-title" href="{{ url('https://www.merriam-webster.com/dictionary/category') }}">
@@ -22,7 +22,7 @@
 
             </div>
 
-            <div class="card text-center">
+            <div class="card text-center w-50">
                 <img alt="Card image cap" class="card-img-top" src="https://api.adorable.io/avatars/285/abott@adorable.pngCopy to Clipboard
                 ">
                 <div class="card-body">
