@@ -14,7 +14,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link"href="{{ route('categories') }}">Categories</a>
+                        <a class="nav-link"href="{{ route('categories/') }}">Categories</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="../blog.html">Collections</a>
