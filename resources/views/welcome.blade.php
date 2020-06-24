@@ -2,13 +2,13 @@
     @include('components.partials.headers.neutral')
 
     <!-- Featured Header -->
-    <div class="heading-home-page header-text">
+    <div class="heading-page header-text">
         <section class="home-page-heading">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="text-content">
-                            <h3>Featured</h3>
+                            <h4>Featured</h4>
                         </div>
                     </div>
                 </div>
