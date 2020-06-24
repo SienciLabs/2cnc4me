@@ -1,8 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Illuminate\Http\request;
-
 
 /*
 |--------------------------------------------------------------------------
@@ -16,13 +14,13 @@ use Illuminate\Http\request;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return 'this is a test';
 });
-
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+<<<<<<< HEAD
 
 Route::resource('posts', 'PostController');
 
@@ -31,3 +29,5 @@ Route::get('/test', function() {return "Hello world";});
 Route::get('/categories', function (){
     return view('categories');
 });
+=======
+>>>>>>> parent of 5d2f3600... changed some routing stuff
