@@ -14,7 +14,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+<<<<<<< HEAD
     return 'this is a test';
+=======
+    return view('welcome');
+>>>>>>> parent of f3bff6ef... changed welcome page and undid previous auth commenting. it was not the issue
 });
 
 Auth::routes();
