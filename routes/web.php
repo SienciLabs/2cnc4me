@@ -1,8 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Illuminate\Http\request;
-
 
 /*
 |--------------------------------------------------------------------------
@@ -16,14 +14,24 @@ use Illuminate\Http\request;
 */
 
 Route::get('/', function () {
-    return view('testwelcome');
+<<<<<<< HEAD
+    return 'this is a test';
+=======
+    return view('welcome');
+>>>>>>> parent of f3bff6ef... changed welcome page and undid previous auth commenting. it was not the issue
 });
-
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+<<<<<<< HEAD
 
 Route::resource('posts', 'PostController');
 
 Route::get('/test', function() {return "Hello world";});
+
+Route::get('/categories', function (){
+    return view('categories');
+});
+=======
+>>>>>>> parent of 5d2f3600... changed some routing stuff
