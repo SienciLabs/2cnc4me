@@ -27,3 +27,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::resource('posts', 'PostController');
 
 Route::get('/test', function() {return "Hello world";});
+
+Route::get('/categories', function (){
+    return view('categories');
+});
