@@ -1,7 +1,6 @@
 <x-master>
 
 
-
     <!-- Page Content -->
     {{ $slot }}
 

@@ -15,6 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
+
 });
 Route::get('/categories', function () {
     return view('categories');
@@ -23,3 +24,11 @@ Route::get('/categories', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+
+Route::resource('posts', 'PostController');
+
+Route::get('/categories', function (){
+    return view('categories');
+});
+
