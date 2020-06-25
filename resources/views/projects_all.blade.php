@@ -7,7 +7,7 @@
                     <div class="col-lg-12">
                         <div class="text-content">
                             <h4 style="color: black;">
-                                Project
+                                Projects
                             </h4>
                         </div>
                     </div>

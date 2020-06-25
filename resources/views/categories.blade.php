@@ -1,41 +1,89 @@
 <x-app>
+    {{--    Project header --}}
+    <div class="heading-page header-text">
+        <section class="page-heading" style="padding-bottom: 2px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="text-content">
+                            <h4 style="color: black;">
+                                Categories
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
 
-    {{--    <h2><span for="categoires" class="label label-default">Categories</span></h2>
-        --}}{{--        <label for="categoires">Categories</label>--}}{{--
-        <select name="categoires" id="categoires">
-            <option value="popular">Popular</option>
-            <option value="newest">Newest</option>
-            <option value="downloads">Most Downloads</option>
-            <option value="ratings">Highest Rated</option>
-            <option value="difficulty">Easiest</option>
-        </select>--}}
-    <br>
-    <h2><span class="label label-default pt-lg-5">Categories</span></h2>
-
-    <div class="card-deck">
-        <div class="card text-center" style="width: 300px">
+    <div class="card-deck" style="padding: 30px 350px 30px 360px;">
+        <div class="card">
             <img alt="Card image cap" class="card-img-top" src="https://api.adorable.io/avatars/285/abott@adorable.pngCopy to Clipboard
                 ">
             <div class="card-body">
-                <h3><a class="card-title h-25" href="{{ url('https://www.merriam-webster.com/dictionary/category') }}">
-                        Art</a></h3>
+                <h5 class="card-title" style="text-align: center">Title</h5>
             </div>
         </div>
-        <div class="card text-center">
+        <div class="card">
             <img alt="Card image cap" class="card-img-top" src="https://api.adorable.io/avatars/285/abott@adorable.pngCopy to Clipboard
                 ">
             <div class="card-body">
-                <h3><a class="card-title" href="{{ url('https://www.merriam-webster.com/dictionary/category') }}">
-                        French</a></h3>
+                <h5 class="card-title" style="text-align: center">Title</h5>
+            </div>
+        </div>
+        <div class="card">
+            <img alt="Card image cap" class="card-img-top" src="https://api.adorable.io/avatars/285/abott@adorable.pngCopy to Clipboard
+                ">
+            <div class="card-body">
+                <h5 class="card-title" style="text-align: center">Title</h5>
             </div>
         </div>
 
-        <div class="card text-center">
+    </div>
+    <div class="card-deck" style="padding: 30px 350px 30px 360px;">
+        <div class="card">
             <img alt="Card image cap" class="card-img-top" src="https://api.adorable.io/avatars/285/abott@adorable.pngCopy to Clipboard
                 ">
             <div class="card-body">
-                <h3><a class="h-25 card-title" href="{{ url('https://www.merriam-webster.com/dictionary/category') }}">
-                        Science</a></h3>
+                <h5 class="card-title" style="text-align: center">Title</h5>
+            </div>
+        </div>
+        <div class="card">
+            <img alt="Card image cap" class="card-img-top" src="https://api.adorable.io/avatars/285/abott@adorable.pngCopy to Clipboard
+                ">
+            <div class="card-body">
+                <h5 class="card-title" style="text-align: center">Title</h5>
+            </div>
+        </div>
+        <div class="card">
+            <img alt="Card image cap" class="card-img-top" src="https://api.adorable.io/avatars/285/abott@adorable.pngCopy to Clipboard
+                ">
+            <div class="card-body">
+                <h5 class="card-title" style="text-align: center">Title</h5>
+            </div>
+        </div>
+
+    </div>
+    <div class="card-deck" style="padding: 30px 350px 30px 360px;">
+        <div class="card">
+            <img alt="Card image cap" class="card-img-top" src="https://api.adorable.io/avatars/285/abott@adorable.pngCopy to Clipboard
+                ">
+            <div class="card-body">
+                <h5 class="card-title" style="text-align: center">Title</h5>
+            </div>
+        </div>
+        <div class="card">
+            <img alt="Card image cap" class="card-img-top" src="https://api.adorable.io/avatars/285/abott@adorable.pngCopy to Clipboard
+                ">
+            <div class="card-body">
+                <h5 class="card-title" style="text-align: center">Title</h5>
+            </div>
+        </div>
+        <div class="card">
+            <img alt="Card image cap" class="card-img-top" src="https://api.adorable.io/avatars/285/abott@adorable.pngCopy to Clipboard
+                ">
+            <div class="card-body">
+                <h5 class="card-title" style="text-align: center">Title</h5>
             </div>
         </div>
 
