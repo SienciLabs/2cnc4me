@@ -163,7 +163,7 @@
                             <div class="col-lg-12">
                                 <div class="sidebar-item tags">
                                     <div class="sidebar-heading">
-                                        <h2>Tag Clouds</h2>
+                                        <h2>Recent makes</h2>
                                     </div>
                                     <div class="content">
                                         <ul>
@@ -186,6 +186,45 @@
                         <div class="sidebar-heading" style="padding-top: 45px;">
                             <h4>
                                 Projects
+                            </h4>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="blog-post">
+                                    <div class="blog-thumb">
+                                        <img src="/images/blog-thumb-01.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="blog-post">
+                                    <div class="blog-thumb">
+                                        <img src="/images/blog-thumb-02.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="blog-post">
+                                    <div class="blog-thumb">
+                                        <img src="/images/blog-thumb-03.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="blog-post">
+                                    <div class="blog-thumb">
+                                        <img src="/images/blog-thumb-04.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="all-blog-posts">
+                        <div class="sidebar-heading" style="padding-top: 45px;">
+                            <h4>
+                                Collections
                             </h4>
                         </div>
                         <div class="row">
