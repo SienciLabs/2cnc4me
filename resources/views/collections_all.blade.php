@@ -6,9 +6,9 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="text-content">
-                            <h4 style="color: black;">
+                            <h3 style="color: black;">
                                 Collections
-                            </h4>
+                            </h3>
                         </div>
                     </div>
                 </div>
