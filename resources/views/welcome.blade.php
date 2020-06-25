@@ -6,9 +6,9 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="text-content">
-                            <h3>
+                            <h4>
                                Featured
-                            </h3>
+                            </h4>
                         </div>
                     </div>
                 </div>
