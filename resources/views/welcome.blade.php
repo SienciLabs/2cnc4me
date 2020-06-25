@@ -165,7 +165,7 @@
                 </div>
                 <div class="col-lg-8">
                     <div class="all-blog-posts">
-                        <div class="sidebar-heading" style="padding-top: 45px;">
+                        <div class="sidebar-heading" style="padding-top: 45px; padding-bottom: 15px;">
                             <h4>
                                 Projects
                             </h4>
@@ -230,9 +230,9 @@
                 </div>
                 <div class="col-lg-8">
                     <div class="all-blog-posts">
-                        <div class="sidebar-heading" style="padding-top: 45px;">
+                        <div class="sidebar-heading" style="padding-top: 45px;padding-bottom: 40px;">
                             <h4>
-                                Projects
+                                Collections
                             </h4>
                         </div>
                         <div class="row">
