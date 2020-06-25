@@ -1,4 +1,3 @@
 <x-app>
-    @include('components.partials.headers.loggedIn')
-    Welcome Home!
+    Welcome To Home Page!
 </x-app>
