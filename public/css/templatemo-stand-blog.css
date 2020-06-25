@@ -270,8 +270,8 @@ body {
   /* Banner Style */
   .main-banner .container-fluid {
       padding-top: 0px;
-      padding-right: 265px;
-      padding-left: 360px;
+/*      padding-right: 265px;
+      padding-left: 360px;*/
       padding-bottom: 0px;
       margin-bottom: -24px;
 
