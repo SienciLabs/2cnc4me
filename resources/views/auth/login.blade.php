@@ -6,27 +6,50 @@
         <div class="row">
             <div class="col-md-6 login-form-1">
                 <h3>Login</h3>
-                <form>
+                <form method="POST" action="{{ route('login') }}">
+                    @csrf
                     <div class="form-group">
-                        <label>Username</label>
-                        <input type="text" class="form-control" placeholder="Username or Email" value="" />
+                        <label>Email</label>
+                        <input id = "email" name="email" type="email" class="form-control @error('email') is-invalid @enderror" placeholder="Email" value="{{ old('email') }}" required autocomplete="email" autofocus />
+                        @error('email')
+                        <span class="invalid-feedback" role="alert">
+                            <strong>{{ $message }}</strong>
+                        </span>
+                        @enderror
                     </div>
                     <div class="form-group">
                         <label>Password</label>
-                        <input type="password" class="form-control" placeholder="Password" value="" />
+                        <input id ="password" name = "password" type="password" class="form-control @error('password') is-invalid @enderror" placeholder="Password" required autocomplete="current-password"/>
+                        @error('password')
+                        <span class="invalid-feedback" role="alert">
+                            <strong>{{ $message }}</strong>
+                        </span>
+                        @enderror
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
+
+                        <label class="form-check-label" for="remember">
+                            {{ __('Remember Me') }}
+                        </label>
                     </div>
                     <div class="form-group">
                         <input type="submit" class="btnSubmit" value="Login" />
                     </div>
                     <div class="form-group">
-                        <a href="#" class="ForgetPwd">Forget Password?</a>
+                        @if (Route::has('password.request'))
+                            <a class="btn btn-link" href="{{ route('password.request') }}">
+                                {{ __('Forgot Your Password?') }}
+                            </a>
+                        @endif
                     </div>
                 </form>
             </div>
             <div class="col-md-6 login-form-2">
                 <h3>Sign Up</h3>
-                <form>
-                    <div class="form-group">
+                <form method="POST" action="{{ route('register') }}">
+
+                <div class="form-group">
                         <label>Username</label>
                         <input type="text" class="form-control" placeholder="Minimum 8 characters" value="" />
                     </div>
