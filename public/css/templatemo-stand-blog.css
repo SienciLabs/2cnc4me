@@ -354,7 +354,7 @@ body {
   }
 
   .owl-banner .owl-nav button span {
-	  color: #fff;
+	  color: transparent;
 	  font-size: 36px;
 	  width: 60px;
 	  height: 60px;
