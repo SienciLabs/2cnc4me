@@ -268,7 +268,7 @@ body {
 	  font-family: 'FontAwesome';
   }
 
-  li a, .dropbtn {
+  .dropbtn {
     display: inline-block;
     color: white;
     text-align: center;
