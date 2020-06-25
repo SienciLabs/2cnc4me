@@ -7,7 +7,7 @@
                     <div class="col-lg-12">
                         <div class="text-content">
                             <h3 style="color: black;">
-                                Categories
+                                Collections
                             </h3>
                         </div>
                     </div>
@@ -89,3 +89,4 @@
 
     </div>
 </x-app>
+

@@ -34,7 +34,7 @@
                         </label>
                     </div>
                     <div class="form-group">
-                        <input type="submit" class="btnSubmit" value="Login" />
+                        <a href="{{ url('home') }}"><input type="submit" class="btnSubmit" value="Login"/></a>
                     </div>
                     <div class="form-group">
                         @if (Route::has('password.request'))
