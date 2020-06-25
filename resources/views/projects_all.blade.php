@@ -7,7 +7,7 @@
                     <div class="col-lg-12">
                         <div class="text-content">
                             <h4>
-                                Featured
+                                Project
                             </h4>
                         </div>
                     </div>
