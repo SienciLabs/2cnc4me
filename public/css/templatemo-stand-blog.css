@@ -54,9 +54,8 @@ body {
 
   .page-heading {
 	  margin: 0px 10px;
-	  padding: 90px 0px;
-	  text-align: left;
-
+      text-align: left;
+      padding: 90px 0px 35px;
   }
 
   .page-heading .text-content h4 {
