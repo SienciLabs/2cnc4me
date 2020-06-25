@@ -162,12 +162,12 @@
                 </div>
                 <div class="col-lg-8">
                     <div class="all-blog-posts">
+                        <div class="sidebar-heading">
+                            <h4>
+                                Projects
+                            </h4>
+                        </div>
                         <div class="row">
-                            <div class="sidebar-heading">
-                                <h4>
-                                    Projects
-                                </h4>
-                            </div>
                             <div class="col-lg-6">
                                 <div class="blog-post">
                                     <div class="blog-thumb">
