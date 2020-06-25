@@ -162,7 +162,7 @@
                 </div>
                 <div class="col-lg-8">
                     <div class="all-blog-posts">
-                        <div class="sidebar-heading">
+                        <div class="sidebar-heading" style="padding-top: 45px;">
                             <h4>
                                 Projects
                             </h4>
