@@ -1,5 +1,4 @@
 <x-app>
-    @include('components.partials.headers.neutral')
 
     <!-- Featured Header -->
     <div class="heading-page header-text">

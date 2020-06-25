@@ -28,7 +28,7 @@
     @else
         @include('components.partials.headers.neutral')
     @endif--}}
-
+    @include('components.partials.headers.neutral')
     {{ $slot }}
 
     {{-- Footers --}}
