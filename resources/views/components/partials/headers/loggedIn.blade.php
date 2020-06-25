@@ -20,11 +20,20 @@
                         <a class="nav-link" href="../blog.html">Collections</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../post-details.html">Add</a>
+                        <div class="dropdown">
+                            <button class="dropbtn">
+                                Dropdown <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <a href="#">Add New Collection</a>
+                                <a href="#">Add New Project</a>
+                            </div>
+                        </div>
                     </li>
+
+{{--                        <a class="nav-link" href="../post-details.html">Add</a>--}}
                     <li class="nav-item">
                         <a class="nav-link" href="../post-details.html">Profile</a>
-                    </li>
                     </li>
                 </ul>
             </div>
