@@ -1,43 +1,21 @@
 <x-app>
+{{--    Feature header and banner--}}
+    <div class="heading-page header-text">
+        <section class="page-heading">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="text-content">
+                            <h4>
+                               Featured
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Banner Starts Here -->
 
-    {{--<div class="container">
-        <div class="card-deck" style="padding: 30px">
-            <div class="card">
-                <img alt="Card image cap" class="card-img-top" src="https://api.adorable.io/avatars/285/abott@adorable.pngCopy to Clipboard
-                ">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
-                <div class="card-footer">
-                    <small class="text-muted">Last updated 3 mins ago</small>
-                </div>
-            </div>
-            <div class="card">
-                <img alt="Card image cap" class="card-img-top" src="https://api.adorable.io/avatars/285/abott@adorable.pngCopy to Clipboard
-                ">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                </div>
-                <div class="card-footer">
-                    <small class="text-muted">Last updated 3 mins ago</small>
-                </div>
-            </div>
-            <div class="card">
-                <img alt="Card image cap" class="card-img-top" src="https://api.adorable.io/avatars/285/abott@adorable.pngCopy to Clipboard
-                ">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                </div>
-                <div class="card-footer">
-                    <small class="text-muted">Last updated 3 mins ago</small>
-                </div>
-            </div>
-        </div>
-    </div>--}}
-    <!-- Banner Starts Here -->
         <div class="main-banner header-text">
             <div class="container-fluid">
                 <div class="owl-banner owl-carousel">
@@ -153,4 +131,144 @@
             </div>
         </div>
         <!-- Banner Ends Here -->
+    </div>
+
+{{--    Content--}}
+    <div class="blog-post grid-system">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="sidebar">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="sidebar-item categories">
+                                    <div class="sidebar-heading">
+                                        <h2>Categories</h2>
+                                    </div>
+                                    <div class="content">
+                                        <ul>
+                                            <li><a href="#">Furniture</a> </li>
+                                            <li><a href="#">Signs</a> </li>
+                                            <li><a href="#">Joinery</a> </li>
+                                            <li><a href="#">Games</a> </li>
+                                            <li><a href="#">Toys</a> </li>
+                                            <li><a href="#">Sculptures</a> </li>
+                                            <li><a href="#">Kitchen</a> </li>
+                                            <li><a href="#">CNC Mods</a> </li>
+                                            <li><a href="#">Music</a> </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="all-blog-posts">
+                        <div class="sidebar-heading" style="padding-top: 45px;">
+                            <h4>
+                                Projects
+                            </h4>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="blog-post">
+                                    <div class="blog-thumb">
+                                        <img src="/images/blog-thumb-01.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="blog-post">
+                                    <div class="blog-thumb">
+                                        <img src="/images/blog-thumb-02.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="blog-post">
+                                    <div class="blog-thumb">
+                                        <img src="/images/blog-thumb-03.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="blog-post">
+                                    <div class="blog-thumb">
+                                        <img src="/images/blog-thumb-04.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="sidebar">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="sidebar-item tags">
+                                    <div class="sidebar-heading">
+                                        <h2>Recent makes</h2>
+                                    </div>
+                                    <div class="content">
+                                        <ul>
+                                            <li><a href="#">Project 1</a></li>
+                                            <li><a href="#">Project 2</a></li>
+                                            <li><a href="#">Project 3</a></li>
+                                            <li><a href="#">Project 4</a></li>
+                                            <li><a href="#">Project 5</a></li>
+                                            <li><a href="#">Project 6</a></li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="all-blog-posts">
+                        <div class="sidebar-heading" style="padding-top: 45px;">
+                            <h4>
+                                Projects
+                            </h4>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="blog-post">
+                                    <div class="blog-thumb">
+                                        <img src="/images/blog-thumb-01.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="blog-post">
+                                    <div class="blog-thumb">
+                                        <img src="/images/blog-thumb-02.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="blog-post">
+                                    <div class="blog-thumb">
+                                        <img src="/images/blog-thumb-03.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="blog-post">
+                                    <div class="blog-thumb">
+                                        <img src="/images/blog-thumb-04.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    </div>
 </x-app>

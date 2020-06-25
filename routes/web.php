@@ -21,6 +21,13 @@ Route::get('/categories', function () {
     return view('categories');
 });
 
+Route::get('/projects', function () {
+    return view('projects_all');
+});
+Route::get('/collections', function () {
+    return view('collections_all');
+});
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

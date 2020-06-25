@@ -8,8 +8,8 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="../index.html">Projects
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url('projects') }}">Projects
                             <span class="sr-only">(current)</span>
                         </a>
                     </li>
@@ -17,7 +17,7 @@
                         <a class="nav-link" href="{{ url('categories') }}">Categories</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../blog.html">Collections</a>
+                        <a class="nav-link" href="{{ url('collections') }}">Collections</a>
                     </li>
                     <li class="nav-item">
                         <a class="btn btn-block login_signupBtn " type="submit" href="{{ route('login') }}">
