@@ -136,7 +136,7 @@
 {{--    Content--}}
     <div class="blog-post grid-system">
         <div class="container">
-            <div class="row">
+            <div class="row-cols-3">
                 <div class="col-lg-4">
                     <div class="sidebar">
                         <div class="row">
