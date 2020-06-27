@@ -7,13 +7,21 @@
                 </div>
                 <div class="content btn-group-vertical">
                     <ul>
-                        <li> <button type="button" class="btn btn-primary">Apple</button></li>
-                        <li> <button type="button" class="btn btn-primary">Banana</button></li>
-                        <li> <button type="button" class="btn btn-primary">Carrot</button></li>
-                        <li> <button type="button" class="btn btn-primary">Dill</button></li>
-                        <li> <button type="button" class="btn btn-primary">Eggplant</button></li>
-                        <li> <button type="button" class="btn btn-primary">Fruits</button></li>
-                        <li> <button type="button" class="btn btn-primary">Hashbrown</button></li>
+                        <li>
+                            <a href="#" class="btn btn-primary">Signs</a>
+                        </li>
+                        <li>
+                            <a href="#" class="btn btn-primary">Joinery</a>
+                        </li>
+                        <li>
+                            <a href="#" class="btn btn-primary">Games</a>
+                        </li>
+                        <li>
+                            <a href="#" class="btn btn-primary">Toys</a>
+                        </li>
+                        <li>
+                            <a href="#" class="btn btn-primary">Sculpture</a>
+                        </li>
 {{--                        <li><a href="#">Signs</a> </li>
                         <li><a href="#">Joinery</a> </li>
                         <li><a href="#">Games</a> </li>
