@@ -13,5 +13,6 @@
 <!-- Additional CSS Files -->
 <link href= "{{ asset('/css/fonts/fontawesome.css') }}" rel="stylesheet">
 <link href= "{{ asset('/css/templatemo-stand-blog.css') }}" rel="stylesheet">
+<link href= "{{ asset('/css/main.css') }}" rel="stylesheet">
 <link href= "{{ asset('/css/owl.css') }}" rel="stylesheet">
 <!--
