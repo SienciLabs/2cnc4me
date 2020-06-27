@@ -220,7 +220,7 @@
                                 <div class="carousel-inner" role="listbox">
                                     <div class="carousel-item py-5 active">
                                         <div class="row">
-                                            <div class="col-sm-3">
+                                            <div class="col">
                                                 <div class="card">
                                                     <div class="card-body">
                                                         <h4 class="card-title">Card 1</h4>
@@ -229,7 +229,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-sm-3">
+                                            <div class="col">
                                                 <div class="card">
                                                     <div class="card-body">
                                                         <h4 class="card-title">Card 2</h4>
@@ -238,19 +238,21 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-sm-3">
+                                        </div>
+                                        <div class="row">
+                                            <div class="col">
                                                 <div class="card">
                                                     <div class="card-body">
-                                                        <h4 class="card-title">Card 3</h4>
+                                                        <h4 class="card-title">Card 1</h4>
                                                         <p class="card-text">Some make up the bulk of the card's content.</p>
                                                         <a href="#" class="btn btn-primary">Button</a>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-sm-3">
+                                            <div class="col">
                                                 <div class="card">
                                                     <div class="card-body">
-                                                        <h4 class="card-title">Card 4</h4>
+                                                        <h4 class="card-title">Card 2</h4>
                                                         <p class="card-text">Some make up the bulk of the card's content.</p>
                                                         <a href="#" class="btn btn-primary">Button</a>
                                                     </div>
