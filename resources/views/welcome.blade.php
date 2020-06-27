@@ -214,6 +214,13 @@
                                         <div class="col-lg-6">
                                             <div class="blog-post">
                                                 <div class="blog-thumb">
+                                                    <img src="/images/blog-thumb-04.jpg" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="blog-post">
+                                                <div class="blog-thumb">
                                                     <img src="/images/blog-thumb-02.jpg" alt="">
                                                 </div>
                                             </div>
@@ -222,13 +229,6 @@
                                             <div class="blog-post">
                                                 <div class="blog-thumb">
                                                     <img src="/images/blog-thumb-03.jpg" alt="">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div class="blog-post">
-                                                <div class="blog-thumb">
-                                                    <img src="/images/blog-thumb-04.jpg" alt="">
                                                 </div>
                                             </div>
                                         </div>
@@ -244,6 +244,13 @@
                                         <div class="col-lg-6">
                                             <div class="blog-post">
                                                 <div class="blog-thumb">
+                                                    <img src="/images/blog-thumb-04.jpg" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="blog-post">
+                                                <div class="blog-thumb">
                                                     <img src="/images/blog-thumb-02.jpg" alt="">
                                                 </div>
                                             </div>
@@ -252,13 +259,6 @@
                                             <div class="blog-post">
                                                 <div class="blog-thumb">
                                                     <img src="/images/blog-thumb-03.jpg" alt="">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div class="blog-post">
-                                                <div class="blog-thumb">
-                                                    <img src="/images/blog-thumb-04.jpg" alt="">
                                                 </div>
                                             </div>
                                         </div>
