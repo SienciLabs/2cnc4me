@@ -80,7 +80,7 @@ footer p {
 }
 .carousel-control-prev,
 .carousel-control-next{
-    top: 100%;
+padding-top: 20px
 }
 
 
