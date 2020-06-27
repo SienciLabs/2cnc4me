@@ -171,28 +171,28 @@
                             </h4>
                         </div>
                         <div class="row">
-                            <div class="col">
+                            <div class="col-lg-6">
                                 <div class="blog-post">
                                     <div class="blog-thumb">
                                         <img src="/images/blog-thumb-01.jpg" alt="">
                                     </div>
                                 </div>
                             </div>
-                            <div class="col">
+                            <div class="col-lg-6">
                                 <div class="blog-post">
                                     <div class="blog-thumb">
                                         <img src="/images/blog-thumb-02.jpg" alt="">
                                     </div>
                                 </div>
                             </div>
-                            <div class="col">
+                            <div class="col-lg-6">
                                 <div class="blog-post">
                                     <div class="blog-thumb">
                                         <img src="/images/blog-thumb-03.jpg" alt="">
                                     </div>
                                 </div>
                             </div>
-                            <div class="col">
+                            <div class="col-lg-6">
                                 <div class="blog-post">
                                     <div class="blog-thumb">
                                         <img src="/images/blog-thumb-04.jpg" alt="">
