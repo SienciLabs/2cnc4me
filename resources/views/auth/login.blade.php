@@ -45,55 +45,7 @@
                     </div>
                 </form>
             </div>
-            <div class="col-md-6 login-form-2">
-                <h3>Sign Up</h3>
-                <form method="POST" action="{{ route('register') }}">
-                @csrf
-                <div class="form-group">
-                    <label>Username</label>
-                    <input id="name" type="text" class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required autocomplete="name" autofocus>
-
-                    @error('name')
-                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                    @enderror
-                </div>
-                    <div class="form-group">
-                        <label>Email</label>
-                        <!--<input type="text" class="form-control" placeholder="email@example.com" value="" /> -->
-                        <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email">
-
-                        @error('email')
-                        <span class="invalid-feedback" role="alert">
-                            <strong>{{ $message }}</strong>
-                        </span>
-                        @enderror
-                    </div>
-                    <div class="form-group">
-                        <label>Password</label>
-                        <!--<input type="password" class="form-control" placeholder="Minimum 8 characters" value="" />-->
-                        <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="new-password">
-
-                        @error('password')
-                        <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                        @enderror
-                    </div>
-                    <div class="form-group">
-                        <label>Confirm Password</label>
-                        <!-- <input type="password" class="form-control" placeholder="Minimum 8 characters" value="" /> -->
-                        <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required autocomplete="new-password">
-                    </div>
-                    <div class="form-group">
-                        <input type="submit" class="btnSubmit" value="Sign Up" />
-                    </div>
-                    <div class="form-group">
-                        <a href="#" class="ForgetPwd" value="Login">Terms and Conditions</a>
-                    </div>
-                </form>
-            </div>
+            @include('auth.register')
         </div>
     </div>
     {{-- Login Javascript footers --}}
