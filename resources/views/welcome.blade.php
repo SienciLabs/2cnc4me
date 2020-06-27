@@ -256,8 +256,9 @@
                                 </div>
                             </div>
                         </div>
+{{--                        Carousel Controls--}}
                         <div class="row justify-content-end">
-                            <div class="col" style="margin-left: auto">
+                            <div class="col" style="margin-left: 80%">
                                 <a class="carousel-control-prev text-dark" href="#projectCarousel" role="button" data-slide="prev">
                                     <span class="fa fa-chevron-left" aria-hidden="true"></span>
                                     <span class="sr-only">Previous</span>
@@ -392,13 +393,17 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col">
-                                <a class="carousel-control-prev text-dark" href="#collectionsCarousel" role="button" data-slide="prev">
+{{--                        Carousel Control--}}
+                        <div class="row justify-content-end">
+                            <div class="col" style="margin-left: 80%">
+                                <a class="carousel-control-prev text-dark" href="#projectCarousel" role="button" data-slide="prev">
                                     <span class="fa fa-chevron-left" aria-hidden="true"></span>
                                     <span class="sr-only">Previous</span>
                                 </a>
-                                <a class="carousel-control-next text-dark" href="#collectionsCarousel" role="button" data-slide="next">
+
+                            </div>
+                            <div class="col">
+                                <a class="carousel-control-next text-dark" href="#projectCarousel" role="button" data-slide="next">
                                     <span class="fa fa-chevron-right" aria-hidden="true"></span>
                                     <span class="sr-only">Next</span>
                                 </a>
