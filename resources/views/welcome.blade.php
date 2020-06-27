@@ -220,7 +220,7 @@
                                 <div class="carousel-inner" role="listbox">
                                     <div class="carousel-item py-5 active">
                                         <div class="row">
-                                            <div class="col">
+                                            <div class="col-lg-6">
                                                 <div class="card">
                                                     <div class="card-body">
                                                         <h4 class="card-title">Card 1</h4>
@@ -229,7 +229,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col">
+                                            <div class="col-lg-6">
                                                 <div class="card">
                                                     <div class="card-body">
                                                         <h4 class="card-title">Card 2</h4>
@@ -240,7 +240,7 @@
                                             </div>
                                         </div>
                                         <div class="row">
-                                            <div class="col">
+                                            <div class="col-lg-6">
                                                 <div class="card">
                                                     <div class="card-body">
                                                         <h4 class="card-title">Card 1</h4>
@@ -249,7 +249,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col">
+                                            <div class="col-lg-6">
                                                 <div class="card">
                                                     <div class="card-body">
                                                         <h4 class="card-title">Card 2</h4>
