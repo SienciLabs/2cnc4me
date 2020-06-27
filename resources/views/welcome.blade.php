@@ -171,7 +171,7 @@
                             </h4>
                         </div>
                         <div class="row">
-                            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                            <div id="carouselExampleControls" class="carousel" data-ride="carousel">
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
                                         <div class="col-lg-6">
