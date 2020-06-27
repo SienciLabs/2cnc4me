@@ -250,7 +250,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="carousel-item active">
+                                    <div class="carousel-item">
                                         <div class="row carouselRow">
                                             <div class="col-lg-6">
                                                 <div class="card">
