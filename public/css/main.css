@@ -74,13 +74,10 @@ footer p {
     padding-bottom: 20px;
 }
 
-.carousel-control-prev
-{
-    left: 80%;
-}
 .carousel-control-prev,
 .carousel-control-next{
-padding-top: 20px
+    position: inherit;
+
 }
 
 
