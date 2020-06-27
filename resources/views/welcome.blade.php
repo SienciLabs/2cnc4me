@@ -170,95 +170,101 @@
                                 Projects
                             </h4>
                         </div>
-                        <div class="container">
+                        <div class="row">
                             <div id="carouselExampleControls" class="carousel" data-ride="carousel">
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                        <div class="col-lg-6">
-                                            <div class="blog-post">
-                                                <div class="blog-thumb">
-                                                    <img src="/images/blog-thumb-01.jpg" alt="">
+                                        <div class="row">
+                                            <div class="col">
+                                                <div class="blog-post">
+                                                    <div class="blog-thumb">
+                                                        <img src="/images/blog-thumb-01.jpg" alt="">
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div class="blog-post">
-                                                <div class="blog-thumb">
-                                                    <img src="/images/blog-thumb-02.jpg" alt="">
+                                            <div class="col">
+                                                <div class="blog-post">
+                                                    <div class="blog-thumb">
+                                                        <img src="/images/blog-thumb-02.jpg" alt="">
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div class="blog-post">
-                                                <div class="blog-thumb">
-                                                    <img src="/images/blog-thumb-03.jpg" alt="">
+                                            <div class="col">
+                                                <div class="blog-post">
+                                                    <div class="blog-thumb">
+                                                        <img src="/images/blog-thumb-03.jpg" alt="">
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div class="blog-post">
-                                                <div class="blog-thumb">
-                                                    <img src="/images/blog-thumb-04.jpg" alt="">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <div class="col-lg-6">
-                                            <div class="blog-post">
-                                                <div class="blog-thumb">
-                                                    <img src="/images/blog-thumb-01.jpg" alt="">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div class="blog-post">
-                                                <div class="blog-thumb">
-                                                    <img src="/images/blog-thumb-04.jpg" alt="">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div class="blog-post">
-                                                <div class="blog-thumb">
-                                                    <img src="/images/blog-thumb-02.jpg" alt="">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div class="blog-post">
-                                                <div class="blog-thumb">
-                                                    <img src="/images/blog-thumb-03.jpg" alt="">
+                                            <div class="col">
+                                                <div class="blog-post">
+                                                    <div class="blog-thumb">
+                                                        <img src="/images/blog-thumb-04.jpg" alt="">
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="carousel-item">
-                                        <div class="col-lg-6">
-                                            <div class="blog-post">
-                                                <div class="blog-thumb">
-                                                    <img src="/images/blog-thumb-01.jpg" alt="">
+                                        <div class="row">
+                                            <div class="col">
+                                                <div class="blog-post">
+                                                    <div class="blog-thumb">
+                                                        <img src="/images/blog-thumb-04.jpg" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <div class="blog-post">
+                                                    <div class="blog-thumb">
+                                                        <img src="/images/blog-thumb-04.jpg" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <div class="blog-post">
+                                                    <div class="blog-thumb">
+                                                        <img src="/images/blog-thumb-02.jpg" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <div class="blog-post">
+                                                    <div class="blog-thumb">
+                                                        <img src="/images/blog-thumb-03.jpg" alt="">
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-6">
-                                            <div class="blog-post">
-                                                <div class="blog-thumb">
-                                                    <img src="/images/blog-thumb-04.jpg" alt="">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="row">
+                                            <div class="col">
+                                                <div class="blog-post">
+                                                    <div class="blog-thumb">
+                                                        <img src="/images/blog-thumb-01.jpg" alt="">
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div class="blog-post">
-                                                <div class="blog-thumb">
-                                                    <img src="/images/blog-thumb-02.jpg" alt="">
+                                            <div class="col">
+                                                <div class="blog-post">
+                                                    <div class="blog-thumb">
+                                                        <img src="/images/blog-thumb-04.jpg" alt="">
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div class="blog-post">
-                                                <div class="blog-thumb">
-                                                    <img src="/images/blog-thumb-03.jpg" alt="">
+                                            <div class="col">
+                                                <div class="blog-post">
+                                                    <div class="blog-thumb">
+                                                        <img src="/images/blog-thumb-02.jpg" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <div class="blog-post">
+                                                    <div class="blog-thumb">
+                                                        <img src="/images/blog-thumb-03.jpg" alt="">
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
