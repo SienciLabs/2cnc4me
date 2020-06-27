@@ -171,21 +171,7 @@
                             </h4>
                         </div>
                         <div class="row">
-                            <div>
-                                <div class="row">
-                                    <div class="col-12">
-                                        <a class="carousel-control-prev text-dark" href="#projectCarousel" role="button" data-slide="prev">
-                                            <span class="fa fa-chevron-left" aria-hidden="true"></span>
-                                            <span class="sr-only">Previous</span>
-                                        </a>
-                                        <a class="carousel-control-next text-dark" href="projectCarousel" role="button" data-slide="next">
-                                            <span class="fa fa-chevron-right" aria-hidden="true"></span>
-                                            <span class="sr-only">Next</span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-{{--                            <div class="col-lg-6">
+                            <div class="col-lg-6">
                                 <div class="blog-post">
                                     <div class="blog-thumb">
                                         <img src="/images/blog-thumb-01.jpg" alt="">
@@ -212,7 +198,20 @@
                                         <img src="/images/blog-thumb-04.jpg" alt="">
                                     </div>
                                 </div>
-                            </div>--}}
+                            </div>
+
+                            <div class="row">
+                                <div class="col-12">
+                                    <a class="carousel-control-prev text-dark" href="#projectCarousel" role="button" data-slide="prev">
+                                        <span class="fa fa-chevron-left" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next text-dark" href="projectCarousel" role="button" data-slide="next">
+                                        <span class="fa fa-chevron-right" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
