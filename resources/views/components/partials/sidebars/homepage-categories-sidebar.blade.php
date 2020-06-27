@@ -5,17 +5,23 @@
                 <div class="sidebar-heading">
                     <h2>Categories</h2>
                 </div>
-                <div class="content">
+                <div class="content btn-group-vertical">
                     <ul>
-                        <li><a href="#">Furniture</a> </li>
-                        <li><a href="#">Signs</a> </li>
+                        <li> <button type="button" class="btn btn-primary">Apple</button></li>
+                        <li> <button type="button" class="btn btn-primary">Banana</button></li>
+                        <li> <button type="button" class="btn btn-primary">Carrot</button></li>
+                        <li> <button type="button" class="btn btn-primary">Dill</button></li>
+                        <li> <button type="button" class="btn btn-primary">Eggplant</button></li>
+                        <li> <button type="button" class="btn btn-primary">Fruits</button></li>
+                        <li> <button type="button" class="btn btn-primary">Hashbrown</button></li>
+{{--                        <li><a href="#">Signs</a> </li>
                         <li><a href="#">Joinery</a> </li>
                         <li><a href="#">Games</a> </li>
                         <li><a href="#">Toys</a> </li>
                         <li><a href="#">Sculptures</a> </li>
                         <li><a href="#">Kitchen</a> </li>
                         <li><a href="#">CNC Mods</a> </li>
-                        <li><a href="#">Music</a> </li>
+                        <li><a href="#">Music</a> </li>--}}
                     </ul>
                 </div>
             </div>
