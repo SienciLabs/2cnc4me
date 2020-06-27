@@ -172,7 +172,7 @@
                         </div>
                         {{--Carousel start--}}
                         <div class="row mx-auto my-auto">
-                            <div id="projectCarousel" class="carousel slide w-100" data-ride="carousel">
+                            <div id="collectionsCarousel" class="carousel slide w-100" data-ride="carousel">
                                 <div class="carousel-inner" role="listbox">
                                     <div class="carousel-item active">
                                         <div class="row carouselRow">
