@@ -218,7 +218,7 @@
                         <div class="row mx-auto my-auto">
                             <div id="myCarousel" class="carousel slide w-100" data-ride="carousel">
                                 <div class="carousel-inner" role="listbox">
-                                    <div class="carousel-item py-5 active">
+                                    <div class="carousel-item active">
                                         <div class="row">
                                             <div class="col-lg-6">
                                                 <div class="card">
