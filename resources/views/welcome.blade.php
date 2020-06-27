@@ -219,7 +219,7 @@
                             <div id="myCarousel" class="carousel slide w-100" data-ride="carousel">
                                 <div class="carousel-inner" role="listbox">
                                     <div class="carousel-item active">
-                                        <div class="row justify-content-center">
+                                        <div class="row carouselRow">
                                             <div class="col-lg-6">
                                                 <div class="card">
                                                     <div class="card-body">
@@ -239,7 +239,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="row justify-content-center">
+                                        <div class="row carouselRow">
                                             <div class="col-lg-6">
                                                 <div class="card">
                                                     <div class="card-body">
