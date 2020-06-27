@@ -74,4 +74,13 @@ footer p {
     padding-bottom: 20px;
 }
 
+.carousel-control-prev
+{
+    left: 80%;
+}
+.carousel-control-prev,
+.carousel-control-next{
+    top: 100%;
+}
+
 
