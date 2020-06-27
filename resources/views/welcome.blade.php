@@ -170,7 +170,7 @@
                                 Projects
                             </h4>
                         </div>
-                        <div class="row">
+                        <div class="container">
                             <div id="carouselExampleControls" class="carousel" data-ride="carousel">
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
