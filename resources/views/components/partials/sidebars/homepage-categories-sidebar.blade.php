@@ -9,7 +9,7 @@
                     <ul>
                         <li>
                             <button class="btn">
-                                <i class="/images/icons/searchIcon.svg"></i>Joinery
+                                <i class="{{ asset('/images/icons/searchIcon.svg') }}"></i>Joinery
                             </button>
                         </li>
                         <li>
