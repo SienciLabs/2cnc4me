@@ -9,7 +9,8 @@
                     <ul>
                         <li>
                             <button class="btn">
-                                <img class="icon" src="{{ asset('/images/icons/searchIcon.svg') }}">Joinery
+                                <img class="icon" src="{{ asset('/images/icons/searchIcon.svg') }}" title="Joinery">
+                                <!--Joinery-->
                             </button>
                         </li>
                         <li>
