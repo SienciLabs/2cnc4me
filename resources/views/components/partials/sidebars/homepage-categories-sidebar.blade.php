@@ -5,22 +5,22 @@
                 <div class="sidebar-heading">
                     <h2>Categories</h2>
                 </div>
-                <div class="content btn-group-vertical">
+                <div class="col">
                     <ul>
                         <li>
-                            <button class="btn"><i class="fa fa-home"></i>Home</button>
+                            <button class="btn">
+                                <i class="/images/icons/searchIcon.svg"></i>Joinery
+                            </button>
                         </li>
                         <li>
-                            <a href="#" class="btn btn-primary">Joinery</a>
+                            <button class="btn">
+                                <i class="fa fa-home"></i>Signs
+                            </button>
                         </li>
                         <li>
-                            <a href="#" class="btn btn-primary">Games</a>
-                        </li>
-                        <li>
-                            <a href="#" class="btn btn-primary">Toys</a>
-                        </li>
-                        <li>
-                            <a href="#" class="btn btn-primary">Sculpture</a>
+                            <button class="btn">
+                                <i class="fa fa-home"></i>Games
+                            </button>
                         </li>
 
 {{--                        <li><a href="#">Signs</a> </li>
