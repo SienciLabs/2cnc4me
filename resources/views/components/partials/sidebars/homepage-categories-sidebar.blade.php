@@ -8,9 +8,9 @@
                 <div class="col">
                     <ul>
                         <li>
-                            <button class="btn">
+                            <button class="btn" style="height: 36px">
                                 <img class="icon" src="{{ asset('/images/icons/searchIcon.svg') }}" title="Joinery">
-                                <!--Joinery-->
+                                Joinery
                             </button>
                         </li>
                         <li>
