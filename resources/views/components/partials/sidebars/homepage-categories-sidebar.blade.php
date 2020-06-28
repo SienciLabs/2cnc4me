@@ -8,7 +8,9 @@
                 <div class="content btn-group-vertical">
                     <ul>
                         <li>
-                            <a href="#" class="btn btn-primary">Signs</a>
+                            <span class="fa fa-home" aria-hidden="true">
+                                <a href="#" class="btn btn-primary">Furniture</a>
+                            </span>
                         </li>
                         <li>
                             <a href="#" class="btn btn-primary">Joinery</a>
