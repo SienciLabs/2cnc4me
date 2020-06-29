@@ -109,6 +109,9 @@ footer p {
 .category-cards-body{
     background-color: #363636;
 }
+.card-img-top{
+    height: 300px !important;
+}
 .category-card-title {
     text-align: center;
     color: white;
