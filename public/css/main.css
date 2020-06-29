@@ -119,3 +119,8 @@ footer p {
     color: white;
     font-size: 25px;
 }
+
+a.category-cards,
+a.category-cards:hover {
+    color: inherit;
+}
