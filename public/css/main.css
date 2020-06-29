@@ -86,12 +86,10 @@ footer p {
     padding-right: 10px;
 }
 .category-list{
+    background-color: #DFDFDF;
     padding: 10px 10px 10px;
     text-align: center;
     color: black;
-}
-.category-anchor{
-    background-color: #DFDFDF;
-
+    margin-bottom: 20px;
 }
 
