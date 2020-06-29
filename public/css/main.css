@@ -80,6 +80,7 @@ footer p {
 
 }
 
+/* Side Panel CSS */
 .category-icon
 {
     width: 15%;
@@ -98,3 +99,22 @@ footer p {
     display: block;
     width: 100%;
     height: 100%;}
+
+
+/* Cards */
+.category-card-deck{
+    padding: 30px 350px 30px 360px;
+}
+
+.category-cards-body{
+    background-color: #363636;
+}
+.card-img-top{
+    height: 300px !important;
+}
+.category-card-title {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+

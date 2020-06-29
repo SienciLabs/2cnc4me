@@ -16,76 +16,87 @@
         </section>
     </div>
 
-    <div class="card-deck" style="padding: 30px 350px 30px 360px;">
-        <div class="card">
-            <img alt="Card image cap" class="card-img-top" src="https://api.adorable.io/avatars/285/abott@adorable.pngCopy to Clipboard
-                ">
-            <div class="card-body">
-                <h5 class="card-title" style="text-align: center">Title</h5>
-            </div>
+    {{--  Card Deck --}}
+    <div class="card-deck category-card-deck">
+        <div class="card category-cards">
+            <a href="#" class="stretched-link">
+                <img alt="Card image cap" class="card-img-top" src="https://api.adorable.io/avatars/285/abott@adorable.png">
+                <div class="card-body category-cards-body">
+                        <h5 class="category-card-title"> Joinery </h5>
+                </div>
+            </a>
         </div>
-        <div class="card">
-            <img alt="Card image cap" class="card-img-top" src="https://api.adorable.io/avatars/285/abott@adorable.pngCopy to Clipboard
-                ">
-            <div class="card-body">
-                <h5 class="card-title" style="text-align: center">Title</h5>
-            </div>
+        <div class="card category-cards">
+            <a href="#" class="stretched-link">
+                <img alt="Card image cap" class="card-img-top" src="https://api.adorable.io/avatars/285/abott@adorable.png">
+                <div class="card-body category-cards-body">
+                    <h5 class="category-card-title"> Furniture </h5>
+                </div>
+            </a>
         </div>
-        <div class="card">
-            <img alt="Card image cap" class="card-img-top" src="https://api.adorable.io/avatars/285/abott@adorable.pngCopy to Clipboard
-                ">
-            <div class="card-body">
-                <h5 class="card-title" style="text-align: center">Title</h5>
-            </div>
+        <div class="card category-cards">
+            <a href="#" class="stretched-link">
+                <img alt="Card image cap" class="card-img-top" src="https://api.adorable.io/avatars/285/abott@adorable.png">
+                <div class="card-body category-cards-body">
+                    <h5 class="category-card-title"> Signs </h5>
+                </div>
+            </a>
         </div>
-
     </div>
-    <div class="card-deck" style="padding: 30px 350px 30px 360px;">
-        <div class="card">
-            <img alt="Card image cap" class="card-img-top" src="https://api.adorable.io/avatars/285/abott@adorable.pngCopy to Clipboard
-                ">
-            <div class="card-body">
-                <h5 class="card-title" style="text-align: center">Title</h5>
-            </div>
-        </div>
-        <div class="card">
-            <img alt="Card image cap" class="card-img-top" src="https://api.adorable.io/avatars/285/abott@adorable.pngCopy to Clipboard
-                ">
-            <div class="card-body">
-                <h5 class="card-title" style="text-align: center">Title</h5>
-            </div>
-        </div>
-        <div class="card">
-            <img alt="Card image cap" class="card-img-top" src="https://api.adorable.io/avatars/285/abott@adorable.pngCopy to Clipboard
-                ">
-            <div class="card-body">
-                <h5 class="card-title" style="text-align: center">Title</h5>
-            </div>
-        </div>
 
+    {{--  Card Deck --}}
+    <div class="card-deck category-card-deck">
+        <div class="card category-cards">
+            <a href="#" class="stretched-link">
+                <img alt="Card image cap" class="card-img-top" src="https://api.adorable.io/avatars/285/abott@adorable.png">
+                <div class="card-body category-cards-body">
+                    <h5 class="category-card-title"> Games </h5>
+                </div>
+            </a>
+        </div>
+        <div class="card category-cards">
+            <a href="#" class="stretched-link">
+                <img alt="Card image cap" class="card-img-top" src="https://api.adorable.io/avatars/285/abott@adorable.png">
+                <div class="card-body category-cards-body">
+                    <h5 class="category-card-title"> Toys </h5>
+                </div>
+            </a>
+        </div>
+        <div class="card category-cards">
+            <a href="#" class="stretched-link">
+                <img alt="Card image cap" class="card-img-top" src="https://api.adorable.io/avatars/285/abott@adorable.png">
+                <div class="card-body category-cards-body">
+                    <h5 class="category-card-title"> Sculptures </h5>
+                </div>
+            </a>
+        </div>
     </div>
-    <div class="card-deck" style="padding: 30px 350px 30px 360px;">
-        <div class="card">
-            <img alt="Card image cap" class="card-img-top" src="https://api.adorable.io/avatars/285/abott@adorable.pngCopy to Clipboard
-                ">
-            <div class="card-body">
-                <h5 class="card-title" style="text-align: center">Title</h5>
-            </div>
-        </div>
-        <div class="card">
-            <img alt="Card image cap" class="card-img-top" src="https://api.adorable.io/avatars/285/abott@adorable.pngCopy to Clipboard
-                ">
-            <div class="card-body">
-                <h5 class="card-title" style="text-align: center">Title</h5>
-            </div>
-        </div>
-        <div class="card">
-            <img alt="Card image cap" class="card-img-top" src="https://api.adorable.io/avatars/285/abott@adorable.pngCopy to Clipboard
-                ">
-            <div class="card-body">
-                <h5 class="card-title" style="text-align: center">Title</h5>
-            </div>
-        </div>
 
+    {{--  Card Deck --}}
+    <div class="card-deck category-card-deck">
+        <div class="card category-cards">
+            <a href="#" class="stretched-link">
+                <img alt="Card image cap" class="card-img-top" src="https://api.adorable.io/avatars/285/abott@adorable.png">
+                <div class="card-body category-cards-body">
+                    <h5 class="category-card-title"> Kitchen </h5>
+                </div>
+            </a>
+        </div>
+        <div class="card category-cards">
+            <a href="#" class="stretched-link">
+                <img alt="Card image cap" class="card-img-top" src="https://api.adorable.io/avatars/285/abott@adorable.png">
+                <div class="card-body category-cards-body">
+                    <h5 class="category-card-title"> CNC Mods </h5>
+                </div>
+            </a>
+        </div>
+        <div class="card category-cards">
+            <a href="#" class="stretched-link">
+                <img alt="Card image cap" class="card-img-top" src="https://api.adorable.io/avatars/285/abott@adorable.png">
+                <div class="card-body category-cards-body">
+                    <h5 class="category-card-title"> Music </h5>
+                </div>
+            </a>
+        </div>
     </div>
 </x-app>
