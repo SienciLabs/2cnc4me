@@ -123,4 +123,5 @@ footer p {
 a.category-cards,
 a.category-cards:hover {
     color: inherit;
+    height: 300px;
 }
