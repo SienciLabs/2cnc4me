@@ -90,6 +90,8 @@ footer p {
     padding: 10px 10px 10px;
     text-align: center;
     color: black;
-    margin-bottom: 20px;
 }
 
+.category-list:last-child {
+    margin-bottom: 20px;
+}
