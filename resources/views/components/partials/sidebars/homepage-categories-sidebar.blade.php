@@ -7,12 +7,8 @@
                 </div>
                 <div class="col">
                     <ul>
-                        <li>
-                            <button class="btn" style="height: 36px">
-                                <img class="icon" src="{{ asset('/images/icons/searchIcon.svg') }}" title="Joinery">
-                                Joinery
-                            </button>
-                        </li>
+                        <li><a href="#"><img src="public/images/icons/searchIcon.svg" class="icon">Joinery</a></li>
+
                         <li>
                             <button class="btn">
                                 <i class="fa fa-home"></i>Signs
