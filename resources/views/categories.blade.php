@@ -20,7 +20,7 @@
     <div class="card-deck category-card-deck">
         <div class="card category-cards">
             <img alt="Card image cap" class="card-img-top" src="https://api.adorable.io/avatars/285/abott@adorable.png">
-            <div class="card-body">
+            <div class="card-body category-cards-body">
                 <a href="#" class="card-title category-card-title stretched-link">
                     <h5> Joinery </h5>
                 </a>
