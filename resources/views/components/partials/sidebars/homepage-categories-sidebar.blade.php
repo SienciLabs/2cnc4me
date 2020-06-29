@@ -7,11 +7,14 @@
                 </div>
                 <div class="col">
                     <ul>
-                        <li><a href="#"><img src="/images/icons/category/Furniture.svg" class="icon">Furniture</a></li>
-
+                        <a href="#" >
+                            <li>
+                                <img src="/images/icons/category/Furniture.svg" class="category-icon">Furniture
+                            </li>
+                        </a>
                         <li>
                             <button class="btn">
-                                <i class="fa fa-home"></i>Signs
+                                <i class="fa fa-home"></i>Signsm
                             </button>
                         </li>
                         <li>
