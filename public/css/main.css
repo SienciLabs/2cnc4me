@@ -113,16 +113,3 @@ footer p {
     display: flex;
 }
 
-.category-cards img{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-.category-cards title{
-    text-align: center;
-    background-color: #363636;
-}
-
-
