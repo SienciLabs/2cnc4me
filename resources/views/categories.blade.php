@@ -19,11 +19,11 @@
     {{--  Cards --}}
     <div class="card-deck category-card-deck">
         <div class="card category-cards">
-            <img alt="Card image cap" class="card-img-top" src="https://api.adorable.io/avatars/285/abott@adorable.pngCopy to Clipboard
-                ">
-            <div class="card-body" style="background-color: #363636;">
-                <h5 class="card-title category-card-title">Joinery</h5>
-                <a href="#" class="btn btn-primary stretched-link">Joinery</a>
+            <img alt="Card image cap" class="card-img-top" src="https://api.adorable.io/avatars/285/abott@adorable.png">
+            <div class="card-body">
+                <a href="#" class="card-title category-card-title stretched-link">
+                    <h5> Joinery </h5>
+                </a>
             </div>
         </div>
         <div class="card">

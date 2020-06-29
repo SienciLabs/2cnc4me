@@ -111,6 +111,9 @@ footer p {
     position: relative;
 }
 
+.category-cards-body{
+    background-color: #363636;
+}
 .category-card-title {
     text-align: center;
     color: white;
