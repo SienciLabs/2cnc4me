@@ -18,7 +18,7 @@
 
     {{--  Cards --}}
     <div class="card-deck category-card-deck">
-        <a href="#" class="card-title category-card-title stretched-link">
+        <a href="#" class="stretched-link">
             <div class="card category-cards">
                 <img alt="Card image cap" class="card-img-top" src="https://api.adorable.io/avatars/285/abott@adorable.png">
                 <div class="card-body category-cards-body">
