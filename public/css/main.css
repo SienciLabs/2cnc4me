@@ -92,6 +92,7 @@ footer p {
     color: black;
 }
 
-.category-list:last-child {
+
+.sidebar .categories ul category-list:last-child {
     margin-bottom: 20px;
 }
