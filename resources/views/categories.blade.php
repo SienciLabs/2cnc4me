@@ -21,8 +21,8 @@
         <div class="card category-cards">
             <img alt="Card image cap" class="card-img-top" src="https://api.adorable.io/avatars/285/abott@adorable.png
                 ">
-            <div class="title">
-                <h5 class="card-title">Joinery</h5>
+            <div class="card-title">
+                <h5 class="title">Joinery</h5>
             </div>
         </div>
         <div class="card">
