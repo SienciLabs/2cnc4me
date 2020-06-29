@@ -7,7 +7,7 @@
                 </div>
                 <div class="col">
                     <ul>
-                        <li><a href="#"><img src="/images/icons/searchIcon.svg" class="icon">Joinery</a></li>
+                        <li><a href="#"><img src="/images/icons/category/Furniture" class="icon">Furniture</a></li>
 
                         <li>
                             <button class="btn">
