@@ -18,14 +18,14 @@
 
     {{--  Cards --}}
     <div class="card-deck category-card-deck">
-        <a href="#" class="stretched-link">
-            <div class="card category-cards">
+        <div class="card category-cards">
+            <a href="#" class="stretched-link">
                 <img alt="Card image cap" class="card-img-top" src="https://api.adorable.io/avatars/285/abott@adorable.png">
                 <div class="card-body category-cards-body">
                         <h5 class="category-card-title"> Joinery </h5>
                 </div>
-            </div>
-        </a>
+            </a>
+        </div>
         <div class="card">
             <img alt="Card image cap" class="card-img-top" src="https://api.adorable.io/avatars/285/abott@adorable.pngCopy to Clipboard
                 ">
