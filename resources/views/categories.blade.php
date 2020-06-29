@@ -16,12 +16,13 @@
         </section>
     </div>
 
-    <div class="card-deck" style="padding: 30px 350px 30px 360px;">
-        <div class="card">
-            <img alt="Card image cap" class="card-img-top" src="https://api.adorable.io/avatars/285/abott@adorable.pngCopy to Clipboard
+    {{--  Cards --}}
+    <div class="card-deck category-card-deck">
+        <div class="card category-cards">
+            <img alt="Card image cap" class="card-img-top" src="https://api.adorable.io/avatars/285/abott@adorable.png
                 ">
-            <div class="card-body">
-                <h5 class="card-title" style="text-align: center">Title</h5>
+            <div class="title">
+                <h5 class="card-title">Joinery</h5>
             </div>
         </div>
         <div class="card">
