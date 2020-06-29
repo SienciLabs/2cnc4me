@@ -138,7 +138,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-4">
-                    @include('components.partials.sidebars.homepage-categories-sidebar')
+                    @include('components.partials.sidepanel.homepage-categories-sidepanel')
                 </div>
                 <div class="col-lg-8">
                     <div class="all-blog-posts">
