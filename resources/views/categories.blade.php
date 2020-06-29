@@ -23,6 +23,7 @@
                 ">
             <div class="card-body" style="background-color: #363636;">
                 <h5 class="card-title category-card-title">Joinery</h5>
+                <a href="#" class="btn btn-primary stretched-link">Joinery</a>
             </div>
         </div>
         <div class="card">
