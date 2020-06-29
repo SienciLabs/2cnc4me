@@ -8,7 +8,7 @@
                 <div class="col">
                     <ul>
                         <li class="category-list" href="#">
-                            <img src="/images/icons/category/Furniture.svg" class="category-icon">Furniture
+                            <a href="#"><img src="/images/icons/category/Furniture.svg" class="category-icon">Furniture</a>
                         </li>
                         <li class="category-list" href="#">
                             <img src="/images/icons/category/Signs.svg" class="category-icon">Signs
