@@ -38,6 +38,17 @@
                     </div>
                 </div>
             </div>
+            <hr>
+            <div class="card-footer" style="background-color: #363636">
+                <div class="row" style="color: white">
+                    <div class="col">
+                        Toys & Games
+                    </div>
+                    <div class="col" style="text-align: right">
+                        Add To Collection
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="card">
             <img alt="Card image cap" class="card-img-top" src="https://api.adorable.io/avatars/285/abott@adorable.pngCopy to Clipboard
