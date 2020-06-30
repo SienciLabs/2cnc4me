@@ -126,7 +126,7 @@ footer p {
 }
 .project-card-body {
     height: 60px;
-    background-color: #363636;
+    /*background-color: #363636;*/
     padding-bottom: 15%;
 }
 .project-card-footer{
