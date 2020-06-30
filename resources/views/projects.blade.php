@@ -38,8 +38,8 @@
                     </div>
                 </div>
             </div>
-            <hr>
-            <div class="card-footer" style="background-color: #363636">
+
+            <div class="card-footer">
                 <div class="row" style="color: white">
                     <div class="col">
                         Toys & Games
