@@ -124,6 +124,7 @@ footer p {
 .project-card {
     background-color: #363636;
     border: transparent;
+    color: white;
 }
 .project-card-body {
     height: 60px;
