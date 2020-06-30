@@ -139,6 +139,8 @@ footer p {
     display: none;
 }
 
-project-card:hover project-card-footer{
-    display:block;
+.project-card:hover + .project-card-footer {
+    display: block;
 }
+
+
