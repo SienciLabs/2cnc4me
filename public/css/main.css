@@ -136,7 +136,6 @@ footer p {
     border-top-style: solid;
     border-top-width: 2px;
     font-size: small;
-    display: none;
 }
 
 .project-card:hover + .project-card-footer {
