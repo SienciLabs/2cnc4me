@@ -21,7 +21,14 @@
             <img alt="Card image cap" class="card-img-top" src="https://api.adorable.io/avatars/285/abott@adorable.pngCopy to Clipboard
                 ">
             <div class="card-body">
-                <h5 class="card-title" style="text-align: center">Title</h5>
+                <div class="row">
+                    <div class="col">
+                        Ball Maze
+                    </div>
+                    <div class="col">
+                        38 Likes
+                    </div>
+                </div>
             </div>
         </div>
         <div class="card">
