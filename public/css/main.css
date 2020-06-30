@@ -136,9 +136,9 @@ footer p {
     border-top-style: solid;
     border-top-width: 2px;
     font-size: small;
-    overflow: hidden;
+    display: none;
 }
 
-project-card.project-card-footer:hover {
-    overflow: visible;
+project-card:hover project-card-footer{
+    display:block;
 }
