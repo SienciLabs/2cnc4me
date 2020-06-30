@@ -20,7 +20,7 @@
         <div class="card">
             <img alt="Card image cap" class="card-img-top" src="https://api.adorable.io/avatars/285/abott@adorable.pngCopy to Clipboard
                 ">
-            <div class="card-body" style="height: 60px; background-color: #363636">
+            <div class="card-body project-card-body" style="height: 60px; background-color: #363636">
                 <div class="row" style="color: white">
                     <div class="col">
                         Ball Maze
@@ -39,7 +39,7 @@
                 </div>
             </div>
 
-            <div class="card-footer">
+            <div class="card-footer project-card-footer">
                 <div class="row" style="color: white">
                     <div class="col">
                         Toys & Games
