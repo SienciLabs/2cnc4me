@@ -102,12 +102,14 @@ footer p {
 
 
 /* Cards */
+/*Categories*/
 .category-card-deck{
     padding: 30px 350px 30px 360px;
 }
 
 .category-cards-body{
     background-color: #363636;
+
 }
 .card-img-top{
     height: 300px !important;
@@ -118,3 +120,20 @@ footer p {
     font-size: 25px;
 }
 
+/*Projects*/
+.project-card {
+    background-color: #363636;
+}
+.project-card-body {
+    height: 60px;
+    background-color: #363636;
+    padding-bottom: 15%;
+}
+.project-card-footer{
+    padding: .75rem 1.25rem;
+    border-top: 2px solid white;
+    border-top-color: white;
+    border-top-style: solid;
+    border-top-width: 2px;
+    font-size: small
+}
