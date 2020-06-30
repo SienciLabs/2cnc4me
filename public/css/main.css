@@ -138,8 +138,8 @@ footer p {
     font-size: small;
 }
 
-.project-card:hover + .project-card-footer {
-    display: block;
+.project-card-footer:hover {
+    color: #FF8E3D;
 }
 
 
