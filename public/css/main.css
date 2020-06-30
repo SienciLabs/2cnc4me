@@ -123,10 +123,10 @@ footer p {
 /*Projects*/
 .project-card {
     background-color: #363636;
+    border: transparent;
 }
 .project-card-body {
     height: 60px;
-    /*background-color: #363636;*/
     padding-bottom: 15%;
 }
 .project-card-footer{
@@ -139,6 +139,6 @@ footer p {
     overflow: hidden;
 }
 
-.project-card-footer:hover {
+project-card.project-card-footer:hover {
     overflow: visible;
 }
