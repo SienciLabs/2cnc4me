@@ -37,20 +37,18 @@
                         144 Downloads
                     </div>
                 </div>
+            </div>
 
-                <div class="project-card-footer">
-                    <div class="row" style="color: white">
-                        <div class="col">
-                            Toys & Games
-                        </div>
-                        <div class="col" style="text-align: right">
-                            Add To Collection
-                        </div>
+            <div class="project-card-footer">
+                <div class="row" style="color: white">
+                    <div class="col">
+                        Toys & Games
+                    </div>
+                    <div class="col" style="text-align: right">
+                        Add To Collection
                     </div>
                 </div>
             </div>
-
-
         </div>
         <div class="card">
             <img alt="Card image cap" class="card-img-top" src="https://api.adorable.io/avatars/285/abott@adorable.pngCopy to Clipboard
