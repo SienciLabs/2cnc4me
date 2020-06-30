@@ -39,7 +39,7 @@
                 </div>
             </div>
 
-            <div class="project-card-footer">
+            <div class="card-footer project-card-footer">
                 <div class="row" style="color: white">
                     <div class="col">
                         Toys & Games
