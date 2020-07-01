@@ -68,7 +68,6 @@
                         <div style="float: left;"> By CNCGuy </div>
                         <div style="float: right"> 144 Downloads </div>
                     </div>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
             </div>
         </div>
