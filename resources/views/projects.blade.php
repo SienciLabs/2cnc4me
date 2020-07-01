@@ -78,16 +78,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card-footer project-card-footer">
-                    <div class="row" style="color: white">
-                        <div class="col">
-                            Toys & Games
-                        </div>
-                        <div class="col" style="text-align: right">
-                            Add To Collection
-                        </div>
-                    </div>
-                </div>
+                <a href="#" class="btn btn-primary">Go somewhere New</a>
             </div>
         </div>
 
