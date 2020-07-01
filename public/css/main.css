@@ -152,13 +152,13 @@ footer p {
     max-height: 240px;
 }
 
-.project-card .project-card-body {
+.project-card .project-card-body .row{
     height: 60px;
     position: relative;
     top: 0;
     margin-bottom: -60px;
 }
-.project-card:hover .project-card-body {
+.project-card:hover .project-card-body .row{
     top: -60px;
 }
 
