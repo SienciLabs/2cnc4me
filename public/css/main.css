@@ -151,7 +151,7 @@ footer p {
     -o-transition: all 500ms ease-in-out;
     transition: all 500ms ease-in-out;
 }
-#project-card-wrapper:hover + #project-card-footer {
+#project-card:hover + #project-card-footer {
     opacity: 1.0;
 }
 

@@ -18,8 +18,8 @@
 
     <div class="card-deck" style="padding: 30px 350px 30px 360px;">
 
-        <div class="project-card-wrapper" id="project-card-wrapper">
-            <div class="project-card">
+        <div class="project-card-wrapper">
+            <div class="project-card" id="project-card">
                 <a href="#" class="stretched-link">
                     <img alt="Card image cap" class="card-img-top"
                         src="/images/Ballmaze.JPG">
