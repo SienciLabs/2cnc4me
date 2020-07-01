@@ -154,38 +154,21 @@
                                     <div class="carousel-item active">
                                         <div class="row carouselRow">
                                             <div class="col-lg-6">
-                                                <div class="card">
-                                                    <img class="card-img-top" src="/images/blog-thumb-01.jpg" alt="Card image cap">
-                                                    <div class="card-body">
-                                                        <h4 class="card-text">Card 1</h4>
-                                                    </div>
-                                                </div>
+                                                @include('components.partials.cards.project-cards')
                                             </div>
                                             <div class="col-lg-6">
-                                                <div class="card">
-                                                    <img class="card-img-top" src="/images/blog-thumb-04.jpg" alt="Card image cap">
-                                                    <div class="card-body">
-                                                        <h4 class="card-text">Card 1</h4>
-                                                    </div>
-                                                </div>
+                                                @include('components.partials.cards.project-cards')
+
                                             </div>
                                         </div>
                                         <div class="row carouselRow">
                                             <div class="col-lg-6">
-                                                <div class="card">
-                                                    <img class="card-img-top" src="/images/blog-thumb-02.jpg" alt="Card image cap">
-                                                    <div class="card-body">
-                                                        <h4 class="card-text">Card 1</h4>
-                                                    </div>
-                                                </div>
+                                                @include('components.partials.cards.project-cards')
+
                                             </div>
                                             <div class="col-lg-6">
-                                                <div class="card">
-                                                    <img class="card-img-top" src="/images/blog-thumb-03.jpg" alt="Card image cap">
-                                                    <div class="card-body">
-                                                        <h4 class="card-text">Card 1</h4>
-                                                    </div>
-                                                </div>
+                                                @include('components.partials.cards.project-cards')
+
                                             </div>
                                         </div>
                                     </div>
@@ -193,38 +176,22 @@
                                     <div class="carousel-item">
                                         <div class="row carouselRow">
                                             <div class="col-lg-6">
-                                                <div class="card">
-                                                    <img class="card-img-top" src="/images/blog-thumb-04.jpg" alt="Card image cap">
-                                                    <div class="card-body">
-                                                        <h4 class="card-text">Card 1</h4>
-                                                    </div>
-                                                </div>
+                                                @include('components.partials.cards.project-cards')
+
                                             </div>
                                             <div class="col-lg-6">
-                                                <div class="card">
-                                                    <img class="card-img-top" src="/images/blog-thumb-01.jpg" alt="Card image cap">
-                                                    <div class="card-body">
-                                                        <h4 class="card-text">Card 1</h4>
-                                                    </div>
-                                                </div>
+                                                @include('components.partials.cards.project-cards')
+
                                             </div>
                                         </div>
                                         <div class="row carouselRow">
                                             <div class="col-lg-6">
-                                                <div class="card">
-                                                    <img class="card-img-top" src="/images/blog-thumb-03.jpg" alt="Card image cap">
-                                                    <div class="card-body">
-                                                        <h4 class="card-text">Card 1</h4>
-                                                    </div>
-                                                </div>
+                                                @include('components.partials.cards.project-cards')
+
                                             </div>
                                             <div class="col-lg-6">
-                                                <div class="card">
-                                                    <img class="card-img-top" src="/images/blog-thumb-02.jpg" alt="Card image cap">
-                                                    <div class="card-body">
-                                                        <h4 class="card-text">Card 1</h4>
-                                                    </div>
-                                                </div>
+                                                @include('components.partials.cards.project-cards')
+
                                             </div>
                                         </div>
                                     </div>
@@ -263,12 +230,10 @@
                                     </div>
                                     <div class="content">
                                         <ul>
-                                            <li><a href="#">Project 1</a></li>
-                                            <li><a href="#">Project 2</a></li>
-                                            <li><a href="#">Project 3</a></li>
-                                            <li><a href="#">Project 4</a></li>
-                                            <li><a href="#">Project 5</a></li>
-                                            <li><a href="#">Project 6</a></li>
+                                            @for ($i = 0; $i < 7; $i++)
+                                                @include('components.partials.cards.project-cards')
+                                            @endfor
+
 
                                         </ul>
                                     </div>
@@ -291,38 +256,22 @@
                                     <div class="carousel-item active">
                                         <div class="row carouselRow">
                                             <div class="col-lg-6">
-                                                <div class="card">
-                                                    <img class="card-img-top" src="/images/blog-thumb-01.jpg" alt="Card image cap">
-                                                    <div class="card-body">
-                                                        <h4 class="card-text">Card 1</h4>
-                                                    </div>
-                                                </div>
+                                                @include('components.partials.cards.project-cards')
+
                                             </div>
                                             <div class="col-lg-6">
-                                                <div class="card">
-                                                    <img class="card-img-top" src="/images/blog-thumb-04.jpg" alt="Card image cap">
-                                                    <div class="card-body">
-                                                        <h4 class="card-text">Card 1</h4>
-                                                    </div>
-                                                </div>
+                                                @include('components.partials.cards.project-cards')
+
                                             </div>
                                         </div>
                                         <div class="row carouselRow">
                                             <div class="col-lg-6">
-                                                <div class="card">
-                                                    <img class="card-img-top" src="/images/blog-thumb-02.jpg" alt="Card image cap">
-                                                    <div class="card-body">
-                                                        <h4 class="card-text">Card 1</h4>
-                                                    </div>
-                                                </div>
+                                                @include('components.partials.cards.project-cards')
+
                                             </div>
                                             <div class="col-lg-6">
-                                                <div class="card">
-                                                    <img class="card-img-top" src="/images/blog-thumb-03.jpg" alt="Card image cap">
-                                                    <div class="card-body">
-                                                        <h4 class="card-text">Card 1</h4>
-                                                    </div>
-                                                </div>
+                                                @include('components.partials.cards.project-cards')
+
                                             </div>
                                         </div>
                                     </div>
@@ -330,38 +279,22 @@
                                     <div class="carousel-item">
                                         <div class="row carouselRow">
                                             <div class="col-lg-6">
-                                                <div class="card">
-                                                    <img class="card-img-top" src="/images/blog-thumb-04.jpg" alt="Card image cap">
-                                                    <div class="card-body">
-                                                        <h4 class="card-text">Card 1</h4>
-                                                    </div>
-                                                </div>
+                                                @include('components.partials.cards.project-cards')
+
                                             </div>
                                             <div class="col-lg-6">
-                                                <div class="card">
-                                                    <img class="card-img-top" src="/images/blog-thumb-01.jpg" alt="Card image cap">
-                                                    <div class="card-body">
-                                                        <h4 class="card-text">Card 1</h4>
-                                                    </div>
-                                                </div>
+                                                @include('components.partials.cards.project-cards')
+
                                             </div>
                                         </div>
                                         <div class="row carouselRow">
                                             <div class="col-lg-6">
-                                                <div class="card">
-                                                    <img class="card-img-top" src="/images/blog-thumb-03.jpg" alt="Card image cap">
-                                                    <div class="card-body">
-                                                        <h4 class="card-text">Card 1</h4>
-                                                    </div>
-                                                </div>
+                                                @include('components.partials.cards.project-cards')
+
                                             </div>
                                             <div class="col-lg-6">
-                                                <div class="card">
-                                                    <img class="card-img-top" src="/images/blog-thumb-02.jpg" alt="Card image cap">
-                                                    <div class="card-body">
-                                                        <h4 class="card-text">Card 1</h4>
-                                                    </div>
-                                                </div>
+                                                @include('components.partials.cards.project-cards')
+
                                             </div>
                                         </div>
                                     </div>

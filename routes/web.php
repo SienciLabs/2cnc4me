@@ -22,7 +22,7 @@ Route::get('/categories', function () {
 });
 
 Route::get('/projects', function () {
-    return view('projects_all');
+    return view('projects');
 });
 Route::get('/collections', function () {
     return view('collections_all');
