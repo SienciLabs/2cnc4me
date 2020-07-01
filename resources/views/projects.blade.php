@@ -65,10 +65,12 @@
                     </div>
 
                 </div>
-                <div>
-                    <div style="float: left;"> Category </div>
-                    <div style="float: right"> Add To Collection </div>
-                </div>
+                <a href="#">
+                    <div>
+                        <div style="float: left;"> Category</div>
+                        <div style="float: right"> Add To Collection</div>
+                    </div>
+                </a>
             </div>
         </div>
     </div>
