@@ -136,10 +136,9 @@ footer p {
 }
 
 .project-card-body{
-    padding-right: 40px;
-    padding-bottom: 40px;
-    height: auto;
+
+    height: 60px;
     position: relative;
     top: 0;
-    margin-bottom: -70px;
+
 }

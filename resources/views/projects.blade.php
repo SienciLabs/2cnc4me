@@ -24,16 +24,16 @@
                      src="https://api.adorable.io/avatars/285/abott@adorable.png">
                 <div class="project-card-body">
                     <div class="card-text" style="width: 100%; display: table;">
-                        <div class="row">
-                            <div class="col">
+                        <div class=" row">
+                            <div class="col" style="padding-left: 20px;">
                                 Ball Maze
                             </div>
-                            <div class="col">
+                            <div style="padding-right: 35px;" class="col-md-auto">
                                 38
-                                <img class="project-icons"
-                                     src="/images/icons/LikeIcon.svg">
+                                <img class="project-icons" src="/images/icons/LikeIcon.svg">
                             </div>
                         </div>
+
                         <div class="row">
                             <div class="col">
                                 <img class="project-icons" src="/images/icons/UserIcon.svg">
