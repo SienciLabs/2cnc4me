@@ -175,3 +175,9 @@ footer p {
 .project-card:hover .project-card-footer {
     visibility: visible;
 }
+.project-card-img-wrapper img {
+    transition: 1.5s ease;
+}
+.project-card:hover .project-card-img-wrapper img {
+    transform: scale(1.15);
+}
