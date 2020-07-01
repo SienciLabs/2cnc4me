@@ -24,17 +24,27 @@
                      src="https://api.adorable.io/avatars/285/abott@adorable.png">
                 <div class="project-card-body">
                     <div class="card-text">
-                        <div style="float: left">Ball Maze</div>
-                        <div style="float: right">38  <img class="project-icons" src="/images/icons/LikeIcon.svg"> </div>
-                    </div>
-                    <div class="card-text">
-                        <div style="float: left">
-                            <img class="project-icons" src="/images/icons/UserIcon.svg">
-                            By CNCGuy
-                        </div>
-                        <div style="float: right">
-                            144
-                            <img class="project-icons" src="/images/icons/DownloadIcon.svg">
+                        <div style="width: 100%; display: table;">
+                            <div style="display: table-row">
+                                <div style="width: 600px; display: table-cell;">
+                                    Ball Maze
+                                </div>
+                                <div style="display: table-cell;">
+                                    38
+                                    <img class="project-icons"
+                                         src="/images/icons/LikeIcon.svg">
+                                </div>
+                            </div>
+                            <div style="display: table-row">
+                                <div style="width: 600px; display: table-cell;">
+                                    <img class="project-icons" src="/images/icons/UserIcon.svg">
+                                    By CNCGuy
+                                </div>
+                                <div style="display: table-cell;">
+                                    144
+                                    <img class="project-icons" src="/images/icons/DownloadIcon.svg">
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
