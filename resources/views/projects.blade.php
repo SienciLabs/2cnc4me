@@ -75,7 +75,7 @@
                         </div>
                     </div>--}}
                 </div>
-                <div>Go somewhere New</div>
+                <div>Go somewhere </div>
             </div>
         </div>
 
