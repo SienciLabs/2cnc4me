@@ -17,8 +17,8 @@
     </div>
 
     <div class="container">
-        <div class="card-deck" style="padding: 30px 350px 30px 360px;">
-            @for ($i = 0; $i < 10; $i++)
+        <div class="card-deck">
+            @for ($i = 0; $i < 12; $i++)
                     @include('components.partials.cards.project-cards')
             @endfor
         </div>
