@@ -66,8 +66,8 @@
 
                 </div>
                 <a href="#">
-                    <div>
-                        <div style="float: left;"> Category</div>
+                    <div class="card-content">
+                    <div style="float: left;"> Category</div>
                         <div style="float: right"> Add To Collection</div>
                     </div>
                 </a>
