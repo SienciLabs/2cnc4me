@@ -144,4 +144,10 @@ footer p {
 }
 .project-card-footer{
     background-color: #363636;
+    display: none;
 }
+.project-card-footer:hover {
+    display: block;
+    color: red;
+}
+
