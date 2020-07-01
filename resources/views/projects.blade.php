@@ -59,11 +59,11 @@
                          src="https://api.adorable.io/avatars/285/abott@adorable.pngCopy to Clipboard">
                 </div>
                 <div class="card-body">
-                    <div>
+                    <div class="card-title">
                         <div style="float: left;"> Ball Maze </div>
                         <div style="float: right"> 38 Likes </div>
                     </div>
-                    <div>
+                    <div class="card-title">
                         <div style="float: left;"> By CNCGuy</div>
                         <div style="float: right">144 Downloads</div>
                     </div>
