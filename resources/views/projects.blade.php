@@ -20,39 +20,42 @@
 
         <div class="project-card-wrapper">
             <div class="project-card">
-                <img alt="Card image cap" class="card-img-top"
-                     src="https://api.adorable.io/avatars/285/abott@adorable.png">
-                <div class="project-card-body">
-                    <div class="card-text" style="width: 100%; display: table;">
-                        <div class=" row">
-                            <div class="col" style="padding-left: 20px;">
-                                Ball Maze
+                <a href="#" class="stretched-link">
+                    <img alt="Card image cap" class="card-img-top"
+                        src="https://api.adorable.io/avatars/285/abott@adorable.png">
+                    <div class="project-card-body">
+                        <div class="card-text" style="width: 100%; display: table;">
+                            <div class=" row">
+                                <div class="col" style="padding-left: 20px;">
+                                    Ball Maze
+                                </div>
+                                <div style="padding-right: 35px;" class="col-md-auto">
+                                    38
+                                    <img class="project-icons" src="/images/icons/LikeIcon.svg">
+                                </div>
                             </div>
-                            <div style="padding-right: 35px;" class="col-md-auto">
-                                38
-                                <img class="project-icons" src="/images/icons/LikeIcon.svg">
-                            </div>
-                        </div>
 
-                        <div class="row">
-                            <div class="col" style="padding-left: 20px;">
-                                <img class="project-icons" src="/images/icons/UserIcon.svg">
-                                By CNCGuy
-                            </div>
-                            <div style="padding-right: 35px;" class="col-md-auto">
-                                144
-                                <img class="project-icons" src="/images/icons/DownloadIcon.svg">
+                            <div class="row">
+                                <div class="col" style="padding-left: 20px;">
+                                    <img class="project-icons" src="/images/icons/UserIcon.svg">
+                                    By CNCGuy
+                                </div>
+                                <div style="padding-right: 35px;" class="col-md-auto">
+                                    144
+                                    <img class="project-icons" src="/images/icons/DownloadIcon.svg">
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </a>
+
                 <div class="project-card-footer" style="border-top: 2px solid #F2F2F2">
                     <div class="row">
                         <div class="col" style="padding-left: 20px;">
                             <img class="project-icons" src="/images/icons/UserIcon.svg">
                             Category
                         </div>
-                        <div style="padding-right: 35px;" class="col-md-auto">
+                        <div style="padding-right: 30px;" class="col-md-auto">
                             <img class="project-icons" src="/images/icons/PlusIcon.svg">
                             Add To Collection
                         </div>
