@@ -78,7 +78,16 @@
                         </div>
                     </div>
                 </div>
-                <div>Go somewhere New</div>
+                <div>
+                    <div class="row" style="color: white">
+                        <div class="col">
+                            Toys & Games
+                        </div>
+                        <div class="col" style="text-align: right">
+                            Add To Collection
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
