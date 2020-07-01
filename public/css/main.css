@@ -163,7 +163,7 @@ footer p {
     background-color: #363636;
     height: 30px;
     visibility: hidden;
-
+    color:white !important;
 }
 
 /*Hover capabilties*/
