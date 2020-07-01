@@ -57,11 +57,8 @@
                     <img alt="Card image cap" class="card-img-top"
                          src="https://api.adorable.io/avatars/285/abott@adorable.pngCopy to Clipboard">
                 </div>
-                {{--                <div class="project-card-body">
-                                    <p class="card-text">With supporting text below as a natural lead-in to additional content. With supporting text below as a natural lead-in to additional content. With supporting text below as a natural lead-in to additional content. With supporting text below as a natural lead-in to additional content. With supporting text below as a natural lead-in to additional content. </p>
-                                </div>--}}
                 <div class="project-card-body">
-                    <div class="row" style="color: white">
+                    <div class="project-card-content">
                         <div class="col">
                             Ball Maze
                         </div>
@@ -69,14 +66,7 @@
                             38 Likes
                         </div>
                     </div>
-                    <div class="row" style="color: white">
-                        <div class="col">
-                            By CNCGuy
-                        </div>
-                        <div class="col" style="text-align: right">
-                            144 Downloads
-                        </div>
-                    </div>
+
                 </div>
                 <div>
                     <div class="project-card-footer-L"> Toys & Games </div>
