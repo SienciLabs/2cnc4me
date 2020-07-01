@@ -78,12 +78,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="row" style="overflow: hidden;">
-                    <div class="col">
-                        Toys & Games
-                    </div>
-                    <div class="col" style="text-align: right">
-                        Add To Collection
+                <div class="card-footer project-card-footer">
+                    <div class="row" style="overflow: hidden;">
+                        <div class="col">
+                            Toys & Games
+                        </div>
+                        <div class="col" style="text-align: right">
+                            Add To Collection
+                        </div>
                     </div>
                 </div>
             </div>
