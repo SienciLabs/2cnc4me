@@ -35,11 +35,11 @@
                         </div>
 
                         <div class="row">
-                            <div class="col">
+                            <div class="col" style="padding-left: 20px;">
                                 <img class="project-icons" src="/images/icons/UserIcon.svg">
                                 By CNCGuy
                             </div>
-                            <div class="col">
+                            <div style="padding-right: 35px;" class="col-md-auto">
                                 144
                                 <img class="project-icons" src="/images/icons/DownloadIcon.svg">
                             </div>
