@@ -84,7 +84,7 @@
                             Toys & Games
                         </div>
                         <div class="col" style="text-align: right">
-                            Add To Collection
+                            Add To Collection +
                         </div>
                     </div>
                 </div>
