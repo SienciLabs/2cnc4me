@@ -53,14 +53,18 @@
 
                 <div class="project-card-footer" style="border-top: 2px solid #F2F2F2">
                     <div class="row">
-                        <div class="col" style="padding-left: 20px;">
-                            <img class="project-icons" src="/images/icons/UserIcon.svg">
-                            Category
-                        </div>
-                        <div style="padding-right: 30px;" class="col-md-auto">
-                            <img class="project-icons" src="/images/icons/PlusIcon.svg">
-                            Add To Collection
-                        </div>
+                        <a href="{{ url('categories') }}">
+                            <div class="col" style="padding-left: 20px;">
+                                <img class="project-icons" src="/images/icons/UserIcon.svg">
+                                Category
+                            </div>
+                        </a>
+                        <a href="#" class="stretched-link">
+                            <div style="padding-right: 30px;" class="col-md-auto">
+                                <img class="project-icons" src="/images/icons/PlusIcon.svg">
+                                Add To Collection
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
