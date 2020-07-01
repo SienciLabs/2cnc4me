@@ -61,7 +61,7 @@
                     <p class="card-text">With supporting text below as a natural lead-in to additional content. With supporting text below as a natural lead-in to additional content. With supporting text below as a natural lead-in to additional content. With supporting text below as a natural lead-in to additional content. With supporting text below as a natural lead-in to additional content. </p>
                 </div>--}}
                 <div class="project-card-body">
-                    <div style="width: 100%; overflow: hidden;">
+                    <div class="card-content">
                         <div style="width: 600px; float: left;"> Ball Maze </div>
                         <div style="margin-left: 620px;">  38 Likes </div>
                     </div>
