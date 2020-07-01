@@ -38,10 +38,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="project-card-footer">
+{{--                <div class="project-card-footer">
                     <div style="float: left">Category</div>
                     <div style="float: right"><img class="project-icons" src="/images/icons/PlusIcon.svg"> Add To Collection </div>
-                </div>
+                </div>--}}
             </div>
         </div>
 
