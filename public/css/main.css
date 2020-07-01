@@ -193,5 +193,10 @@ footer p {
     transition: 1.5s ease;
 }
 
-
+.project-card-footer-L{
+    float: left;
+}
+.project-card-footer-R{
+    float: right;
+}
 

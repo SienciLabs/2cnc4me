@@ -78,9 +78,9 @@
                         </div>
                     </div>
                 </div>
-                <div style="width: 100%; overflow: hidden;">
-                    <div style="width: 600px; float: left;"> Left </div>
-                    <div style="margin-left: 620px;"> Right </div>
+                <div>
+                    <div class="project-card-footer-L"> Toys & Games </div>
+                    <div class="project-card-footer-R"> Add To Collection </div>
                 </div>
             </div>
         </div>
