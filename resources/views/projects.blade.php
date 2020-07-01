@@ -57,7 +57,6 @@
                             Add To Collection
                         </div>
                     </div>
-                    <div style="float: right"> </div>
                 </div>
             </div>
         </div>
