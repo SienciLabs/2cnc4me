@@ -130,6 +130,8 @@ footer p {
     height: 300px;
     background-color: #363636;
     color: #F2F2F2;
+    position: relative;
+    min-height: 300px;
 }
 
 .project-icons
@@ -137,12 +139,11 @@ footer p {
     width: 20px;
 }
 .card-img-wrapper {
+    max-height: 180px;
+}
+.project-card-image{
     height: 210px;
     width: 300px;
-}
-
-.project-card-image{
-
 }
 .project-card-body{
     height: 60px;
