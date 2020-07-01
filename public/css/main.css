@@ -131,6 +131,9 @@ footer p {
     background-color: #363636;
     color: #F2F2F2;
 }
+.project-card:hover{
+
+}
 .project-icons
 {
     width: 20px;
