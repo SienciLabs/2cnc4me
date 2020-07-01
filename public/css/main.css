@@ -152,11 +152,11 @@ footer p {
 .project-card-body{
     height: 60px;
     position: relative;
-    top: 0;
+    top: 10px;
     color: #F2F2F2;
     width: 100%;
-    margin-bottom: -70px;
-    transition: 1.5s ease;
+    /*! margin-bottom: -70px; */
+    transition: .5s ease-in-out;
 
 }
 .project-card-footer{
@@ -170,7 +170,7 @@ footer p {
 .project-card:hover {
 }
 .project-card:hover .project-card-body {
-    top: 10px;
+    top: 5px;
 }
 .project-card:hover .project-card-footer {
     visibility: visible;
