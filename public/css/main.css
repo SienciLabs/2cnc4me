@@ -121,3 +121,6 @@ footer p {
 }
 
 /*Projects*/
+.project-card-wrapper{
+    background-color: #363636;
+}
