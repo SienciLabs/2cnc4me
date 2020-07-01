@@ -78,7 +78,7 @@
                         </div>
                     </div>
                 </div>
-                <a href="#" class="btn btn-primary">Go somewhere New</a>
+                <a href="#">Go somewhere New</a>
             </div>
         </div>
 
