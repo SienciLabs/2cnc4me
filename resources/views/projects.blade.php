@@ -78,7 +78,7 @@
                         </div>
                     </div>
                 </div>
-                <a href="#">
+                <div>
                     <div>
                         Toys & Games
                     </div>
