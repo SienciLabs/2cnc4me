@@ -130,23 +130,23 @@ footer p {
 .project-card-image .card .card-body {
     display: none;
 }
-.project-card-image-title-description .card .card-img-wrapper {
+.project-card-image-title-description .project-card .project-card-img-wrapper {
     max-height: 160px;
 }
-.project-card-image-title-description .card {
+.project-card-image-title-description .project-card {
     position: relative;
     min-height: 300px;
 }
-.project-card-image-title-description .card .card-body {
+.project-card-image-title-description .project-card .project-card-body {
     height: auto;
     position: relative;
     top: 0;
     margin-bottom: -70px;
 }
-.project-card-image-title-description .card:hover .card-body {
+.project-card-image-title-description .project-card:hover .project-card-body {
     top: -70px;
 }
-.project-card-image-title-description .card .card-body .card-title {
+.project-card-image-title-description .project-card .project-card-body .project-card-title {
     margin-bottom: .75rem;
 }
 .project-card {
