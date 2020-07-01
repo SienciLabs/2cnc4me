@@ -29,7 +29,8 @@
                     </div>
                     <div class="row">
                         <div class="col">By CNCGuy</div>
-                        <div class="col">144 <img src="/images/icons/plus_icon.svg"></div>
+                        <div class="col">
+                            <img class="project-icons" src="/images/icons/LikeIcon.svg"> Add To Collection</div>
                     </div>
                 </div>
             </div>
