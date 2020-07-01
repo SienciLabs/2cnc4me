@@ -121,7 +121,7 @@ footer p {
 }
 
 /*Projects*/
-.project-card {
+/*.project-card {
     background-color: #363636;
     border: transparent;
     color: white;
@@ -141,6 +141,64 @@ footer p {
 
 .project-card:hover{
     color: #FF8E3D;
+}*/
+
+.project-card-wrapper {
+    margin-bottom: 30px;
 }
+.project-card-image .project-card .project-card-img-wrapper {
+    height: 100%;
+}
+
+.project-card .project-card-img-wrapper {
+    max-height: 240px;
+}
+
+.project-card .project-card-body {
+    height: auto;
+    position: relative;
+    top: 0;
+    margin-bottom: -60px;
+}
+.project-card:hover .project-card-body {
+    top: -60px;
+}
+
+
+.project-card .project-card-body .project-card-text {
+    margin-bottom: .75rem;
+}
+.project-card {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    min-height: 300px;
+    height: 100%;
+}
+
+.project-card-img-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    overflow: hidden;
+}
+.project-card-img-wrapper img {
+    transition: 1.5s ease;
+}
+.project-card:hover .card-img-wrapper img {
+    transform: scale(1.1);
+}
+
+.project-card-body {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50%;
+    background-color: #fff;
+    transition: 1.5s ease;
+}
+
 
 
