@@ -27,13 +27,15 @@
                         <div style="float: left">Ball Maze</div>
                         <div style="float: right">38  <img class="project-icons" src="/images/icons/LikeIcon.svg"> </div>
                     </div>
-                    <div class="row">
-                        <div class="col">
+                    <div style="width: 100%;">
+                        <div style="float: left">
                             <img class="project-icons" src="/images/icons/UserIcon.svg">
                             By CNCGuy
                         </div>
-                        <div class="col">
-                            <img class="project-icons" src="/images/icons/plus_icon.svg"> Add To Collection</div>
+                        <div style="float: right">
+                            144
+                            <img class="project-icons" src="/images/icons/DownloadIcon.svg">
+                        </div>
                     </div>
                 </div>
             </div>
