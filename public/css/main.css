@@ -162,7 +162,7 @@ footer p {
     top: -60px;
 }
 
-.project-card .row{
+.project-card {
     display: inline-block;
     position: relative;
     overflow: hidden;

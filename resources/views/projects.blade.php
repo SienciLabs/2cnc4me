@@ -78,7 +78,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row" style="overflow: hidden;">
                     <div class="col">
                         Toys & Games
                     </div>
