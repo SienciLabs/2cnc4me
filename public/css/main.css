@@ -137,7 +137,8 @@ footer p {
     width: 20px;
 }
 .card-img-wrapper {
-    max-height: 210px;
+    height: 210px;
+    width: 300px;
 }
 
 .project-card-image{
