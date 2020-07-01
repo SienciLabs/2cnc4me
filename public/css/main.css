@@ -140,4 +140,8 @@ footer p {
     padding-right: 40px;
     padding-left: 40px;
     padding-bottom: 40px;
+    height: auto;
+    position: relative;
+    top: 0;
+    margin-bottom: -70px;
 }
