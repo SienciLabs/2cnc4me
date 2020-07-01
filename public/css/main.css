@@ -159,6 +159,5 @@ footer p {
 }
 .project-card:hover .project-card-footer {
     bottom: -75px;
-    box-shadow: 0px 15px 12px -7px rgba(0, 0, 0, .1);
     visibility: visible;
 }
