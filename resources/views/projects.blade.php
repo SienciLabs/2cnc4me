@@ -25,12 +25,15 @@
                 <div class="card-body">
                     <div class="row">
                         <div class="col">Ball Maze</div>
-                        <div class="col">38 Likes</div>
+                        <div class="col">38  <img class="project-icons" src="/images/icons/LikeIcon.svg"> </div>
                     </div>
                     <div class="row">
-                        <div class="col">By CNCGuy</div>
                         <div class="col">
-                            <img class="project-icons" src="/images/icons/LikeIcon.svg"> Add To Collection</div>
+                            <img class="project-icons" src="/images/icons/UserIcon.svg">
+                            By CNCGuy
+                        </div>
+                        <div class="col">
+                            <img class="project-icons" src="/images/icons/plus_icon.svg"> Add To Collection</div>
                     </div>
                 </div>
             </div>
