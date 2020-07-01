@@ -79,10 +79,10 @@
                     </div>
                 </div>
                 <a href="#">
-                    <div class="col">
+                    <div>
                         Toys & Games
                     </div>
-                    <div class="col" style="text-align: right">
+                    <div>
                         Add To Collection
                     </div>
                 </a>
