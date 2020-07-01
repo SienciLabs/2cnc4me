@@ -80,7 +80,7 @@
                 </div>
                 <div>
                     <div class="project-card-footer-L"> Toys & Games </div>
-                    <div class="project-card-footer-R"> Add To Collection </div>
+                    <div class="project-card-footer-R"> Add To Collection + </div>
                 </div>
             </div>
         </div>
