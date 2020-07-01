@@ -145,10 +145,10 @@ footer p {
     top: 0;
     color: #F2F2F2;
 }
-.project-card-footer{
+.project-card .project-card-footer{
     background-color: #363636;
 }
-.project-card:hover + project-card-footer{
+.project-card:hover project-card-footer{
     color: red;
 }
 
