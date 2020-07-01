@@ -148,6 +148,5 @@ footer p {
 }
 .project-card-wrapper:hover + project-card-footer {
     display: block;
-    color: red;
 }
 
