@@ -78,7 +78,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card-footer project-card-footer">
+                <div>
                     <div class="row" style="overflow: hidden;">
                         <div class="col">
                             Toys & Games
