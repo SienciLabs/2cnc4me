@@ -18,7 +18,7 @@
 
     <div class="card-deck" style="padding: 30px 350px 30px 360px;">
 
-        <div class="project-card-wrapper">
+        <div class="project-card-wrapper" id="project-card-wrapper">
             <div class="project-card">
                 <a href="#" class="stretched-link">
                     <img alt="Card image cap" class="card-img-top"
@@ -49,7 +49,7 @@
                     </div>
                 </a>
 
-                <div class="project-card-footer" style="border-top: 2px solid #F2F2F2">
+                <div id="project-card-footer" class="project-card-footer" style="border-top: 2px solid #F2F2F2">
                     <div class="row">
                         <div class="col" style="padding-left: 20px;">
                             <img class="project-icons" src="/images/icons/UserIcon.svg">
