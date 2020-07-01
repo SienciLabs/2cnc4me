@@ -133,3 +133,7 @@ footer p {
 {
     width: 20px;
 }
+
+.project-card-body{
+    margin-bottom: -70px;
+}

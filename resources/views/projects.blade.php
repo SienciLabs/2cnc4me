@@ -22,7 +22,7 @@
             <div class="project-card">
                 <img alt="Card image cap" class="card-img-top"
                      src="https://api.adorable.io/avatars/285/abott@adorable.png">
-                <div class="card-body">
+                <div class="project-card-body">
                     <div style="width: 100%;">
                         <div style="float: left">Ball Maze</div>
                         <div style="float: right">38  <img class="project-icons" src="/images/icons/LikeIcon.svg"> </div>
