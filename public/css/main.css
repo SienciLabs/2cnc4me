@@ -124,3 +124,7 @@ footer p {
 .project-card-wrapper{
     background-color: #363636;
 }
+
+.project-card{
+    width: 100%;
+}
