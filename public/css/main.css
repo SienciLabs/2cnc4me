@@ -155,7 +155,7 @@ footer p {
 }
 
 .project-card .project-card-body {
-    height: auto;
+    height: 60px;
     position: relative;
     top: 0;
     margin-bottom: -60px;
@@ -164,10 +164,6 @@ footer p {
     top: -60px;
 }
 
-
-.project-card .project-card-body .project-card-text {
-    margin-bottom: .75rem;
-}
 .project-card {
     display: inline-block;
     position: relative;
