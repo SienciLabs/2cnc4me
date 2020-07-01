@@ -146,6 +146,9 @@ footer p {
     top: 0;
     color: #F2F2F2;
     width: 100%;
+    margin-bottom: -70px;
+    transition: 1.5s ease;
+
 }
 .project-card-footer{
     background-color: #363636;
