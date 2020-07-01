@@ -62,9 +62,12 @@
                     <div class="card-title">
                         <div style="float: left;"> Ball Maze </div>
                         <div style="float: right"> 38 Likes </div>
-
                     </div>
 
+                </div>
+                <div>
+                    <div style="float: left;"> Category </div>
+                    <div style="float: right"> Add To Collection </div>
                 </div>
             </div>
         </div>
