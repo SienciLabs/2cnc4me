@@ -60,19 +60,14 @@
                 </div>
                 <div class="card-body">
                     <div class="card-title">
-                        <div class="col">
-                            Ball Maze
-                        </div>
-                        <div class="col" style="text-align: right">
-                            38 Likes
-                        </div>
+                        <div style="float: left;"> Ball Maze </div>
+                        <div style="margin-left: 620px;"> 38 Likes </div>
+
                     </div>
                     <div class="card-text">
-                        <div class="col">
-                            By CNCGuy
-                        </div>
-                        <div class="col" style="text-align: right">
-                            144 Downloads
+                        <div style="display: table-row">
+                            <div style="width: 600px; display: table-cell;">  By CNCGuy </div>
+                            <div style="display: table-cell;"> 144 Downloads </div>
                         </div>
                     </div>
                     <a href="#" class="btn btn-primary">Go somewhere</a>
