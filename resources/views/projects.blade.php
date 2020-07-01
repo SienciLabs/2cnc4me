@@ -78,11 +78,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="row" style="color: white">
-                    <div class="col">
+                <div>
+                    <div>
                         Toys & Games
                     </div>
-                    <div class="col" style="text-align: right">
+                    <div style="text-align: right">
                         Add To Collection
                     </div>
                 </div>
