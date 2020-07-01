@@ -181,3 +181,6 @@ footer p {
 .project-card:hover .project-card-img-wrapper img {
     transform: scale(1.15);
 }
+.project-card:hover .project-card-body {
+    height: 80%;
+}
