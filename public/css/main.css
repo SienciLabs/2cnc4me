@@ -121,25 +121,85 @@ footer p {
 }
 
 /*Projects*/
+.project-card-wrapper {
+    margin-bottom: 30px;
+}
+.project-card-image .card .card-img-wrapper {
+    height: 100%;
+}
+.project-card-image .card .card-body {
+    display: none;
+}
+.project-card-image-title-description .card .card-img-wrapper {
+    max-height: 160px;
+}
+.project-card-image-title-description .card {
+    position: relative;
+    min-height: 300px;
+}
+.project-card-image-title-description .card .card-body {
+    height: auto;
+    position: relative;
+    top: 0;
+    margin-bottom: -70px;
+}
+.project-card-image-title-description .card:hover .card-body {
+    top: -70px;
+}
+.project-card-image-title-description .card .card-body .card-title {
+    margin-bottom: .75rem;
+}
 .project-card {
-    background-color: #363636;
-    border: transparent;
-    color: white;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    min-height: 400px;
+    height: 100%;
 }
+.project-card:hover {
+    box-shadow: 8px 12px 31px -10px #ab98ab;
+}
+.project-card-img-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    overflow: hidden;
+}
+.project-card-img-wrapper img {
+    transition: 1.5s ease;
+}
+.project-card:hover .project-card-img-wrapper img {
+    transform: scale(1.15);
+}
+.project-card-body .card-title {
+    margin-bottom: calc(50% + 20px);
+    transition: 1.5s ease;
+}
+.project-card:hover .project-card-body .project-card-title {
+    margin-bottom: .75rem;
+}
+
 .project-card-body {
-    height: 60px;
-    padding-bottom: 15%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50%;
+    background-color: #fff;
+    transition: 1.5s ease;
 }
-.project-card-footer{
-    padding: .75rem 1.25rem;
-    border-top: 2px solid white;
-    border-top-color: white;
-    border-top-style: solid;
-    border-top-width: 2px;
-    font-size: small;
+.project-card-content {
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    transition: 1.5s ease;
 }
-
-.project-card:hover{
-    color: #FF8E3D;
+.project-card:hover .project-card-body {
+    height: 50%;
 }
-
+.project-card:hover .project-card-content {
+    bottom: 0;
+}
