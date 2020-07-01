@@ -142,7 +142,7 @@ footer p {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 50%;
+    max-height: 240px;
     overflow: hidden;
 }
 .project-card-image{
