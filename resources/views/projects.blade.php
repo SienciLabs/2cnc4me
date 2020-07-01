@@ -46,10 +46,19 @@
                         </div>
                     </div>
                 </div>
-{{--                <div class="project-card-footer">
-                    <div style="float: left">Category</div>
-                    <div style="float: right"><img class="project-icons" src="/images/icons/PlusIcon.svg"> Add To Collection </div>
-                </div>--}}
+                <div class="project-card-footer">
+                    <div class="row">
+                        <div class="col" style="padding-left: 20px;">
+                            <img class="project-icons" src="/images/icons/UserIcon.svg">
+                            Category
+                        </div>
+                        <div style="padding-right: 35px;" class="col-md-auto">
+                            <img class="project-icons" src="/images/icons/PlusIcon.svg">
+                            Add To Collection
+                        </div>
+                    </div>
+                    <div style="float: right"> </div>
+                </div>
             </div>
         </div>
 
