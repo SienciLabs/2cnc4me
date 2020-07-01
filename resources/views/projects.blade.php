@@ -85,7 +85,7 @@
                     <div>
                         Add To Collection
                     </div>
-                </a>
+                <div>
             </div>
         </div>
 
