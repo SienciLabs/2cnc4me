@@ -112,7 +112,7 @@ footer p {
 
 }
 .card-img-top{
-    height: 300px !important;
+    height: 240px !important;
 }
 .category-card-title {
     text-align: center;
@@ -121,54 +121,44 @@ footer p {
 }
 
 /*Projects*/
-/*.project-card {
-    background-color: #363636;
-    border: transparent;
-    color: white;
+.project-card-wrapper {
+    margin-bottom: 30px;
 }
-.project-card-body {
-    height: 60px;
-    padding-bottom: 15%;
-}
-.project-card-footer{
-    padding: .75rem 1.25rem;
-    border-top: 2px solid white;
-    border-top-color: white;
-    border-top-style: solid;
-    border-top-width: 2px;
-    font-size: small;
-}
-
-.project-card:hover{
-    color: #FF8E3D;
-}*/
-
-
-.project-card-image .project-card .project-card-img-wrapper {
+.project-card-image .card .card-img-wrapper {
     height: 100%;
 }
-
-.project-card .project-card-img-wrapper {
-    max-height: 240px;
+.project-card-image .card .card-body {
+    display: none;
 }
-
-.project-card .project-card-body{
-    height: 60px;
+.project-card-image-title-description .project-card .project-card-img-wrapper {
+    max-height: 160px;
+}
+.project-card-image-title-description .project-card {
+    position: relative;
+    min-height: 300px;
+}
+.project-card-image-title-description .project-card .project-card-body {
+    height: auto;
     position: relative;
     top: 0;
-    margin-bottom: -60px;
+    margin-bottom: -70px;
 }
-.project-card:hover .project-card-body {
-    top: -60px;
+.project-card-image-title-description .project-card:hover .project-card-body {
+    top: -70px;
 }
-
+.project-card-image-title-description .project-card .project-card-body .project-card-title {
+    margin-bottom: .75rem;
+}
 .project-card {
     display: inline-block;
     position: relative;
     overflow: hidden;
-    min-height: 300px;
+    min-height: 400px;
+    height: 100%;
 }
-
+.project-card:hover {
+    box-shadow: 8px 12px 31px -10px #ab98ab;
+}
 .project-card-img-wrapper {
     display: flex;
     align-items: center;
@@ -179,8 +169,15 @@ footer p {
 .project-card-img-wrapper img {
     transition: 1.5s ease;
 }
-.project-card:hover .card-img-wrapper img {
-    transform: scale(1.1);
+.project-card:hover .project-card-img-wrapper img {
+    transform: scale(1.15);
+}
+.project-card-body .card-title {
+    margin-bottom: calc(50% + 20px);
+    transition: 1.5s ease;
+}
+.project-card:hover .project-card-body .project-card-title {
+    margin-bottom: .75rem;
 }
 
 .project-card-body {
@@ -189,9 +186,23 @@ footer p {
     left: 0;
     right: 0;
     height: 50%;
-    background-color: #363636;
+    background-color: #fff;
     transition: 1.5s ease;
 }
-
-
-
+.project-card-content {
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    transition: 1.5s ease;
+}
+.project-card:hover .project-card-body {
+    height: 50%;
+}
+.project-card:hover .project-card-content {
+    bottom: 0;
+}
+.project-card-img-top{
+    height: 240px;
+}
