@@ -24,22 +24,22 @@
                      src="https://api.adorable.io/avatars/285/abott@adorable.png">
                 <div class="project-card-body">
                     <div class="card-text" style="width: 100%; display: table;">
-                        <div style="display: table-row">
-                            <div style="display: table-cell;">
+                        <div class="row">
+                            <div class="col">
                                 Ball Maze
                             </div>
-                            <div style="display: table-cell;">
+                            <div class="col">
                                 38
                                 <img class="project-icons"
                                      src="/images/icons/LikeIcon.svg">
                             </div>
                         </div>
-                        <div style="display: table-row">
-                            <div style="display: table-cell;">
+                        <div class="row">
+                            <div class="col">
                                 <img class="project-icons" src="/images/icons/UserIcon.svg">
                                 By CNCGuy
                             </div>
-                            <div style="display: table-cell;">
+                            <div class="col">
                                 144
                                 <img class="project-icons" src="/images/icons/DownloadIcon.svg">
                             </div>
