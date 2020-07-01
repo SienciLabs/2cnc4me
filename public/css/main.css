@@ -140,5 +140,10 @@ footer p {
     height: 60px;
     position: relative;
     top: 0;
-
+    background-color: #363636;
+    color: #F2F2F2;
+}
+.project-card-footer{
+    background-color: #363636;
+    color: #F2F2F2;
 }
