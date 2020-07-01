@@ -16,7 +16,7 @@
         </section>
     </div>
 
-    <div class="card-deck">
+    <div class="card-deck" style="padding: 30px 350px 30px 360px;">
         {{--<div class="card project-card">
             <img alt="Card image cap" class="card-img-top" src="https://api.adorable.io/avatars/285/abott@adorable.pngCopy to Clipboard
                 ">
