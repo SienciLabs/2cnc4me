@@ -138,7 +138,9 @@ footer p {
 {
     width: 20px;
 }
-
+.project-card-image{
+    height: 210px;
+}
 .project-card-body{
     height: 60px;
     position: relative;
