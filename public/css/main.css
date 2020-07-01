@@ -158,6 +158,5 @@ footer p {
     transform: scale(1.03);
 }
 .project-card:hover .project-card-footer {
-    bottom: -75px;
     visibility: visible;
 }
