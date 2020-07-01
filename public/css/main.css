@@ -140,12 +140,14 @@ footer p {
 }
 .project-card-image{
     height: 210px;
+    width: 300px;
 }
 .project-card-body{
     height: 60px;
     position: relative;
     top: 0;
     color: #F2F2F2;
+    width: 100%;
 }
 .project-card .project-card-footer{
     background-color: #363636;

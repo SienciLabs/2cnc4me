@@ -24,7 +24,7 @@
                     <img alt="Card image cap" class="project-card-image"
                         src="/images/Ballmaze.JPG">
                     <div class="project-card-body">
-                        <div class="card-text" style="width: 100%; display: table;">
+                        <div class="card-text" >
                             <div class=" row">
                                 <div class="col" style="padding-left: 20px;">
                                     Ball Maze
