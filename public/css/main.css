@@ -139,11 +139,14 @@ footer p {
     width: 20px;
 }
 .card-img-wrapper {
-    max-height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    overflow: hidden;
 }
 .project-card-image{
-    height: 210px;
-    width: 300px;
+
 }
 .project-card-body{
     height: 60px;
