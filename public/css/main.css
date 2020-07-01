@@ -143,9 +143,7 @@ footer p {
     color: #FF8E3D;
 }*/
 
-.project-card-wrapper {
-    margin-bottom: 30px;
-}
+
 .project-card-image .project-card .project-card-img-wrapper {
     height: 100%;
 }
@@ -169,7 +167,6 @@ footer p {
     position: relative;
     overflow: hidden;
     min-height: 300px;
-    height: 100%;
 }
 
 .project-card-img-wrapper {

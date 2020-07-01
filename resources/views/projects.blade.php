@@ -51,7 +51,7 @@
             </div>
         </div>--}}
 
-        <div class="project-card-wrapper col-lg-4 col-md-6 col-xs-12">
+        <div class="project-card-wrapper">
             <div class="project-card">
                 <div class="project-card-img-wrapper">
                     <img alt="Card image cap" class="card-img-top"
@@ -78,7 +78,16 @@
                         </div>
                     </div>
                 </div>
-                <a href="#" class="btn btn-primary">Go somewhere New</a>
+                <div class="card-footer project-card-footer">
+                    <div class="row" style="color: white">
+                        <div class="col">
+                            Toys & Games
+                        </div>
+                        <div class="col" style="text-align: right">
+                            Add To Collection
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
