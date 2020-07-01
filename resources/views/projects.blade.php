@@ -27,7 +27,7 @@
                         <div style="float: left">Ball Maze</div>
                         <div style="float: right">38  <img class="project-icons" src="/images/icons/LikeIcon.svg"> </div>
                     </div>
-                    <div>
+                    <div class="card-text">
                         <div style="float: left">
                             <img class="project-icons" src="/images/icons/UserIcon.svg">
                             By CNCGuy
