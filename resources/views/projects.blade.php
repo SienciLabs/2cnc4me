@@ -54,7 +54,7 @@
         <div class="project-card-wrapper">
             <div class="project-card">
                 <div class="project-card-img-wrapper">
-                    <img alt="Card image cap" class="card-img-top"
+                    <img alt="Card image cap" class="project-card-img-top"
                          src="https://api.adorable.io/avatars/285/abott@adorable.pngCopy to Clipboard">
                 </div>
 {{--                <div class="project-card-body">

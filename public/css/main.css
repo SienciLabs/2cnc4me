@@ -203,3 +203,6 @@ footer p {
 .project-card:hover .project-card-content {
     bottom: 0;
 }
+.project-card-img-top{
+    height: 240px;
+}
