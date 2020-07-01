@@ -29,7 +29,7 @@
                     </div>
                     <div class="row">
                         <div class="col">By CNCGuy</div>
-                        <div class="col">144 <img src="public/images/icons/plus_icon.svg"></div>
+                        <div class="col">144 <img src="/images/icons/plus_icon.svg"></div>
                     </div>
                 </div>
             </div>
