@@ -17,7 +17,7 @@
     </div>
 
     <div class="container">
-        <div class="card-deck" style="padding: 30px 350px 30px 360px;">
+        <div class="card-columns" style="padding: 30px 350px 30px 360px;">
 
             @include('components.partials.cards.project-cards')
             @include('components.partials.cards.project-cards')
