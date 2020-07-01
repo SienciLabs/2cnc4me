@@ -51,7 +51,7 @@
             </div>
         </div>--}}
 
-        <div class="card-wrapper card-image-title-description">
+        <div class="card-wrapper">
             <div class="card">
                 <div class="card-img-wrapper">
                     <img alt="Card image cap"
