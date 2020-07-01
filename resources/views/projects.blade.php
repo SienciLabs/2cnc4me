@@ -59,8 +59,24 @@
                          src="https://api.adorable.io/avatars/285/abott@adorable.pngCopy to Clipboard">
                 </div>
                 <div class="card-body">
-                    <h5 class="card-title">Special title treatment</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content. With supporting text below as a natural lead-in to additional content. With supporting text below as a natural lead-in to additional content. With supporting text below as a natural lead-in to additional content. With supporting text below as a natural lead-in to additional content. With supporting text below as a natural lead-in to additional content. With supporting text below as a natural lead-in to additional content. With supporting text below as a natural lead-in to additional content. With supporting text below as a natural lead-in to additional content. With supporting text below as a natural lead-in to additional content.</p>
+                    <div class="card-text">
+                        <div class="row" style="color: white">
+                            <div class="col">
+                                Ball Maze
+                            </div>
+                            <div class="col" style="text-align: right">
+                                38 Likes
+                            </div>
+                        </div>
+                        <div class="row" style="color: white">
+                            <div class="col">
+                                By CNCGuy
+                            </div>
+                            <div class="col" style="text-align: right">
+                                144 Downloads
+                            </div>
+                        </div>
+                    </div>
                     <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
             </div>
