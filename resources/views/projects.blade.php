@@ -78,7 +78,14 @@
                         </div>
                     </div>
                 </div>
-                <a href="#">Go somewhere New</a>
+                <a href="#" class="row">
+                    <div class="col">
+                        Toys & Games
+                    </div>
+                    <div class="col" style="text-align: right">
+                        Add To Collection
+                    </div>
+                </a>
             </div>
         </div>
 
