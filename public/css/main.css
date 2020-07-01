@@ -156,7 +156,7 @@ footer p {
 
 .project-card:hover {
 }
-.project-card .project-card-body {
+.project-card:hover .project-card-body {
     top: -70px;
 }
 .project-card:hover .project-card-footer {
