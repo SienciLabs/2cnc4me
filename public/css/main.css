@@ -154,4 +154,6 @@ footer p {
     height: 30px;
 }
 
-
+.project-card:hover {
+    box-shadow: 8px 12px 31px -10px #ab98ab;
+}
