@@ -147,14 +147,18 @@ footer p {
     color: #F2F2F2;
     width: 100%;
 }
-.project-card .project-card-footer{
+.project-card-footer{
     background-color: #363636;
     height: 30px;
+    visibility: hidden;
+
 }
 
 .project-card:hover {
-    box-shadow: 8px 12px 31px -10px #ab98ab;
+    transform: scale(1.03);
 }
-.project-card:hover + .project-card-footer{
-    color: red;
+.project-card:hover .project-card-footer {
+    bottom: -75px;
+    box-shadow: 0px 15px 12px -7px rgba(0, 0, 0, .1);
+    visibility: visible;
 }
