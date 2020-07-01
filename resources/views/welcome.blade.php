@@ -230,12 +230,10 @@
                                     </div>
                                     <div class="content">
                                         <ul>
-                                            <li><a href="#">Project 1</a></li>
-                                            <li><a href="#">Project 2</a></li>
-                                            <li><a href="#">Project 3</a></li>
-                                            <li><a href="#">Project 4</a></li>
-                                            <li><a href="#">Project 5</a></li>
-                                            <li><a href="#">Project 6</a></li>
+                                            @for ($i = 0; $i < 7; $i++)
+                                                @include('components.partials.cards.project-cards')
+                                            @endfor
+
 
                                         </ul>
                                     </div>
