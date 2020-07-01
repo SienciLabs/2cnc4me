@@ -164,6 +164,7 @@ footer p {
     height: 30px;
     visibility: hidden;
     color:white !important;
+    border-top: 2px solid #F2F2F2;
 }
 
 /*Hover capabilties*/
@@ -178,9 +179,7 @@ footer p {
 .project-card-img-wrapper img {
     transition: 1.5s ease;
 }
-.project-card:hover .project-card-img-wrapper img {
-    /*transform: scale(1.15);*/
-}
+
 .project-card:hover .card-body {
     height: 25%;
 }
