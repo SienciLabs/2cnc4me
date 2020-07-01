@@ -138,11 +138,11 @@ footer p {
 }
 .card-img-wrapper {
     height: 100%;
+    max-height: 210px;
 }
 
 .project-card-image{
-    height: 210px;
-    width: 300px;
+
 }
 .project-card-body{
     height: 60px;
