@@ -51,7 +51,7 @@
             </div>
         </div>--}}
 
-        <div class="card-wrapper card-image-title-description col-lg-4 col-md-6 col-xs-12">
+        <div class="card-wrapper card-image-title-description">
             <div class="card">
                 <div class="card-img-wrapper">
                     <img alt="Card image cap"
@@ -64,10 +64,7 @@
                         <div style="float: right"> 38 Likes </div>
 
                     </div>
-                    <div class="card-text">
-                        <div style="float: left;"> By CNCGuy </div>
-                        <div style="float: right"> 144 Downloads </div>
-                    </div>
+
                 </div>
             </div>
         </div>
