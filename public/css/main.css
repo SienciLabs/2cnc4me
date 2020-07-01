@@ -184,9 +184,9 @@ footer p {
 .project-card:hover .card-body {
     height: 25%;
 }
-.project-card-footer row a{
+.project-card-footer a{
     color: #F2F2F2;
 }
-.project-card-footer row a:hover {
+.project-card-footer a:hover {
     color: #f48840;
 }
