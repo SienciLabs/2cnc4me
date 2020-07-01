@@ -26,7 +26,7 @@
                     <div class="card-text">
                         <div style="width: 100%; display: table;">
                             <div style="display: table-row">
-                                <div style="width: 600px; display: table-cell;">
+                                <div style="display: table-cell;">
                                     Ball Maze
                                 </div>
                                 <div style="display: table-cell;">
@@ -36,7 +36,7 @@
                                 </div>
                             </div>
                             <div style="display: table-row">
-                                <div style="width: 600px; display: table-cell;">
+                                <div style="display: table-cell;">
                                     <img class="project-icons" src="/images/icons/UserIcon.svg">
                                     By CNCGuy
                                 </div>
