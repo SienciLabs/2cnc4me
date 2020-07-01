@@ -64,9 +64,10 @@
                         <div style="float: right"> 38 Likes </div>
                     </div>
 
-                </div>
-                <div class="card-content">
-                    Category
+                    <div class="card-content">
+                        <div style="float: left;"> Category</div>
+                        <div style="float: right"> Add To Collection</div>
+                    </div>
                 </div>
             </div>
         </div>
