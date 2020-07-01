@@ -158,11 +158,11 @@ footer p {
     top: 0;
     margin-bottom: -60px;
 }
-.project-card:hover .project-card-body .row{
+.project-card:hover .project-card-body {
     top: -60px;
 }
 
-.project-card {
+.project-card .row{
     display: inline-block;
     position: relative;
     overflow: hidden;
