@@ -78,16 +78,7 @@
                         </div>
                     </div>
                 </div>
-                <a>
-                    <div class="row" style="overflow: hidden;">
-                        <div class="col">
-                            Toys & Games
-                        </div>
-                        <div class="col" style="text-align: right">
-                            Add To Collection
-                        </div>
-                    </div>
-                </a>
+                <a href="#" class="btn btn-primary">Go somewhere New</a>
             </div>
         </div>
 
