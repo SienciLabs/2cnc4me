@@ -179,7 +179,7 @@ footer p {
     transition: 1.5s ease;
 }
 .project-card:hover .project-card-img-wrapper img {
-    transform: scale(1.15);
+    /*transform: scale(1.15);*/
 }
 .project-card:hover .card-body {
     height: 25%;
