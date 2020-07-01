@@ -78,7 +78,7 @@
                         </div>
                     </div>
                 </div>
-                <div>
+                <a>
                     <div class="row" style="overflow: hidden;">
                         <div class="col">
                             Toys & Games
@@ -87,7 +87,7 @@
                             Add To Collection
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
 
