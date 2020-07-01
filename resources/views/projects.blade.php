@@ -78,14 +78,10 @@
                         </div>
                     </div>
                 </div>
-                <div>
-                    <div>
-                        Toys & Games
-                    </div>
-                    <div>
-                        Add To Collection
-                    </div>
-                <div>
+                <div style="width: 100%; overflow: hidden;">
+                    <div style="width: 600px; float: left;"> Left </div>
+                    <div style="margin-left: 620px;"> Right </div>
+                </div>
             </div>
         </div>
             </div>
