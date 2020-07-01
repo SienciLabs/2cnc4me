@@ -122,7 +122,7 @@ footer p {
 
 /*Projects*/
 .project-card-wrapper {
-
+    padding: 10px;
 }
 
 .project-card{

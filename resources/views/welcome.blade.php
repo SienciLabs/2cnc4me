@@ -154,12 +154,7 @@
                                     <div class="carousel-item active">
                                         <div class="row carouselRow">
                                             <div class="col-lg-6">
-                                                <div class="card">
-                                                    <img class="card-img-top" src="/images/blog-thumb-01.jpg" alt="Card image cap">
-                                                    <div class="card-body">
-                                                        <h4 class="card-text">Card 1</h4>
-                                                    </div>
-                                                </div>
+                                                @include('components.partials.cards.project-cards')
                                             </div>
                                             <div class="col-lg-6">
                                                 <div class="card">
