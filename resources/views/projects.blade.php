@@ -21,8 +21,10 @@
         <div class="project-card-wrapper">
             <div class="project-card">
                 <a href="#" class="stretched-link">
-                    <img alt="Card image cap" class="project-card-image"
-                        src="/images/Ballmaze.JPG">
+                    <div class="project-card-img-wrapper">
+                        <img alt="Card image cap" class="project-card-image"
+                              src="/images/Ballmaze.JPG">
+                    </div>
                     <div class="project-card-body">
                         <div class="card-text" >
                             <div class=" row">

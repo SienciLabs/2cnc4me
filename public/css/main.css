@@ -136,6 +136,10 @@ footer p {
 {
     width: 20px;
 }
+.card-img-wrapper {
+    height: 100%;
+}
+
 .project-card-image{
     height: 210px;
     width: 300px;
@@ -157,10 +161,11 @@ footer p {
 
 }
 
+/*Hover capabilties*/
 .project-card:hover {
 }
 .project-card:hover .project-card-body {
-    top: -70px;
+    top: 10px;
 }
 .project-card:hover .project-card-footer {
     visibility: visible;
