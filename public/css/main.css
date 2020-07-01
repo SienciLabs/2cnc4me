@@ -185,7 +185,6 @@ footer p {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 50%;
     overflow: hidden;
 }
 .card-img-wrapper img {
