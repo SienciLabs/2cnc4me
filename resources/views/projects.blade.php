@@ -46,7 +46,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="project-card-footer">
+                <div class="project-card-footer" style="border-top: 2px solid #F2F2F2">
                     <div class="row">
                         <div class="col" style="padding-left: 20px;">
                             <img class="project-icons" src="/images/icons/UserIcon.svg">
