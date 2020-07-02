@@ -64,7 +64,7 @@
         </div>
         <div class="card category-cards">
             <a href="#" class="stretched-link">
-                <img alt="Card image cap" class="card-img-top" src="/images/Placeholders/Sculptures.JPG">
+                <img alt="Card image cap" class="card-img-top" src="/images/Placeholders/Sculpture.JPG">
                 <div class="card-body category-cards-body">
                     <h5 class="category-card-title"> Sculptures </h5>
                 </div>
