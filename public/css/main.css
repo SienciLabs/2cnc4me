@@ -189,3 +189,19 @@ footer p {
 .project-card-footer a:hover {
     color: #f48840;
 }
+
+
+/*Collections*/
+.img-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img-grid .img-wrapper {
+    width: 50%;
+}
+
+.img-grid img {
+    width: calc(100% - (20px * 2));
+    margin: 20px;
+}
