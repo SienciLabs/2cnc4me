@@ -1,5 +1,5 @@
 <div class="project-card-wrapper">
-    <div class="collection-card">
+    <div class="card">
         <a href="#" class="stretched-link">
             <div class="collection-card-img-wrapper">
                 <img alt="Card image cap"
@@ -11,7 +11,7 @@
                 <img alt="Card image cap"
                      src="/images/Ballmaze.JPG">
             </div>
-            <div class="card-body">
+            <div class="collection-card-body">
                 <div class="card-text">
                     <div class=" row">
                         <div class="col" style="padding-left: 20px;">
