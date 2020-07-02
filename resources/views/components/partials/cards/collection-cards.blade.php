@@ -1,7 +1,7 @@
 <div class="project-card-wrapper">
     <div class="project-card">
         <a href="#" class="stretched-link">
-            <div class="container">
+            <div class="img-grid">
                 <div class="row">
                     <div class="col">
                         <img alt="Card image cap"
