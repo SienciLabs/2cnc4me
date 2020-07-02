@@ -1,4 +1,4 @@
-<div class="project-card-wrapper">
+<div class="default-card-wrapper">
     <div class="project-card">
         <a href="#" class="stretched-link">
             <div class="project-card-img-wrapper">
