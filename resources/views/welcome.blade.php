@@ -254,7 +254,7 @@
                             <div id="collectionsCarousel" class="carousel slide w-100" data-ride="carousel">
                                 <div class="carousel-inner" role="listbox">
                                     <div class="carousel-item active">
-                                        @for ($i = 0; $i < 3; $i++)
+                                        @for ($i = 0; $i < 2; $i++)
                                             <div class="row carouselRow">
                                                 @for ($i = 0; $i < 2; $i++)
                                                     <div class="col-lg-6">
@@ -263,20 +263,6 @@
                                                 @endfor
                                             </div>
                                         @endfor
-{{--                                        <div class="row carouselRow">
-                                            @for ($i = 0; $i < 2; $i++)
-                                                <div class="col-lg-6">
-                                                    @include('components.partials.cards.collection-cards')
-                                                </div>
-                                            @endfor
-                                        </div>
-                                        <div class="row carouselRow">
-                                            @for ($i = 0; $i < 2; $i++)
-                                                <div class="col-lg-6">
-                                                    @include('components.partials.cards.collection-cards')
-                                                </div>
-                                            @endfor
-                                        </div>--}}
                                     </div>
 
                                     <div class="carousel-item">
