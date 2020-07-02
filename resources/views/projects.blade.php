@@ -17,7 +17,7 @@
     </div>
 
     <div class="container">
-        <div class="card-deck">
+        <div class="card-deck" style="justify-content: space-between;">
             @for ($i = 0; $i < 12; $i++)
                     @include('components.partials.cards.project-cards')
             @endfor
