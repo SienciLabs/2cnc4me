@@ -253,6 +253,34 @@
                         <div class="row mx-auto my-auto">
                             <div id="collectionsCarousel" class="carousel slide w-100" data-ride="carousel">
                                 <div class="carousel-inner" role="listbox">
+                                    @for ($j = 0; $j < 3; $j++)
+                                        @if ($loop->first)
+                                        {{-- This is the first iteration.--}}
+                                            <div class="carousel-item active">
+                                                @for ($j = 0; $j < 2; $j++)
+                                                    <div class="row carouselRow">
+                                                        @for ($i = 0; $i < 2; $i++)
+                                                            <div class="col-lg-6">
+                                                                @include('components.partials.cards.collection-cards')
+                                                            </div>
+                                                        @endfor
+                                                    </div>
+                                                @endfor
+                                            </div>
+                                        @endif
+                                        <div class="carousel-item">
+                                            @for ($j = 0; $j < 2; $j++)
+                                                <div class="row carouselRow">
+                                                    @for ($i = 0; $i < 2; $i++)
+                                                        <div class="col-lg-6">
+                                                            @include('components.partials.cards.collection-cards')
+                                                        </div>
+                                                    @endfor
+                                                </div>
+                                            @endfor
+                                        </div>
+                                    @endfor
+{{--
                                     <div class="carousel-item active">
                                         @for ($j = 0; $j < 2; $j++)
                                             <div class="row carouselRow">
@@ -266,7 +294,7 @@
                                     </div>
 
                                     <div class="carousel-item">
-                                        {{--<div class="row carouselRow">
+                                        --}}{{--<div class="row carouselRow">
                                             @for ($i = 0; $i < 2; $i++)
                                                 <div class="col-lg-6">
                                                     @include('components.partials.cards.collection-cards')
@@ -279,7 +307,7 @@
                                                     @include('components.partials.cards.collection-cards')
                                                 </div>
                                             @endfor
-                                        </div>--}}
+                                        </div>--}}{{--
                                         @for ($j = 0; $j < 2; $j++)
                                             <div class="row carouselRow">
                                                 @for ($i = 0; $i < 2; $i++)
@@ -290,7 +318,7 @@
                                             </div>
                                         @endfor
 
-                                    </div>
+                                    </div>--}}
                                 </div>
                             </div>
                         </div>
