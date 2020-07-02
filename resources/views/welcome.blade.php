@@ -151,50 +151,33 @@
                         <div class="row mx-auto my-auto">
                             <div id="projectsCarousel" class="carousel slide w-100" data-ride="carousel">
                                 <div class="carousel-inner" role="listbox">
-                                    <div class="carousel-item active">
-                                        <div class="row carouselRow">
-                                            <div class="col-lg-6">
-                                                @include('components.partials.cards.project-cards')
+                                    @for ($carouselItem = 0; $carouselItem <= 2; $carouselItem++)
+                                        @if ($carouselItem == 0)
+                                            {{-- This is the first iteration.--}}
+                                            <div class="carousel-item active">
+                                                @for ($j = 0; $j < 2; $j++)
+                                                    <div class="row carouselRow">
+                                                        @for ($i = 0; $i < 2; $i++)
+                                                            <div class="col-lg-6">
+                                                                @include('components.partials.cards.project-cards')
+                                                            </div>
+                                                        @endfor
+                                                    </div>
+                                                @endfor
                                             </div>
-                                            <div class="col-lg-6">
-                                                @include('components.partials.cards.project-cards')
-
-                                            </div>
+                                        @endif
+                                        <div class="carousel-item">
+                                            @for ($numOfRows = 0; $numOfRows < 2; $numOfRows++)
+                                                <div class="row carouselRow">
+                                                    @for ($numOfCols = 0; $numOfCols < 2; $numOfCols++)
+                                                        <div class="col-lg-6">
+                                                            @include('components.partials.cards.project-cards')
+                                                        </div>
+                                                    @endfor
+                                                </div>
+                                            @endfor
                                         </div>
-                                        <div class="row carouselRow">
-                                            <div class="col-lg-6">
-                                                @include('components.partials.cards.project-cards')
-
-                                            </div>
-                                            <div class="col-lg-6">
-                                                @include('components.partials.cards.project-cards')
-
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="carousel-item">
-                                        <div class="row carouselRow">
-                                            <div class="col-lg-6">
-                                                @include('components.partials.cards.project-cards')
-
-                                            </div>
-                                            <div class="col-lg-6">
-                                                @include('components.partials.cards.project-cards')
-
-                                            </div>
-                                        </div>
-                                        <div class="row carouselRow">
-                                            <div class="col-lg-6">
-                                                @include('components.partials.cards.project-cards')
-
-                                            </div>
-                                            <div class="col-lg-6">
-                                                @include('components.partials.cards.project-cards')
-
-                                            </div>
-                                        </div>
-                                    </div>
+                                    @endfor
 
                                 </div>
                             </div>
@@ -230,11 +213,9 @@
                                     </div>
                                     <div class="content">
                                         <ul>
-                                            @for ($i = 0; $i < 7; $i++)
+                                            @for ($i = 0; $i < 3; $i++)
                                                 @include('components.partials.cards.project-cards')
                                             @endfor
-
-
                                         </ul>
                                     </div>
                                 </div>
@@ -253,7 +234,7 @@
                         <div class="row mx-auto my-auto">
                             <div id="collectionsCarousel" class="carousel slide w-100" data-ride="carousel">
                                 <div class="carousel-inner" role="listbox">
-                                    @for ($carouselItem = 0; $carouselItem < 3; $carouselItem++)
+                                    @for ($carouselItem = 0; $carouselItem <= 2; $carouselItem++)
                                         @if ($carouselItem == 0)
                                         {{-- This is the first iteration.--}}
                                             <div class="carousel-item active">
