@@ -15,11 +15,12 @@
             </div>
         </section>
     </div>
-
-    <div class="card-deck">
-        @for ($i = 0; $i < 12; $i++)
-            @include('components.partials.cards.collection-cards')
-        @endfor
+    <div class="container">
+        <div class="card-deck">
+            @for ($i = 0; $i < 12; $i++)
+                @include('components.partials.cards.collection-cards')
+            @endfor
+        </div>
     </div>
 
 </x-app>
