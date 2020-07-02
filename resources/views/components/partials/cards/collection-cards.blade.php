@@ -13,7 +13,8 @@
                              src="/images/Ballmaze.JPG"
                              class="collection-card-image">
                     </div>
-                    <div class="w-100"></div>
+                </div>
+                <div class="row">
                     <div class="col">
                         <img alt="Card image cap"
                              src="/images/Ballmaze.JPG"
