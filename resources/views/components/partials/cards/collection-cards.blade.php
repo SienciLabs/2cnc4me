@@ -1,18 +1,30 @@
 <div class="project-card-wrapper">
     <div class="project-card">
         <a href="#" class="stretched-link">
-            <div class="img-grid">
-                <div class="img-wrapper">
-                    <img alt="Card image cap"
-                         src="/images/Ballmaze.JPG">
-                </div>
-                <div class="img-wrapper">
-                    <img alt="Card image cap"
-                         src="/images/Ballmaze.JPG">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <img alt="Card image cap"
+                             src="/images/Ballmaze.JPG">
+                    </div>
+                    <div class="col">
+                        <img alt="Card image cap"
+                             src="/images/Ballmaze.JPG">
+                    </div>
+                    <div class="w-100"></div>
+                    <div class="col">
+                        <img alt="Card image cap"
+                             src="/images/Ballmaze.JPG">
+                    </div>
+                    <div class="col">
+                        <img alt="Card image cap"
+                             src="/images/Ballmaze.JPG">
+                    </div>
                 </div>
             </div>
-            <div class="project-card-body">
-                <div class="card-text" >
+
+            <div class="card-body">
+                <div class="card-text">
                     <div class=" row">
                         <div class="col" style="padding-left: 20px;">
                             Ball Maze
