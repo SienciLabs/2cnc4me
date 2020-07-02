@@ -254,7 +254,7 @@
                             <div id="collectionsCarousel" class="carousel slide w-100" data-ride="carousel">
                                 <div class="carousel-inner" role="listbox">
                                     <div class="carousel-item active">
-                                        @for ($i; $i < 3; $i++)
+                                        @for ($i = 0; $i < 3; $i++)
                                             <div class="row carouselRow">
                                                 @for ($i = 0; $i < 2; $i++)
                                                     <div class="col-lg-6">
@@ -280,7 +280,7 @@
                                     </div>
 
                                     <div class="carousel-item">
-                                        {{--<div class="row carouselRow">
+                                        <div class="row carouselRow">
                                             @for ($i = 0; $i < 2; $i++)
                                                 <div class="col-lg-6">
                                                     @include('components.partials.cards.collection-cards')
@@ -293,16 +293,8 @@
                                                     @include('components.partials.cards.collection-cards')
                                                 </div>
                                             @endfor
-                                        </div>--}}
-                                        @for ($i = 0; $i < 3; $i++)
-                                            <div class="row carouselRow">
-                                                @for ($i = 0; $i < 2; $i++)
-                                                    <div class="col-lg-6">
-                                                        @include('components.partials.cards.collection-cards')
-                                                    </div>
-                                                @endfor
-                                            </div>
-                                        @endfor
+                                        </div>
+
                                     </div>
                                 </div>
                             </div>
