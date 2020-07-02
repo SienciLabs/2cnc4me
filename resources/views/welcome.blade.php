@@ -254,7 +254,7 @@
                             <div id="collectionsCarousel" class="carousel slide w-100" data-ride="carousel">
                                 <div class="carousel-inner" role="listbox">
                                     @for ($carouselItem = 0; $carouselItem < 3; $carouselItem++)
-                                        @if ($j == 0)
+                                        @if ($carouselItem == 0)
                                         {{-- This is the first iteration.--}}
                                             <div class="carousel-item active">
                                                 @for ($j = 0; $j < 2; $j++)
