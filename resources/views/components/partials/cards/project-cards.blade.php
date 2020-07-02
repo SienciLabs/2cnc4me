@@ -13,18 +13,18 @@
                         </div>
                         <div style="padding-right: 35px;" class="col-md-auto">
                             38
-                            <img class="project-icons" src="/images/icons/LikeIcon.svg">
+                            <img class="card-icon" src="/images/icons/LikeIcon.svg">
                         </div>
                     </div>
 
                     <div class="row">
                         <div class="col" style="padding-left: 20px;">
-                            <img class="project-icons" src="/images/icons/UserIcon.svg">
+                            <img class="card-icon" src="/images/icons/UserIcon.svg">
                             By CNCGuy
                         </div>
                         <div style="padding-right: 35px;" class="col-md-auto">
                             144
-                            <img class="project-icons" src="/images/icons/DownloadIcon.svg">
+                            <img class="card-icon" src="/images/icons/DownloadIcon.svg">
                         </div>
                     </div>
                 </div>
@@ -35,13 +35,13 @@
             <div class="row">
                 <a href="{{ url('categories') }}">
                     <div class="col" style="padding-left: 20px;">
-                        <img class="project-icons" src="/images/icons/UserIcon.svg">
+                        <img class="card-icon" src="/images/icons/UserIcon.svg">
                         Category
                     </div>
                 </a>
                 <a href="#" class="stretched-link">
                     <div style="padding-right: 30px;" class="col-md-auto">
-                        <img class="project-icons" src="/images/icons/PlusIcon.svg">
+                        <img class="card-icon" src="/images/icons/PlusIcon.svg">
                         Add To Collection
                     </div>
                 </a>

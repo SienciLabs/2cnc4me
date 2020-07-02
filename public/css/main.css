@@ -134,10 +134,11 @@ footer p {
     min-height: 300px;
 }
 
-.project-icons
+.card-icon
 {
     width: 20px;
 }
+
 .card-img-wrapper {
     display: flex;
     align-items: center;
@@ -192,18 +193,23 @@ footer p {
 
 
 /*Collections*/
-.img-grid-container {
+.collection-card-img-wrapper {
     display: grid;
     margin:auto;
     grid-template-columns: auto auto; /* The grid-template-columns property specifies the number (and the widths) of columns in a grid layout. */
 }
 
-.img-grid-container img {
+.collection-card-img-wrapper img {
     width: 100%;
-    height: auto;
+    height: 120px;
     padding: 0px;
 }
-.collection-card-image{
-    height: 120px;
-    width: 150px;
+
+.collection-card{
+    width: 300px;
+    height: 300px;
+    background-color: #363636;
+    color: #F2F2F2;
+    position: relative;
+    min-height: 300px;
 }
