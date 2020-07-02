@@ -192,20 +192,17 @@ footer p {
 
 
 /*Collections*/
-.img-grid {
-    display: flex;
-    flex-wrap: wrap;
+.img-grid-container {
+    display: grid;
+    margin:auto;
+    grid-template-columns: auto auto; /* The grid-template-columns property specifies the number (and the widths) of columns in a grid layout. */
 }
 
-.img-grid .img-wrapper {
-    width: 50%;
+.img-grid-container img {
+    width: 100%;
+    height: auto;
+    padding: 0px;
 }
-
-.img-grid img {
-    width: calc(100% - (20px * 2));
-    margin: 20px;
-}
-
 .collection-card-image{
     height: 120px;
     width: 150px;

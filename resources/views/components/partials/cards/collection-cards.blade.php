@@ -1,33 +1,16 @@
 <div class="project-card-wrapper">
-    <div class="project-card">
+    <div class="card">
         <a href="#" class="stretched-link">
-            <div class="img-grid">
-                <div class="row">
-                    <div class="col">
-                        <img alt="Card image cap"
-                             src="/images/Ballmaze.JPG"
-                             class="collection-card-image">
-                    </div>
-                    <div class="col">
-                        <img alt="Card image cap"
-                             src="/images/Ballmaze.JPG"
-                             class="collection-card-image">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col">
-                        <img alt="Card image cap"
-                             src="/images/Ballmaze.JPG"
-                             class="collection-card-image">
-                    </div>
-                    <div class="col">
-                        <img alt="Card image cap"
-                             src="/images/Ballmaze.JPG"
-                             class="collection-card-image">
-                    </div>
-                </div>
+            <div class="img-grid-container">
+                <img alt="Card image cap"
+                     src="/images/Ballmaze.JPG">
+                <img alt="Card image cap"
+                     src="/images/Ballmaze.JPG">
+                <img alt="Card image cap"
+                     src="/images/Ballmaze.JPG">
+                <img alt="Card image cap"
+                     src="/images/Ballmaze.JPG">
             </div>
-
             <div class="card-body">
                 <div class="card-text">
                     <div class=" row">
