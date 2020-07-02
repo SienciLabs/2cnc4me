@@ -17,11 +17,9 @@
     </div>
 
     <div class="card-deck">
-        <div class="card-deck">
-            @for ($i = 0; $i < 12; $i++)
-                @include('components.partials.cards.collection-cards')
-            @endfor
-        </div>
+        @for ($i = 0; $i < 12; $i++)
+            @include('components.partials.cards.collection-cards')
+        @endfor
     </div>
 
 </x-app>
