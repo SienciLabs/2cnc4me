@@ -137,7 +137,7 @@ footer p {
 
 .card-icon
 {
-    width: 20px;
+    width: 20px; !important;
 
 }
 
