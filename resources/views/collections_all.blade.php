@@ -16,7 +16,7 @@
         </section>
     </div>
 
-    <div class="card-deck" style="padding: 30px 350px 30px 360px;">
+    <div class="card-deck">
         @include('components.partials.cards.collection-cards')
     </div>
 
