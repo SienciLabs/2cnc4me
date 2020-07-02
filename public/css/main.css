@@ -205,3 +205,8 @@ footer p {
     width: calc(100% - (20px * 2));
     margin: 20px;
 }
+
+.collection-card-image{
+    height: 120px;
+    width: 150px;
+}

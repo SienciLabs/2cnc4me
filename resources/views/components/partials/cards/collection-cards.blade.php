@@ -5,20 +5,24 @@
                 <div class="row">
                     <div class="col">
                         <img alt="Card image cap"
-                             src="/images/Ballmaze.JPG">
+                             src="/images/Ballmaze.JPG"
+                             class="collection-card-image">
                     </div>
                     <div class="col">
                         <img alt="Card image cap"
-                             src="/images/Ballmaze.JPG">
+                             src="/images/Ballmaze.JPG"
+                             class="collection-card-image">
                     </div>
                     <div class="w-100"></div>
                     <div class="col">
                         <img alt="Card image cap"
-                             src="/images/Ballmaze.JPG">
+                             src="/images/Ballmaze.JPG"
+                             class="collection-card-image">
                     </div>
                     <div class="col">
                         <img alt="Card image cap"
-                             src="/images/Ballmaze.JPG">
+                             src="/images/Ballmaze.JPG"
+                             class="collection-card-image">
                     </div>
                 </div>
             </div>
