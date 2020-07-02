@@ -1,5 +1,5 @@
 <div class="default-card-wrapper">
-    <div class="card">
+    <div class="project-card">
         <a href="#" class="stretched-link">
             <div class="collection-card-img-wrapper">
                 <img alt="Card image cap"
