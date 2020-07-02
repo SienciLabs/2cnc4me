@@ -254,7 +254,7 @@
                             <div id="collectionsCarousel" class="carousel slide w-100" data-ride="carousel">
                                 <div class="carousel-inner" role="listbox">
                                     <div class="carousel-item active">
-                                        @for ($outerloop = 0; $outerloop < 4; $outerloop++)
+                                        @for ($j = 0; $j < 2; $j++)
                                             <div class="row carouselRow">
                                                 @for ($i = 0; $i < 2; $i++)
                                                     <div class="col-lg-6">
@@ -280,7 +280,7 @@
                                                 </div>
                                             @endfor
                                         </div>--}}
-                                        @for ($i = 0; $i < 3; $i++)
+                                        @for ($j = 0; $j < 2; $j++)
                                             <div class="row carouselRow">
                                                 @for ($i = 0; $i < 2; $i++)
                                                     <div class="col-lg-6">
