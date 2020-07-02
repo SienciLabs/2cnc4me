@@ -64,7 +64,7 @@
         </div>
         <div class="card category-cards">
             <a href="#" class="stretched-link">
-                <img alt="Card image cap" class="card-img-top" src="/images/Placeholders/Sculpture.JPG">
+                <img alt="Card image cap" class="card-img-top" src="/images/Placeholders/Sculpture.jpg">
                 <div class="card-body category-cards-body">
                     <h5 class="category-card-title"> Sculptures </h5>
                 </div>
@@ -76,7 +76,7 @@
     <div class="card-deck category-card-deck">
         <div class="card category-cards">
             <a href="#" class="stretched-link">
-                <img alt="Card image cap" class="card-img-top" src="/images/Placeholders/Kitchen.JPG">
+                <img alt="Card image cap" class="card-img-top" src="/images/Placeholders/Kitchen.jpg">
                 <div class="card-body category-cards-body">
                     <h5 class="category-card-title"> Kitchen </h5>
                 </div>
