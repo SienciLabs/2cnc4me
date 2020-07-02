@@ -151,7 +151,7 @@
                         <div class="row mx-auto my-auto">
                             <div id="projectsCarousel" class="carousel slide w-100" data-ride="carousel">
                                 <div class="carousel-inner" role="listbox">
-                                    @for ($carouselItem = 0; $carouselItem <= 2; $carouselItem++)
+                                    @for ($carouselItem = 0; $carouselItem < 2; $carouselItem++)
                                         @if ($carouselItem == 0)
                                             {{-- This is the first iteration.--}}
                                             <div class="carousel-item active">
