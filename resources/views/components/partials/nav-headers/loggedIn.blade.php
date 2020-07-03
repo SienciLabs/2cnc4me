@@ -20,7 +20,7 @@
                         <a class="nav-link" href="{{ url('collections') }}">Collections</a>
                     </li>
                     <li class="nav-item">
-                        <buton class="dropbtn"  onClick="myFunction();"><img src="{{ asset('images/icons/PlusIcon.svg') }}" alt="Add" width="30px"></buton>
+                        <buton class="dropbtn"  onClick="ddFunc();"><img src="{{ asset('images/icons/PlusIcon.svg') }}" alt="Add" width="30px"></buton>
                     </li>
                         <ul class="dropdown-content" id="myDropdown">
                             <a> Add New Project </a>
