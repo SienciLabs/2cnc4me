@@ -20,9 +20,9 @@
                         <a class="nav-link" href="{{ url('collections') }}">Collections</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#"><img src="{{ asset('images/icons/category/PlusIcon.svg') }}" alt="2cnc4me" width="30px"></a>
+                        <a href="#"><img src="{{ asset('images/icons/PlusIcon.svg') }}" alt="Add" width="30px"></a>
                     </li>
-                        <ul class="submenu">
+                        <ul class="dropdown-content">
                             <li> Add New Project </li>
                             <li> Add New Collection </li>
                         </ul>
