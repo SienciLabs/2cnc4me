@@ -20,17 +20,12 @@
                         <a class="nav-link" href="{{ url('collections') }}">Collections</a>
                     </li>
                     <li class="nav-item">
-                        <div class="dropdown">
-                            <button class="dropbtn">
-                                Dropdown <i class="fa fa-caret-down"></i>
-                            </button>
-                            <div class="dropdown-content">
-                                <a href="#">Add New Collection</a>
-                                <a href="#">Add New Project</a>
-                            </div>
-                        </div>
+                        <a href="#"><img src="{{ asset('images/icons/category/PlusIcon.svg') }}" alt="2cnc4me" width="30px"></a>
                     </li>
-
+                        <ul class="submenu">
+                            <li> Add New Project </li>
+                            <li> Add New Collection </li>
+                        </ul>
 {{--                        <a class="nav-link" href="../post-details.html">Add</a>--}}
                     <li class="nav-item">
                         <a class="nav-link" href="../post-details.html">Profile</a>
