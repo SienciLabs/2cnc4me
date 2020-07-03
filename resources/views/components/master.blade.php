@@ -8,6 +8,8 @@
   <head>
 
         @include('components.partials.head')
+        @include('components.partials.footers.footer-scripts')
+
   </head>
 
   <body>
@@ -33,7 +35,6 @@
 
     {{-- Footers --}}
     @include('components.partials.footers.footer')
-    @include('components.partials.footers.footer-scripts')
 
   </body>
 </html>
