@@ -39,12 +39,12 @@
                 </ul>
             </div>
 
-            <a class="dropdwn"><h4><img src="{{ asset('images/icons/PlusIcon.svg') }}" alt="Add" width="30px"></h4>
+            <div class="dropdwn"><h4><img src="{{ asset('images/icons/PlusIcon.svg') }}" alt="Add" width="30px"></h4>
                 <div class="dropdwn-content">
                     <a href="#">Add New Project</a>
                     <a href="#">Add New Collection</a>
                 </div>
-            </a>
+            </div>
 
         </div>
     </nav>
