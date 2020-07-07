@@ -20,7 +20,7 @@
                         <a class="nav-link" href="{{ url('collections') }}">Collections</a>
                     </li>
                     <li class="nav-item dropdwn">
-                        <a><img src="asset('images/icons/PlusIcon.svg')" alt="Add" width="30px"></a>
+                        <a><img src="{{ asset('images/icons/PlusIcon.svg') }}" alt="Add" width="30px"></a>
                         <div class="dropdwn-content">
                             <a href="#">Add New Project</a>
                             <a href="#">Add New Collection</a>
