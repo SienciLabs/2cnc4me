@@ -49,7 +49,7 @@
                         </div>
                     </li>
                     <li class="dropdwn">
-                        <h4><img alt="User" src="{{ asset('images/icons/UserIcon-White.svg') }}" width="30px"></h4>
+                        <h4><img alt="User" src="{{ asset('images/icons/UserIcon.svg') }}" width="30px"></h4>
                         <div class="dropdwn-content">
                             <a href="#">My Profile</a>
                             <a href="#">My Projects</a>
