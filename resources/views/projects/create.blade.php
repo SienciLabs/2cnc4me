@@ -1,4 +1,4 @@
-@extends('layouts.app')
+ @extends('layouts.app')
 
 @section('content')
 
@@ -9,12 +9,13 @@
     <body>
         <div class="flex-center position-ref full-height">
             <div class="content">
-                <form method="POST" enctype="multipart/form-data" action="{{ route('posts.update', ['post' => $post]) }}">
-                    @method('PUT')
+                <form method="POST" enctype="multipart/form-data" action="{{ route('projects.store') }}">
                     @csrf
-                    @include('posts.fields')
+                    @include('projects.fields')
                     <button type="submit">Publish</button>
                 </form>
             </div>
         </div>
+       <!--<iframe width="420" height="315" src="//www.youtube.com/embed/Py-RV87Jk1s" frameborder="0" allowfullscreen></iframe>-->
+<div>
 @endsection

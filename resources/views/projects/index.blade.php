@@ -3,10 +3,10 @@
 @section('content')
     <div class="flex-center position-ref full-height">
       <div class="content">
-        <div class="title m-b-md">Post Store</div>
+        <div class="title m-b-md">project Store</div>
         <div class="links">
-          <a href="{{ config('app.url')}}/posts/create">Create Posts</a>
-          <a href="{{ config('app.url')}}/posts">View Posts</a>
+          <a href="{{ config('app.url')}}/projects/create">Create projects</a>
+          <a href="{{ config('app.url')}}/projects">View projects</a>
         </div>
       </div>
     </div>
@@ -20,28 +20,28 @@
                         <td>Title</td>
                         <td>Description</td>
                          <td>Photo</td>
- 
+
                     </thead>
                     <tbody>
-                        @foreach ($allPosts as $post)
+                        @foreach ($allprojects as $project)
                             <tr>
-                                <td>{{ $post->title }}</td>
-                                <td class="inner-table">{{ $post->description }}</td>
-                                <td class="inner-table"><img src="{{ url($post->photoPath) }}"/></td>
+                                <td>{{ $project->title }}</td>
+                                <td class="inner-table">{{ $project->description }}</td>
+                                <td class="inner-table"><img src="{{ url($project->photoPath) }}"/></td>
                                 <td class="actions">
 				                    <a
-				                        href="{{ action('PostController@show', ['post' => $post->id]) }}"
+				                        href="{{ action('projectController@show', ['project' => $project->id]) }}"
 				                        alt="View"
 				                        title="View">
 				                      View
 				                    </a>
 				                    <a
-				                        href="{{ action('PostController@edit', ['post' => $post->id]) }}"
+				                        href="{{ action('projectController@edit', ['project' => $project->id]) }}"
 				                        alt="Edit"
 				                        title="Edit">
 				                      Edit
 				                    </a>
-				                    <form action="{{action('PostController@destroy', ['post' => $post->id])}}" method="POST">
+				                    <form action="{{action('projectController@destroy', ['project' => $project->id])}}" method="project">
 					                    @method('DELETE')
 					                    @csrf
 					                    <button type="submit" class="btn btn-link" title="Delete" value="DELETE">Delete</button>

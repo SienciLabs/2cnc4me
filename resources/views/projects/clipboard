@@ -1,0 +1,67 @@
+// <option value="{{$id}}"{{isset($post->toolpathType)&&$post->toolpathType==$id?'selected':''}}>{{$value}}</option>
+
+var postInfo = <?php if(isset($post)){ echo json_encode($post);}  ?>;
+
+
+
+
+
+              <tr>
+
+                                            <td>
+
+                                               <label>endmill</label>
+                                                <select name="endMill">
+                                                <option value="" disabled selected> Select your option </option>
+                                                    @foreach($endMill as $id => $value)
+                                                        <option value = "{{$id}}"{{isset($post->endMill)&&$post->endMill==$id? 'selected':''}}>{{$value}}</option>
+                                                    @endforeach
+                                                </select>
+
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <label>StepOver</label>
+                                                <select name ="stepOver"><option value=""disabled selected>Select your option</option>
+                                                    @foreach($stepOver as $id => $value)
+                                                        <option value="{{$id}}"{{isset($post->stepOver)&&$post->stepOver==$id ?'selected':''}}>{{$value}}</option>
+                                                    @endforeach
+                                                </select>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <label>StepDown</label>
+                                                <select name="stepDown"><option value = "" disabled selected>Select your option</option>
+                                                    @foreach($stepDown as $id=>$value)
+                                                        <option value ="{{$id}}"{{isset($post->stepDown)&&$post->stepDown==$id ? 'selected':''}}>{{$value}}</option>
+                                                    @endforeach
+                                                </select>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <label>FeedRate</label>
+                                                <select name = "feedRate">
+                                                <option value = "" disabled selected>Select your option</option>
+                                                @foreach($feedRate as $id=>$value)
+                                                    <option value="{{$id}}"{{isset($post->feedRate)&&$post->feedRate==$id ? 'selected':''}}>{{$value}}</option>
+                                                @endforeach
+                                                </select>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                            <label>PlungeRate</label>
+                                                <select name = "plungeRate">
+                                                    <option value = "" disabled selected>Select your option</option>
+                                                    @foreach($plungeRate as $id => $value)
+                                                        <option value="{{$id}}"{{isset($post->plungeRate)&&$post->plungeRate==$id? 'selected' :''}}>{{$value}}</option>
+                                                    @endforeach
+                                                </select>
+                                            </td>
+                                            </tr>
+
+
+

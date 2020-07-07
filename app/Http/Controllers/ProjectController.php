@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Post;
+use App\project;
 use Illuminate\Filesystem\FilesystemManager;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
@@ -15,12 +15,12 @@ use Illuminate\Support\Facades\DB;
 use App\Http\FileUploader;
 //include 'App\Http\Classes\FileUploader';
 
-class PostController extends Controller
+class ProjectController extends Controller
 {
 	//hardcoded values
 	public $machines = array("sienci longmill 30\" x 30\"", "sienci shortmil 10\" x 10\"");
 	public $categories = array("Furniture", "Signs", "Joinery", "Games", "Toys", "Sculptures", "Kitchen", "CNC Mods", "Music");
-	public $toolpathType = array("Roughing", "not Roughing", "Smoothing");
+	public $toolpathType = array("Roughing", "Finishing", "Relief", "Drilling");
 	public $endMill = array("1/4\" flat end mill", "another end mill option", "yet another option...");
 	public $stepOver = array("yes, do step over", "do not step on");
 	public $stepDown = array("option 1", "option 2", "option 3");
@@ -30,33 +30,33 @@ class PostController extends Controller
     public function create()
     {
 
-        return view('posts/create')
+        return view('projects/create')
         ->with('machines', $this->machines)
         ->with('categories', $this->categories)
         ->with('toolpathType', $this->toolpathType)
         ->with('endMill', $this->endMill)
         ->with('stepOver', $this->stepOver)
-        ->with('stepDown', $this->stepDown) 
+        ->with('stepDown', $this->stepDown)
         ->with('feedRate', $this->feedRate)
         ->with('plungeRate', $this->plungeRate);
     }
 
-    public function store(Request $request) 
+    public function store(Request $request)
     {
     	$result = $request->input();
 	    // validate the uploaded file
 	    //$validation = $request->validate(['photo' => 'required|file|image|mimes:jpeg,png,gif,webp|max:2048']);
-	   
+
 	    //$file      = $validation['photo']; // get the validated file
 	    //$extension = $file->getClientOriginalExtension();
 	    //$filename  = time() . '.' . $extension;
 	    //the path for save as differs for calling the image this code saves the correct path into the DB
-	    
-    	
 
 
 
-	   
+
+
+
 	    $fileUploader  = new FileUploader('file|mimes:svg,dxf,stl,obj,step', 'files');
 	    //update validation string its breaking stuff
 	    //$fileUploader->validate($request);
@@ -84,66 +84,66 @@ class PostController extends Controller
 
 
 
-		    Post::create($result);
+		    project::create($result);
 
-	   	return redirect('/posts');
+	   	return redirect('/projects');
     }
 
      public function index()
     {
     	//$user =  Auth::id();
-    	$post = Post::all();
-         
-        return view('posts/index', ['allPosts' => $post]);
+    	$project = project::all();
+
+        return view('projects/index', ['allprojects' => $project]);
     }
 
-    public function show(Post $post)
+    public function show(project $project)
     {
 
-        return view('posts/show', ['post' => $post])
+        return view('projects/show', ['project' => $project])
         ->with('machines', $this->machines)
         ->with('categories', $this->categories)
         ->with('toolpathType', $this->toolpathType)
         ->with('endMill', $this->endMill)
         ->with('stepOver', $this->stepOver)
-        ->with('stepDown', $this->stepDown) 
+        ->with('stepDown', $this->stepDown)
         ->with('feedRate', $this->feedRate)
         ->with('plungeRate', $this->plungeRate);
 
     }
-    public function edit(Post $post)
+    public function edit(project $project)
     {
-    	
-    	//$post = DB::table('posts')->where('id', $post->id)->first();
-        return view('posts.edit')
-        ->with('post', $post)
+
+    	//$project = DB::table('projects')->where('id', $project->id)->first();
+        return view('projects.edit')
+        ->with('project', $project)
         ->with('machines', $this->machines)
         ->with('categories', $this->categories)
         ->with('toolpathType', $this->toolpathType)
         ->with('endMill', $this->endMill)
         ->with('stepOver', $this->stepOver)
-        ->with('stepDown', $this->stepDown) 
+        ->with('stepDown', $this->stepDown)
         ->with('feedRate', $this->feedRate)
         ->with('plungeRate', $this->plungeRate);
     }
-     public function update(Request $request,Post $post)
+     public function update(Request $request,project $project)
     {
-    	$post->fill($request->input());
-        $post->save();
-        //this syncss the users and posts once linked
-        //$post->users()->sync([$request->input('user_id')]);
+    	$project->fill($request->input());
+        $project->save();
+        //this syncss the users and projects once linked
+        //$project->users()->sync([$request->input('user_id')]);
 
-        return redirect()->action('PostController@index');
+        return redirect()->action('ProjectController@index');
     }
 
-    public function destroy(Post $post)
+    public function destroy(project $project)
     {
-    	//users and posts arent currently attached 
-        //$post->users()->detach();
+    	//users and projects arent currently attached
+        //$project->users()->detach();
 
-        $post->delete();
+        $project->delete();
 
-        return redirect()->action('PostController@index');
+        return redirect()->action('ProjectController@index');
     }
 
 }
