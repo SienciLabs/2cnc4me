@@ -138,6 +138,9 @@ footer p {
 
 .dropdwn:hover .dropdwn-content {
     display: block;
+    opacity: 1;
+    top: 65px;			/* This is how far from the top the drop down annimation will go  */
+    visibility: visible;
 }
 /* Nav dropdown END */
 
