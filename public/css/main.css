@@ -108,7 +108,7 @@ footer p {
     background-color: #ddd;
 }
 
-.dropdwn:hover .dropdown-content {
+.dropdwn:hover .dropdwn-content {
     display: block;
 }
 /* Nav dropdown END */
