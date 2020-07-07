@@ -19,8 +19,8 @@
                     <li class="nav-item">
                         <a class="nav-link" href="{{ url('collections') }}">Collections</a>
                     </li>
-                    <li class="dropdwn">
-                        <button class="dropbtn">Dropdown</button>
+                    <li class="nav-item dropdwn">
+                        <button >Dropdown</button>
                         <div class="dropdwn-content">
                             <a href="#">Link 1</a>
                             <a href="#">Link 2</a>
