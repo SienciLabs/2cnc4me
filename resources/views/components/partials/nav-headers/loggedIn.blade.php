@@ -39,7 +39,7 @@
                 </ul>
             </div>
 
-            <div class="collapse navbar-collapse" id="navbarResponsive">
+            <div class="navbar">
                 <ul>
                     <li class="dropdwn"><h4><img src="{{ asset('images/icons/PlusIcon.svg') }}" alt="Add" width="30px">
                         </h4>
