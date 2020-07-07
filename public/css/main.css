@@ -67,6 +67,9 @@ footer p {
 }
 
 /* Nav dropdown */
+.dropdwn-container{
+    padding-left: 5%;
+}
 .dropdwn {
     float: left;
     overflow: hidden;

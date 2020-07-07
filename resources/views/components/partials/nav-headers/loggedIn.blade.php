@@ -39,13 +39,24 @@
                 </ul>
             </div>
 
-            <div class="dropdwn"><h4><img src="{{ asset('images/icons/PlusIcon.svg') }}" alt="Add" width="30px"></h4>
-                <div class="dropdwn-content">
-                    <a href="#">Add New Project</a>
-                    <a href="#">Add New Collection</a>
+            <div class="dropdwn-container">
+                <div class="dropdwn"><h4><img src="{{ asset('images/icons/PlusIcon.svg') }}" alt="Add" width="30px">
+                    </h4>
+                    <div class="dropdwn-content">
+                        <a href="#">Add New Project</a>
+                        <a href="#">Add New Collection</a>
+                    </div>
+                </div>
+                <div class="dropdwn">
+                    <h4><img alt="Add" src="{{ asset('images/icons/UserIcon.svg') }}" width="30px"></h4>
+                    <div class="dropdwn-content">
+                        <a href="#">My Profile</a>
+                        <a href="#">My Projects</a>
+                        <a href="#">My Collections</a>
+                        <a href="#">Sign Out</a>
+                    </div>
                 </div>
             </div>
-
         </div>
     </nav>
 </header>
