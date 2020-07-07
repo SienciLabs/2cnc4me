@@ -19,23 +19,6 @@
                     <li class="nav-item">
                         <a class="nav-link" href="{{ url('collections') }}">Collections</a>
                     </li>
-                    {{--<li class="nav-item dropdwn">
-                        <a><h4><img src="{{ asset('images/icons/PlusIcon.svg') }}" alt="Add" width="30px"></h4></a>
-                        <div class="dropdwn-content">
-                            <a href="#">Add New Project</a>
-                            <a href="#">Add New Collection</a>
-                        </div>
-                    </li>
-
-                    <li class="nav-item dropdwn">
-                        <a><h4><img src="{{ asset('images/icons/PlusIcon.svg') }}" alt="Add" width="30px"></h4></a>
-                        <div class="dropdwn-content">
-                            <a href="#">My Profile</a>
-                            <a href="#">My Projects</a>
-                            <a href="#">My Collections</a>
-                            <a href="#">Sign Out</a>
-                        </div>
-                    </li>--}}
                 </ul>
             </div>
 
@@ -44,7 +27,7 @@
                     <li class="dropdwn"><h4><img src="{{ asset('images/icons/PlusIcon.svg') }}" alt="Add" width="30px">
                         </h4>
                         <div class="dropdwn-content">
-                            <a href="#">Add New Project</a>
+                            <a href="href="{{ url('posts/create.blade.php') }}">Add New Project</a>
                             <a href="#">Add New Collection</a>
                         </div>
                     </li>
