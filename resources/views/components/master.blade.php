@@ -24,9 +24,9 @@
 
     {{--    If the user is logged in, present the loggedInHeader--}}
     @if(auth()->check())
-       @include('components.partials.headers.loggedIn')
+       @include('components.partials.nav-headers.loggedIn')
     @else
-        @include('components.partials.headers.neutral')
+        @include('components.partials.nav-headers.neutral')
     @endif
     {{ $slot }}
 
