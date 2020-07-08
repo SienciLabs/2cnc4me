@@ -126,6 +126,7 @@
         var projectURL = "<?php echo route('projects.store'); ?>";
         var i=1;
 
+        //add toolpath button creates a toolpath table
         $('#add').click(function(){
             i++;
             var html ='<td id="table'+i+'" class="dynamic_added"><table style="border: 3px blue solid;"><tr><td><label>Toolpath Type '+i+'</label><select id = "toolpathType" name="toolpathType" class="dynamic_selector">  <label>Toolpath Type</label> <option value="" disabled selected>Select your option</option>';
@@ -133,7 +134,7 @@
             var toolpathType = <?php if(isset($toolpathType)){ echo json_encode($toolpathType);} ?>;
             toolpathType.forEach(function (value, id) {
                 html += '<option value="' + id + '"';
-                //add is selected if project present
+                //attempt to add blade call that will include selected element when editing
                 html += '>' + value + '</option>';
             });
 
@@ -141,10 +142,11 @@
             $('#dynamic_toolpaths').append(html);
         });
 
+        //dynamically add add and remove fields based on what selection is chosen
         $(document).on('change', ".dynamic_selector", function(){
-
             var selected = this.options[this.selectedIndex].text;
 
+            //detach element within the nearest table that have the delete tag an detach them
            var detachedElements = $(this).closest("table").find(".dynamic_delete_field").detach();
            var html;
 
@@ -213,18 +215,20 @@
                 html += '<tr class="dynamic_delete_field"><td><label>Drill Lift</label><input type="number"  step="0.1"  id = "drillLift" name="drillLift"  placeholder="degrees" class="dynamic_delete_field"></td><select id = "drillLiftUnits" name="drillLiftUnits">  <option value="" disabled selected>Select your option</option><option value = "0" >mm/min</option><option value = "1" >ipm</option></select></td></tr>';
             }
             else {
+                //safe defualt
                $(this).closest("table").find(".dynamic_delete_field").detach();
             }
-
+            //append built HTML string
             $(this).closest("table").append(html);
         });
 
+        //remove table handler
         $(document).on('click', '.btn_remove', function(){
             var button_id = $(this).attr("id");
             $('#table'+button_id+'').remove();
         });
 
-
+        //neede for AJAX calls
         $.ajaxSetup({
             headers: {
                 'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')

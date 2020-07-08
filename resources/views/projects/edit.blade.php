@@ -3,7 +3,7 @@
 @section('content')
 
 <div class="col">
-      <title>Create Post | Post Store</title>
+      <title>Create Project | Project Store</title>
       <!-- styling etc. -->
     <body>
         <div class="flex-center position-ref full-height">
@@ -11,7 +11,7 @@
                 <form method="POST" enctype="multipart/form-data" action="{{ route('projects.update', ['project' => $project]) }}">
                     @method('PUT')
                     @csrf
-                    @include('posts.fields')
+                    @include('projects.fields')
                     <button type="submit">Publish Post</button>
                 </form>
             </div>

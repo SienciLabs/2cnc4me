@@ -9,6 +9,8 @@ class Project extends Model
 {
 	use SoftDeletes;
 	protected $table = 'project';
+
+	//need to accommodate multiple toolpaths
         protected $fillable = [
         'title',
         'description',

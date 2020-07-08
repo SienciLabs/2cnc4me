@@ -18,7 +18,7 @@
             <p>{{$project->description}}</p>
             <label>Materials Used</label>
             <p>{{$project->material}}</p>
-            <!-- foreach loop once multiple paths -->
+            <!-- this does not currently support the multiple toolpath upload -->
             <label>Toolpaths</label>
             <p>{{$toolpathType[$project->toolpathType]}}</p>
             <p>{{$endMill[$project->endMill] }}</p>
