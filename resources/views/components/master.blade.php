@@ -28,7 +28,6 @@
     @else
         @include('components.partials.nav-headers.loggedIn')
     @endif
-    @include('components.partials.nav-headers.loggedIn')
     {{ $slot }}
 
     {{-- Footers --}}
