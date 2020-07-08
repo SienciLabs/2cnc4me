@@ -2,7 +2,7 @@
 <header class="">
     <nav class="navbar navbar-expand-lg">
         <div class="container">
-            <a class="navbar-brand" href="{{ url('/') }}><h2><img src="/images/24logo.svg" alt="2cnc4me" width="30px"></h2></a>
+            <a class="navbar-brand" href="{{ url('/') }}"><h2><img src="{{ asset('images/24logo.svg') }}" alt="2cnc4me" width="30px"></h2></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -19,21 +19,26 @@
                     <li class="nav-item">
                         <a class="nav-link" href="{{ url('collections') }}">Collections</a>
                     </li>
-                    <li class="nav-item">
-                        <div class="dropdown">
-                            <button class="dropbtn">
-                                Dropdown <i class="fa fa-caret-down"></i>
-                            </button>
-                            <div class="dropdown-content">
-                                <a href="#">Add New Collection</a>
-                                <a href="#">Add New Project</a>
-                            </div>
+                </ul>
+            </div>
+
+            <div class="navbar">
+                <ul>
+                    <li class="dropdwn"><h4><img src="{{ asset('images/icons/PlusIcon.svg') }}" alt="Add" width="30px">
+                        </h4>
+                        <div class="dropdwn-content">
+                            <a href="href="{{ url('posts/create.blade.php') }}">Add New Project</a>
+                            <a href="#">Add New Collection</a>
                         </div>
                     </li>
-
-{{--                        <a class="nav-link" href="../post-details.html">Add</a>--}}
-                    <li class="nav-item">
-                        <a class="nav-link" href="../post-details.html">Profile</a>
+                    <li class="dropdwn">
+                        <h4><img alt="User" src="{{ asset('images/icons/UserIcon.svg') }}" width="30px"></h4>
+                        <div class="dropdwn-content">
+                            <a href="#">My Profile</a>
+                            <a href="#">My Projects</a>
+                            <a href="#">My Collections</a>
+                            <a href="#">Sign Out</a>
+                        </div>
                     </li>
                 </ul>
             </div>
