@@ -12,7 +12,7 @@
                     @method('PUT')
                     @csrf
                     @include('posts.fields')
-                    <button type="submit">Publish</button>
+                    <button type="submit">Publish Post</button>
                 </form>
             </div>
         </div>
