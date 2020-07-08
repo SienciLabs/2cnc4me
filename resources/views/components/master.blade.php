@@ -23,11 +23,12 @@
     <!-- ***** Preloader End ***** -->
 
     {{--    If the user is logged in, present the loggedInHeader--}}
-    @if(auth()->check())
-       @include('components.partials.nav-headers.loggedIn')
+{{--    @if(auth()->check())
+       @include('components.partials.headers.loggedIn')
     @else
-        @include('components.partials.nav-headers.neutral')
-    @endif
+        @include('components.partials.headers.neutral')
+    @endif--}}
+    @include('components.partials.nav-headers.loggedIn')
     {{ $slot }}
 
     {{-- Footers --}}
