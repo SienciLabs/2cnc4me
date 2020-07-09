@@ -27,6 +27,12 @@ class ProjectController extends Controller
 	public $feedRate = array("If you couldnt tell", "I do not know what values", "to put here");
 	public $plungeRate = array("talk to chris", "and the gang", "about these");
 
+	        /*
+        * Function		:   public function create()
+        * Description	:	returns the creaet project currently with hardcoded values but in the future will call on the DB
+        * Parameters	:	N/A
+        * Returns		: 	the create project page
+        */
     public function create()
     {
 
@@ -41,6 +47,12 @@ class ProjectController extends Controller
         ->with('plungeRate', $this->plungeRate);
     }
 
+		/*
+        * Function		:	public function store(Request $request)
+        * Description	:	validates files and saves photos to local storage. create a project object and saves it to the database
+        * Parameters	:	Request request
+        * Returns		:	redirects back to the prject index page
+        */
     public function store(Request $request)
     {
     	$result = $request->input();
@@ -88,7 +100,12 @@ class ProjectController extends Controller
 
 	   	return redirect('/projects');
     }
-
+	        /*
+        * Function		:   public function Index
+        * Description	:	returns all projects to the page
+        * Parameters	:	N/A
+        * Returns		: 	all projects regardless of user
+        */
      public function index()
     {
     	//$user =  Auth::id();
@@ -97,9 +114,14 @@ class ProjectController extends Controller
         return view('projects/index', ['allprojects' => $project]);
     }
 
+		/*
+        * Function		:   public function show(project $project)
+        * Description	:	shows a project details
+        * Parameters	:	project $project
+        * Returns		: 	the project and its parameters on display
+        */
     public function show(project $project)
     {
-
         return view('projects/show', ['project' => $project])
         ->with('machines', $this->machines)
         ->with('categories', $this->categories)
@@ -111,6 +133,13 @@ class ProjectController extends Controller
         ->with('plungeRate', $this->plungeRate);
 
     }
+	
+	    /*
+        * Function		:   public function edit(project $project)
+        * Description	:	allows the editing of a field
+        * Parameters	:	project proect
+        * Returns		: 	a page to edit the chosen project
+        */
     public function edit(project $project)
     {
 
@@ -126,6 +155,13 @@ class ProjectController extends Controller
         ->with('feedRate', $this->feedRate)
         ->with('plungeRate', $this->plungeRate);
     }
+	
+	   /*
+        * Function		:   public function update(Request $request,project $project)
+        * Description	:	updates one project with another
+        * Parameters	:	Request $request,project $project
+        * Returns		: redirects back to project index
+        */
      public function update(Request $request,project $project)
     {
     	$project->fill($request->input());
@@ -135,7 +171,12 @@ class ProjectController extends Controller
 
         return redirect()->action('ProjectController@index');
     }
-
+        /*
+        * Function		:    public function destroy(project $project)
+        * Description	:	deletes a project from the DB (currently using soft deletes)
+        * Parameters	:	project $project
+        * Returns		: 	return to project index
+        */
     public function destroy(project $project)
     {
     	//users and projects arent currently attached

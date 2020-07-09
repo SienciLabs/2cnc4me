@@ -1,4 +1,12 @@
 <?php
+/*
+* FILE			:	FileUploader.php
+* PROJECT		:   2cnc4me
+* PROGRAMMER	:   Connor Lynch
+* FIRST VERSION :   June 12th 2020
+* DESCRIPTION	:   a class that abstracts the file uploading and validating processs. it returns a path to where it was saved
+*                   
+*/
 namespace App\Http;
 
 use Illuminate\Support\Facades\Facade;
@@ -23,6 +31,13 @@ class FileUploader
 		$this->validationString = $inputString;
         $this->elementName = $element;
 	}
+	
+	    /*
+        * Function		:	public function validate (Request $request)
+        * Description	:	vlaidate the file against the validation string input on creation
+        * Parameters	:	Request request
+        * Returns		:	N/A
+        */
     public function validate (Request $request)
     { 
         $arrayIndex;
@@ -41,6 +56,14 @@ class FileUploader
         $this->files = $this->validation[$this->elementName]; // get the validated file
          
     }
+		    /*
+        * Function		:	public function save (Request $request, string $folder)
+        * Description	:	vlaidate the file against the validation string input on creation
+        * Parameters	:	Request request, string $folder
+			Request request	: request object
+			string $folder	: the folder where to save this
+        * Returns		:	N/A
+        */
     public function save (Request $request, string $folder)
     {
 

@@ -1,5 +1,12 @@
 <?php
-
+/*
+* FILE			:	Project.php
+* PROJECT		:   2cnc4me
+* PROGRAMMER	:   Connor Lynch
+* FIRST VERSION :   June 8th 2020
+* DESCRIPTION	:   model of a project including its attributes and relations
+*                   
+*/
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
